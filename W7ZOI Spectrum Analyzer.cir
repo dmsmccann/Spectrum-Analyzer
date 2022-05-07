@@ -1,0 +1,69 @@
+.title KiCad schematic
+.include "1N4148.mod"
+.include "1N4735A.lib"
+.include "Pot.lib"
+.include "Pot2.lib"
+.include "Pot3.lib"
+.include "Pot4.lib"
+.include "Pot5.lib"
+.include "Pot6.lib"
+.include "TL072-dual.lib"
+R411 Net-_C401-Pad2_ Net-_R411-Pad2_ 12k
+D401 Net-_D401-Pad2_ Net-_D401-Pad1_ D1N4148
+C401 Net-_C401-Pad1_ Net-_C401-Pad2_ 1u
+R406 Net-_C401-Pad2_ Net-_R406-Pad2_ 2.2k
+R405 Net-_C401-Pad1_ Net-_D401-Pad1_ 2.2k
+XU401 Net-_C401-Pad2_ Net-_C401-Pad1_ GND Net-_C402-Pad2_ Net-_R406-Pad2_ GND Net-_D401-Pad2_ Net-_C403-Pad1_ TL072c
+R402 Net-_C401-Pad1_ R6Pin1 680k
+R401 Net-_C401-Pad1_ Net-_R401-Pad2_ 56k
+XR3 GND Net-_R3-Pad2_ R6Pin1 pot_lin4
+R419 Net-_R418-Pad2_ Net-_R420-Pad3_ 10k
+XR6 R6Pin1 Net-_R401-Pad2_ GND pot_lin
+XR4 GND Net-_R4-Pad2_ R6Pin1 pot_lin2
+R418 Net-_R5-Pad2_ Net-_R418-Pad2_ 10k
+XU403 Net-_R420-Pad3_ Net-_R418-Pad2_ GND Net-_C405-Pad2_ GND Net-_R426-Pad1_ Net-_R426-Pad2_ Net-_C406-Pad1_ TL072c
+XR5 Net-_C401-Pad2_ Net-_R5-Pad2_ Net-_R5-Pad3_ pot_lin3
+R417 Net-_R5-Pad3_ GND 51
+R422 Net-_R4-Pad2_ Net-_R426-Pad1_ 240k
+C403 Net-_C403-Pad1_ GND 22u
+R404 V+15 Net-_C403-Pad1_ 100
+R415 Net-_R413-Pad2_ Net-_R415-Pad2_ 15k
+XU402 Net-_R412-Pad2_ Net-_R411-Pad2_ GND Net-_C402-Pad2_ GND Net-_R413-Pad2_ Net-_R415-Pad2_ Net-_C403-Pad1_ TL072c
+R416 Net-_R415-Pad2_ Out 390
+R414 Net-_D402-Pad1_ Net-_R413-Pad2_ 10k
+R413 Net-_R412-Pad2_ Net-_R413-Pad2_ 10k
+D402 Net-_D401-Pad2_ Net-_D402-Pad1_ D1N4148
+R408 Net-_D401-Pad2_ Net-_D404-Pad2_ 1k
+R407 Net-_R406-Pad2_ Net-_D404-Pad2_ 4.7k
+R412 Net-_R411-Pad2_ Net-_R412-Pad2_ 15k
+V2 R6Pin1 GND dc -15
+V1 V+15 GND dc 15
+C406 Net-_C406-Pad1_ GND 100u
+R428 Net-_C403-Pad1_ Net-_C406-Pad1_ 22
+C402 GND Net-_C402-Pad2_ 22u
+C405 GND Net-_C405-Pad2_ 100u
+R403 Net-_C402-Pad2_ R6Pin1 100
+D404 Net-_D404-Pad2_ Net-_D403-Pad1_ D1N4148
+R409 V+15 Net-_D403-Pad1_ 2.2k
+XD403 GND Net-_D403-Pad1_ DI_1N4735A
+R426 Net-_R426-Pad1_ Net-_R426-Pad2_ 15k
+R423 Net-_R426-Pad1_ Net-_R3-Pad2_ 10k
+XR420 Net-_R420-Pad1_ Net-_R420-Pad1_ Net-_R420-Pad3_ pot_lin5
+C404 GND Net-_R3-Pad2_ 100u
+XR424 GND Net-_R424-Pad2_ R6Pin1 pot_lin6
+R425 Net-_R426-Pad1_ Net-_R424-Pad2_ 10k
+R421 Net-_R420-Pad1_ Net-_R426-Pad1_ 6.8k
+D405 Net-_D405-Pad2_ Net-_D404-Pad2_ D1N4148
+R410 Net-_D405-Pad2_ R6Pin1 2.2k
+XD406 GND Net-_D405-Pad2_ DI_1N4735A
+R429 Net-_R426-Pad2_ VCO_Out 470
+D408 GND VCO_Out D1N4148
+R427 Net-_C405-Pad2_ R6Pin1 22
+.param Rt=10k set=0.5
+.param Rt2=10k set2=0.5
+.param Rt3=5k set3=0.5
+.param Rt4=10k set4=0.5
+.param Rt5=5k set5=0.5
+.param Rt6=5k set6=0.5
+.tran 50m 500m
+.end
