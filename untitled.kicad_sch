@@ -4,6 +4,13 @@
 
   (paper "A")
 
+  (title_block
+    (company "Andy McCann KA3KAF and Doug McCann KA3KAG")
+    (comment 1 "Terry White K7TAU")
+    (comment 2 "Wes Hayward W7ZOI")
+    (comment 3 "Original Design by:")
+  )
+
   (lib_symbols
   )
 
