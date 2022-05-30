@@ -386,7 +386,7 @@
     "page_layout_descr_file": ""
   },
   "schematic": {
-    "annotate_start_num": 0,
+    "annotate_start_num": 300,
     "drawing": {
       "default_line_thickness": 6.0,
       "default_text_size": 50.0,
@@ -430,7 +430,7 @@
     ],
     [
       "91afdbb9-c6d6-4a76-a186-be607f7c2a6b",
-      "Not yet used"
+      "IF and Log Amplifier"
     ],
     [
       "e5c5d6b0-703e-4a07-baca-024b54565ece",

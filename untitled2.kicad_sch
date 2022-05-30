@@ -2,13 +2,13 @@
 
   (uuid 542e5373-24e8-4fc4-85a6-a28da6d163f8)
 
-  (paper "A")
+  (paper "USLegal")
 
   (title_block
     (company "Andy McCann KA3KAF and Doug McCann KA3KAG")
     (comment 1 "Terry White K7TAU")
     (comment 2 "Wes Hayward W7ZOI")
-    (comment 3 "Original Design by:")
+    (comment 3 "Original Design By:")
   )
 
   (lib_symbols
