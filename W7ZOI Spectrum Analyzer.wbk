@@ -1,4 +1,10 @@
 1
 9
-.tran 1n 1m
-0
+.tran 10m 500m{return}{return}
+2
+1
+Out
+V
+1
+VCO_Out
+V

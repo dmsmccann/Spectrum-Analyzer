@@ -9014,6 +9014,9 @@
     (path "/e5c5d6b0-703e-4a07-baca-024b54565ece/4247b454-2825-495d-a5d7-a6d4965d376a"
       (reference "J9") (unit 1) (value "Conn_Coaxial") (footprint "SnapEDA Library:TE_5-1634503-1")
     )
+    (path "/91afdbb9-c6d6-4a76-a186-be607f7c2a6b/842941d2-d9a4-448b-8818-c6f178b91854"
+      (reference "J301") (unit 1) (value "Conn_Coaxial") (footprint "")
+    )
     (path "/e5c5d6b0-703e-4a07-baca-024b54565ece/eeba3f92-201a-4f56-afb1-a990ad9a518a"
       (reference "J402") (unit 1) (value "Jack-DC") (footprint "SnapEDA Library:CUI_PJ-007")
     )
