@@ -7,11 +7,11 @@
   (title_block
     (title "Spectrum Analyzer")
     (date "2022-05-28")
-    (rev "0.2")
+    (rev "0.3")
     (company "Andy McCann KA3KAF and Doug McCann KA3KAG")
-    (comment 1 "Terry White K7TAU")
-    (comment 2 "Wes Hayward W7ZOI")
-    (comment 3 "Original Design By:")
+    (comment 2 "Terry White K7TAU")
+    (comment 3 "Wes Hayward W7ZOI")
+    (comment 4 "Original Design By:")
   )
 
   (lib_symbols
