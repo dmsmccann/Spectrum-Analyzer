@@ -1,0 +1,4 @@
+(fp_lib_table
+  (lib (name "AD603")(type "KiCad")(uri "${KIPRJMOD}/IF_Log_Amp_Models/KiCAD/2022-05-30_02-24-37/footprints.pretty")(options "")(descr ""))
+  (lib (name "AD8307")(type "KiCad")(uri "${KIPRJMOD}/IF_Log_Amp_Models/KiCAD/2022-05-30_02-32-51/footprints.pretty")(options "")(descr ""))
+)
