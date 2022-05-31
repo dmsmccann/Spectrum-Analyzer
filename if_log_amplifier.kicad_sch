@@ -7,11 +7,11 @@
   (title_block
     (title "Spectrum Analyzer: IF and Log Amplifier")
     (date "2022-05-30")
-    (rev "0.1")
+    (rev "0.3")
     (company "Andy McCann KA3KAF and Doug McCann KA3KAG")
-    (comment 1 "Terry White K7TAU")
-    (comment 2 "Wes Hayward W7ZOI")
-    (comment 3 "Original Design By:")
+    (comment 2 "Terry White K7TAU")
+    (comment 3 "Wes Hayward W7ZOI")
+    (comment 4 "Original Design By:")
   )
 
   (lib_symbols
@@ -961,6 +961,7 @@
     )
   )
 
+
   (junction (at 322.58 78.74) (diameter 0) (color 0 0 0 0)
     (uuid 003135da-95ae-4492-8541-82d83e0c1e4a)
   )
@@ -1677,13 +1678,6 @@
       (effects (font (size 1.27 1.27)) (justify left) hide)
     )
   )
-  (global_label "Out" (shape output) (at 318.77 78.74 0) (fields_autoplaced)
-    (effects (font (size 1.27 1.27)) (justify left))
-    (uuid 7d5b6959-02ea-4c05-810e-58443ab7fc7d)
-    (property "Intersheet References" "${INTERSHEET_REFS}" (id 0) (at 324.3883 78.6606 0)
-      (effects (font (size 1.27 1.27)) (justify left) hide)
-    )
-  )
   (global_label "+5" (shape input) (at 93.98 167.64 180) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify right))
     (uuid 7f71ed9e-3727-43db-bc35-ad96a20b4cf6)
@@ -2138,7 +2132,7 @@
   (symbol (lib_id "power:GND") (at 322.58 88.9 0) (unit 1)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid 560c3dbb-ab57-471f-8d71-d3e427376a37)
-    (property "Reference" "#PWR?" (id 0) (at 322.58 95.25 0)
+    (property "Reference" "#PWR0103" (id 0) (at 322.58 95.25 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (id 1) (at 322.58 93.98 0))

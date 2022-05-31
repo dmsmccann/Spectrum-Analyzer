@@ -386,7 +386,7 @@
     "page_layout_descr_file": ""
   },
   "schematic": {
-    "annotate_start_num": 300,
+    "annotate_start_num": 500,
     "drawing": {
       "default_line_thickness": 6.0,
       "default_text_size": 50.0,
@@ -438,7 +438,7 @@
     ],
     [
       "1213119d-b3ea-47c8-aaf6-ecc398bfbb00",
-      "Unused"
+      "Resolution Filters"
     ]
   ],
   "text_variables": {}
