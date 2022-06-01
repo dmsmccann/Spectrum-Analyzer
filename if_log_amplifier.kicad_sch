@@ -1441,7 +1441,7 @@
     (stroke (width 0) (type default) (color 0 0 0 0))
     (uuid b0d56623-253f-49fe-b0b7-676936988436)
   )
-  (wire (pts (xy 198.12 52.07) (xy 198.12 40.64))
+  (wire (pts (xy 198.12 40.64) (xy 198.12 53.34))
     (stroke (width 0) (type default) (color 0 0 0 0))
     (uuid b1974017-ba9b-4d92-8247-cc06ce32f882)
   )
