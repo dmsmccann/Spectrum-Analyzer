@@ -8,7 +8,10 @@
     (title "Dual Polarity 15V Supply")
     (date "2022-06-05")
     (rev "0.0")
-    (company "Brandywine Valley Radio Company")
+    (company "Andy McCann KA3KAF and Doug McCann KA3KAG")
+    (comment 2 "Audiophile's Project Source Book, Fig 7-8")
+    (comment 3 "G. Randy Slone")
+    (comment 4 "Orginal Design by:")
   )
 
   (lib_symbols
