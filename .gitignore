@@ -28,3 +28,6 @@ fp-info-cache
 
 # Backup Files
 *.zip
+/15v-supply/Project-specific-libraries/how-to-import.htm
+/15v-supply/15v-supply.kicad_sch-bak
+/15v-supply/Project-specific-libraries/License.txt

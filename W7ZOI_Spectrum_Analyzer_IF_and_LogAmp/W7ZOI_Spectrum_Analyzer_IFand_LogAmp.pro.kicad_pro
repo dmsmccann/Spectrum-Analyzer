@@ -239,7 +239,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "15v-supply.kicad_pro",
+    "filename": "W7ZOI_Spectrum_Analyzer_IFand_LogAmp.pro.kicad_pro",
     "version": 1
   },
   "net_settings": {
@@ -279,7 +279,7 @@
     "page_layout_descr_file": ""
   },
   "schematic": {
-    "annotate_start_num": 0,
+    "annotate_start_num": 300,
     "drawing": {
       "default_line_thickness": 6.0,
       "default_text_size": 50.0,
@@ -306,7 +306,7 @@
       "meta": {
         "version": 0
       },
-      "model_mode": 4,
+      "model_mode": 0,
       "workbook_filename": ""
     },
     "page_layout_descr_file": "",
@@ -318,7 +318,7 @@
   },
   "sheets": [
     [
-      "ae754163-30d6-49f1-bab9-46a1c5a11df8",
+      "a9814233-9d42-4e84-a9fd-4c39e2c9e316",
       ""
     ]
   ],

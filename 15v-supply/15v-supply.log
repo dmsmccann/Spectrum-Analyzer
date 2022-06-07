@@ -1,0 +1,24 @@
+Circuit: * C:\Users\Dougl\OneDrive\Ham Radio\KiCad Files\W7ZOI Spectrum Analyzer\15v-supply\15v-supply.asc
+
+WARNING: Node N005 is floating.
+
+.OP point found by inspection.
+
+Date: Tue Jun 07 05:26:52 2022
+Total elapsed time: 0.207 seconds.
+
+tnom = 27
+temp = 27
+method = modified trap
+totiter = 3812
+traniter = 3812
+tranpoints = 1444
+accept = 1267
+rejected = 177
+matrix size = 80
+fillins = 152
+solver = Normal
+Thread vector: 10.9/8.2[5] 6.2/2.8[5] 4.8/2.8[5] 0.3/1.7[1]  2592/500
+Matrix Compiler1: 21.01 KB object code size  3.7/1.9/[1.0]
+Matrix Compiler2: 10.77 KB object code size  1.1/1.4/[0.5]
+

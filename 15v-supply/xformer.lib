@@ -1,0 +1,10 @@
+.SUBCKT XFORMER 1 2 3 4 5 6
+*inductances
+L1 1 2 50u
+L2 3 4 5m
+L3 5 6 5m
+*coupling factors
+K12 L1 L2 1
+K13 L1 L3 1
+K23 L2 L3 1
+.ENDS XFORMER
