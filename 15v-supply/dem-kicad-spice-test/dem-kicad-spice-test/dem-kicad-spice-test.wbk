@@ -1,0 +1,25 @@
+1
+9
+.tran 100u 200m{return}{return}
+7
+1
+Net-(C1-Pad1)
+V
+1
+Net-(C2-Pad2)
+V
+1
+Net-(C5-Pad1)
+V
+1
+Net-(C6-Pad2)
+V
+1
+Net-(C8-Pad2)
+V
+1
+Net-(U1-Pad1)
+V
+1
+Net-(U2-Pad2)
+V
