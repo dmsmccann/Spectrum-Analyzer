@@ -1,4 +1,4 @@
 (sym_lib_table
-  (lib (name "AD630AQ")(type "Legacy")(uri "${KIPRJMOD}/IF_Log_Amp_Models/KiCAD/2022-05-30_02-24-37/2022-05-30_02-24-37.lib")(options "")(descr ""))
-  (lib (name "AD8307AN")(type "Legacy")(uri "${KIPRJMOD}/IF_Log_Amp_Models/KiCAD/2022-05-30_02-32-51/2022-05-30_02-32-51.lib")(options "")(descr ""))
+  (lib (name "AD630AQ")(type "KiCad")(uri "${KIPRJMOD}/IF_Log_Amp_Models/KiCAD/2022-05-30_02-24-37/2022-05-30_02-24-37.kicad_sym")(options "")(descr ""))
+  (lib (name "AD8307AN")(type "KiCad")(uri "${KIPRJMOD}/IF_Log_Amp_Models/KiCAD/2022-05-30_02-32-51/2022-05-30_02-32-51.kicad_sym")(options "")(descr ""))
 )
