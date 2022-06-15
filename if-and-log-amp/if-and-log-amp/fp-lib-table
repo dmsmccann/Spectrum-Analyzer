@@ -1,0 +1,7 @@
+(fp_lib_table
+  (lib (name "AD8307AN")(type "KiCad")(uri "${KIPRJMOD}/if-log-amp-models/Kicad Footprints/AD8307AN/footprints.pretty")(options "")(descr ""))
+  (lib (name "AD603AQ")(type "KiCad")(uri "${KIPRJMOD}/if-log-amp-models/Kicad Footprints/AD603AQ/footprints.pretty")(options "")(descr ""))
+  (lib (name "CA3140EZ")(type "KiCad")(uri "${KIPRJMOD}/if-log-amp-models/Kicad Footprints/CA3140EZ/footprints.pretty")(options "")(descr ""))
+  (lib (name "SnapEDA Library")(type "KiCad")(uri "C:/Users/Dougl/SnapEDA Kicad Plugin/KiCad Library/SnapEDA Library.pretty")(options "")(descr ""))
+  (lib (name "Vishay Trim Cap")(type "KiCad")(uri "${KIPRJMOD}/if-log-amp-models/Kicad Footprints/Vishay Trim Cap/footprints.pretty")(options "")(descr ""))
+)

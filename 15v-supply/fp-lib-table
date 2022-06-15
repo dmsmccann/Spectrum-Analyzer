@@ -1,0 +1,3 @@
+(fp_lib_table
+  (lib (name "6800u Footprint")(type "KiCad")(uri "${KIPRJMOD}/15v-supply-models/6800u-CP/KiCAD/6800u-CP/footprints.pretty")(options "")(descr ""))
+)

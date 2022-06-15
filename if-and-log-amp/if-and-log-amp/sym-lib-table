@@ -1,0 +1,4 @@
+(sym_lib_table
+  (lib (name "AD8307AN")(type "KiCad")(uri "${KIPRJMOD}/if-log-amp-models/Kicad Footprints/AD8307AN/AD8307AN.kicad_sym")(options "")(descr ""))
+  (lib (name "AD603AQ")(type "KiCad")(uri "${KIPRJMOD}/if-log-amp-models/Kicad Footprints/AD603AQ/AD603AQ.kicad_sym")(options "")(descr ""))
+)

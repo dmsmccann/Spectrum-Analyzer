@@ -1,0 +1,33 @@
+********************************
+* Copyright:                   *
+* Vishay Intertechnology, Inc. *
+********************************
+* Technology: DISCRETE DIODE
+* Device: Diode 
+* Description:
+* Type: Typical (nom)
+* Model established: 20.08.2009, by Harald Stix, VSA/ASSP-VOE
+* Wafer:
+* Remarks:
+* Revision: 20.08.2009
+* Simulation Model: 
+* Simulator: PSPICE
+
+*DEVICE=1N5060,D
+
+* 1N5060 D model
+* updated using Model Editor release 9.1 on 08/20/09
+* Model Editor is an OrCAD product.
+.MODEL 1N5060 D
++ IS=3.3350E-9
++ N=1.7455
++ RS=34.757E-3
++ IKF=58.060
++ CJO=40.579E-12
++ M=.35794
++ VJ=.42029
++ ISR=2.9194E-9
++ NR=4.9950
++ BV=1.1491E3
++ IBV=2.5864E-3
++ TT=2.4576E-6
