@@ -1,2 +1,5 @@
 (sym_lib_table
+  (lib (name "1N5060GP")(type "KiCad")(uri "${KIPRJMOD}/15v-supply-models/15v-supply-symbols/1N5060GP.kicad_sym")(options "")(descr ""))
+  (lib (name "6800u-CP")(type "KiCad")(uri "${KIPRJMOD}/15v-supply-models/15v-supply-symbols/6800u-CP.kicad_sym")(options "")(descr ""))
+  (lib (name "terminal-block")(type "KiCad")(uri "${KIPRJMOD}/15v-supply-models/15v-supply-symbols/terminal-block.kicad_sym")(options "")(descr ""))
 )
