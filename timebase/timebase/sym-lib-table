@@ -1,0 +1,9 @@
+(sym_lib_table
+  (lib (name "5-1634503-1")(type "KiCad")(uri "${KIPRJMOD}/timebase-models/timebase-symbols/5-1634503-1.kicad_sym")(options "")(descr ""))
+  (lib (name "AD603AQ")(type "KiCad")(uri "${KIPRJMOD}/timebase-models/timebase-symbols/AD603AQ.kicad_sym")(options "")(descr ""))
+  (lib (name "LM358AP")(type "KiCad")(uri "${KIPRJMOD}/timebase-models/timebase-symbols/LM358AP.kicad_sym")(options "")(descr ""))
+  (lib (name "NL17SZ74USG")(type "KiCad")(uri "${KIPRJMOD}/timebase-models/timebase-symbols/NL17SZ74USG.kicad_sym")(options "")(descr ""))
+  (lib (name "PJ-007")(type "KiCad")(uri "${KIPRJMOD}/timebase-models/timebase-symbols/PJ-007.kicad_sym")(options "")(descr ""))
+  (lib (name "PJ-009A")(type "KiCad")(uri "${KIPRJMOD}/timebase-models/timebase-symbols/PJ-009A.kicad_sym")(options "")(descr ""))
+  (lib (name "PRT-12748")(type "KiCad")(uri "${KIPRJMOD}/timebase-models/timebase-symbols/PRT-12748.kicad_sym")(options "")(descr ""))
+)

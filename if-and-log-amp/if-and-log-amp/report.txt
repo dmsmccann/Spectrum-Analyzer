@@ -1,0 +1,457 @@
+Info: Processing symbol 'C304:Capacitor_THT:CP_Axial_L11.0mm_D6.0mm_P18.00mm_Horizontal'.
+Info: Processing symbol 'C310:Capacitor_THT:C_Radial_D4.0mm_H5.0mm_P1.50mm'.
+Info: Processing symbol 'R306:Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal'.
+Info: Processing symbol 'C315:if-log-amp:BFC280832659'.
+Info: Processing symbol 'D301:Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal'.
+Info: Processing symbol 'C313:Capacitor_THT:CP_Axial_L11.0mm_D6.0mm_P18.00mm_Horizontal'.
+Info: Processing symbol 'C319:Capacitor_THT:C_Radial_D4.0mm_H5.0mm_P1.50mm'.
+Info: Processing symbol 'R305:Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal'.
+Info: Processing symbol 'C322:Capacitor_THT:C_Radial_D4.0mm_H5.0mm_P1.50mm'.
+Info: Processing symbol 'C308:Capacitor_THT:C_Radial_D4.0mm_H5.0mm_P1.50mm'.
+Info: Processing symbol 'C305:Capacitor_THT:C_Radial_D4.0mm_H5.0mm_P1.50mm'.
+Info: Processing symbol 'L301:Inductor_THT:L_Toroid_Horizontal_D12.7mm_P20.00mm_Diameter14-5mm_Amidon-T50'.
+Info: Processing symbol 'C311:Capacitor_THT:C_Radial_D4.0mm_H5.0mm_P1.50mm'.
+Info: Processing symbol 'R303:Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal'.
+Info: Processing symbol 'C321:Capacitor_THT:C_Radial_D4.0mm_H5.0mm_P1.50mm'.
+Info: Processing symbol 'R308:Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal'.
+Info: Processing symbol 'C316:Capacitor_THT:C_Radial_D4.0mm_H5.0mm_P1.50mm'.
+Info: Processing symbol 'C314:Capacitor_THT:C_Radial_D4.0mm_H5.0mm_P1.50mm'.
+Info: Processing symbol 'C318:Capacitor_THT:C_Radial_D4.0mm_H5.0mm_P1.50mm'.
+Info: Processing symbol 'C309:Capacitor_THT:C_Radial_D4.0mm_H5.0mm_P1.50mm'.
+Info: Processing symbol 'C306:Capacitor_THT:C_Radial_D4.0mm_H5.0mm_P1.50mm'.
+Info: Processing symbol 'R302:Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal'.
+Info: Processing symbol 'R304:Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal'.
+Info: Processing symbol 'C312:Capacitor_THT:C_Radial_D4.0mm_H5.0mm_P1.50mm'.
+Info: Processing symbol 'R301:Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal'.
+Info: Processing symbol 'C320:Capacitor_THT:C_Radial_D4.0mm_H5.0mm_P1.50mm'.
+Info: Processing symbol 'R307:Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal'.
+Info: Processing symbol 'J301:if-log-amp:TE_5-1634503-1'.
+Info: Processing symbol 'C317:Capacitor_THT:C_Radial_D4.0mm_H5.0mm_P1.50mm'.
+Info: Processing symbol 'C307:Capacitor_THT:C_Radial_D4.0mm_H5.0mm_P1.50mm'.
+Info: Processing symbol 'R309:Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal'.
+Info: Processing symbol 'R310:Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal'.
+Info: Processing symbol 'R311:Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal'.
+Info: Processing symbol 'R312:Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal'.
+Info: Processing symbol 'R313:Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal'.
+Info: Processing symbol 'R314:Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal'.
+Info: Processing symbol 'R315:Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal'.
+Info: Processing symbol 'R316:Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal'.
+Info: Processing symbol 'R317:Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal'.
+Info: Processing symbol 'R318:Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal'.
+Info: Processing symbol 'R319:Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal'.
+Info: Processing symbol 'R320:Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal'.
+Info: Processing symbol 'R321:Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal'.
+Info: Processing symbol 'RV302:Potentiometer_THT:Potentiometer_Bourns_3386X_Horizontal'.
+Info: Processing symbol 'U301:if-log-amp:AD603AQ'.
+Info: Processing symbol 'U302:Package_TO_SOT_THT:TO-92_Inline'.
+Info: Processing symbol 'U303:Package_TO_SOT_THT:TO-92_Inline'.
+Info: Processing symbol 'U304:if-log-amp:AD8307AN'.
+Info: Processing symbol 'U305:if-log-amp:CA3140EZ'.
+Changed REF** reference designator to C306.
+Changed C306 value from C_Radial_D4.0mm_H5.0mm_P1.50mm to .1u.
+Updated C306 symbol association from  to /9820123e-ee0b-406e-85c4-628830c0a33b.
+Updated C306 properties.
+Add net Net-(C306-Pad1).
+Connected C306 pin 1 to Net-(C306-Pad1).
+Connected C306 pin 2 to GND.
+Added C307 (footprint 'Capacitor_THT:C_Radial_D4.0mm_H5.0mm_P1.50mm').
+Changed REF** reference designator to C307.
+Changed C307 value from C_Radial_D4.0mm_H5.0mm_P1.50mm to .1u.
+Updated C307 symbol association from  to /5ba19575-6efd-4422-b1e1-564235bc68c0.
+Updated C307 properties.
+Add net Net-(C307-Pad1).
+Connected C307 pin 1 to Net-(C307-Pad1).
+Connected C307 pin 2 to GND.
+Added C308 (footprint 'Capacitor_THT:C_Radial_D4.0mm_H5.0mm_P1.50mm').
+Changed REF** reference designator to C308.
+Changed C308 value from C_Radial_D4.0mm_H5.0mm_P1.50mm to .1u.
+Updated C308 symbol association from  to /a3178939-5806-4853-8ab0-3b5b0e2adea2.
+Updated C308 properties.
+Add net Net-(C308-Pad1).
+Connected C308 pin 1 to Net-(C308-Pad1).
+Connected C308 pin 2 to GND.
+Added C309 (footprint 'Capacitor_THT:C_Radial_D4.0mm_H5.0mm_P1.50mm').
+Changed REF** reference designator to C309.
+Changed C309 value from C_Radial_D4.0mm_H5.0mm_P1.50mm to .1u.
+Updated C309 symbol association from  to /5166ee21-16cc-47d4-a438-2c0e2aa8959c.
+Updated C309 properties.
+Add net +5.
+Connected C309 pin 1 to +5.
+Connected C309 pin 2 to GND.
+Added C310 (footprint 'Capacitor_THT:C_Radial_D4.0mm_H5.0mm_P1.50mm').
+Changed REF** reference designator to C310.
+Changed C310 value from C_Radial_D4.0mm_H5.0mm_P1.50mm to .22u.
+Updated C310 symbol association from  to /51520694-f144-46ec-abc9-3b4b099a121b.
+Updated C310 properties.
+Add net Net-(C310-Pad1).
+Connected C310 pin 1 to Net-(C310-Pad1).
+Connected C310 pin 2 to GND.
+Added C311 (footprint 'Capacitor_THT:C_Radial_D4.0mm_H5.0mm_P1.50mm').
+Changed REF** reference designator to C311.
+Changed C311 value from C_Radial_D4.0mm_H5.0mm_P1.50mm to 18u.
+Updated C311 symbol association from  to /b12b094c-4aa1-4993-91f7-74934ef5d33a.
+Updated C311 properties.
+Add net Net-(C311-Pad1).
+Connected C311 pin 1 to Net-(C311-Pad1).
+Connected C311 pin 2 to GND.
+Added C312 (footprint 'Capacitor_THT:C_Radial_D4.0mm_H5.0mm_P1.50mm').
+Changed REF** reference designator to C312.
+Changed C312 value from C_Radial_D4.0mm_H5.0mm_P1.50mm to .1u.
+Updated C312 symbol association from  to /dd6e314d-05ac-4fb8-8556-fc394b83fd81.
+Updated C312 properties.
+Connected C312 pin 1 to GND.
+Add net Net-(C312-Pad2).
+Connected C312 pin 2 to Net-(C312-Pad2).
+Added C313 (footprint 'Capacitor_THT:CP_Axial_L11.0mm_D6.0mm_P18.00mm_Horizontal').
+Changed REF** reference designator to C313.
+Changed C313 value from CP_Axial_L11.0mm_D6.0mm_P18.00mm_Horizontal to 22u.
+Updated C313 symbol association from  to /bab3fc61-7ffc-43fd-b7e1-a49971a5fd5e.
+Updated C313 properties.
+Add net +10.
+Connected C313 pin 1 to +10.
+Connected C313 pin 2 to GND.
+Added C314 (footprint 'Capacitor_THT:C_Radial_D4.0mm_H5.0mm_P1.50mm').
+Changed REF** reference designator to C314.
+Changed C314 value from C_Radial_D4.0mm_H5.0mm_P1.50mm to 5.6p.
+Updated C314 symbol association from  to /91d7fb34-034b-427e-b533-f5cd3e05cc45.
+Updated C314 properties.
+Add net Net-(C314-Pad1).
+Connected C314 pin 1 to Net-(C314-Pad1).
+Add net Net-(C314-Pad2).
+Connected C314 pin 2 to Net-(C314-Pad2).
+Added C315 (footprint 'if-log-amp:BFC280832659').
+Changed REF** reference designator to C315.
+Changed C315 value from BFC280832659_VIS to 50p.
+Updated C315 symbol association from  to /6da294e0-d0ea-4520-9eae-214e4e104da5.
+Updated C315 properties.
+Connected C315 pin 1 to Net-(C314-Pad2).
+Connected C315 pin 2 to GND.
+Added C316 (footprint 'Capacitor_THT:C_Radial_D4.0mm_H5.0mm_P1.50mm').
+Changed REF** reference designator to C316.
+Changed C316 value from C_Radial_D4.0mm_H5.0mm_P1.50mm to 220p.
+Updated C316 symbol association from  to /aa7337a7-5d79-4c08-a459-a9e6ac935626.
+Updated C316 properties.
+Connected C316 pin 1 to Net-(C314-Pad2).
+Connected C316 pin 2 to GND.
+Added C317 (footprint 'Capacitor_THT:C_Radial_D4.0mm_H5.0mm_P1.50mm').
+Changed REF** reference designator to C317.
+Changed C317 value from C_Radial_D4.0mm_H5.0mm_P1.50mm to 5.6p.
+Updated C317 symbol association from  to /78209a31-876f-4c56-841c-74e6cb8fd1d6.
+Updated C317 properties.
+Connected C317 pin 1 to Net-(C314-Pad2).
+Add net Net-(C317-Pad2).
+Connected C317 pin 2 to Net-(C317-Pad2).
+Added C318 (footprint 'Capacitor_THT:C_Radial_D4.0mm_H5.0mm_P1.50mm').
+Changed REF** reference designator to C318.
+Changed C318 value from C_Radial_D4.0mm_H5.0mm_P1.50mm to .1u.
+Updated C318 symbol association from  to /23123e42-75d0-43b0-9621-e0f69246e803.
+Updated C318 properties.
+Add net Net-(C318-Pad1).
+Connected C318 pin 1 to Net-(C318-Pad1).
+Connected C318 pin 2 to GND.
+Added C319 (footprint 'Capacitor_THT:C_Radial_D4.0mm_H5.0mm_P1.50mm').
+Changed REF** reference designator to C319.
+Changed C319 value from C_Radial_D4.0mm_H5.0mm_P1.50mm to .1u.
+Updated C319 symbol association from  to /1d204aa6-a518-43b9-a5b1-23f9a215d4d4.
+Updated C319 properties.
+Add net Net-(C319-Pad1).
+Connected C319 pin 1 to Net-(C319-Pad1).
+Connected C319 pin 2 to GND.
+Added C320 (footprint 'Capacitor_THT:C_Radial_D4.0mm_H5.0mm_P1.50mm').
+Changed REF** reference designator to C320.
+Changed C320 value from C_Radial_D4.0mm_H5.0mm_P1.50mm to .1u.
+Updated C320 symbol association from  to /7d99c491-33ce-40dc-acc4-86f4b22e23c1.
+Updated C320 properties.
+Connected C320 pin 1 to GND.
+Add net Net-(C320-Pad2).
+Connected C320 pin 2 to Net-(C320-Pad2).
+Added C321 (footprint 'Capacitor_THT:C_Radial_D4.0mm_H5.0mm_P1.50mm').
+Changed REF** reference designator to C321.
+Changed C321 value from C_Radial_D4.0mm_H5.0mm_P1.50mm to .001u.
+Updated C321 symbol association from  to /1d1828e0-ef6a-4d62-86f7-04de80195c59.
+Updated C321 properties.
+Add net Net-(C321-Pad1).
+Connected C321 pin 1 to Net-(C321-Pad1).
+Connected C321 pin 2 to GND.
+Added C322 (footprint 'Capacitor_THT:C_Radial_D4.0mm_H5.0mm_P1.50mm').
+Changed REF** reference designator to C322.
+Changed C322 value from C_Radial_D4.0mm_H5.0mm_P1.50mm to .1u.
+Updated C322 symbol association from  to /1928ea0f-1556-47b4-a373-051ec2056356.
+Updated C322 properties.
+Connected C322 pin 1 to GND.
+Add net Net-(C322-Pad2).
+Connected C322 pin 2 to Net-(C322-Pad2).
+Added D301 (footprint 'Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal').
+Changed REF** reference designator to D301.
+Changed D301 value from D_DO-35_SOD27_P7.62mm_Horizontal to 1N4152.
+Updated D301 symbol association from  to /c2bdd96b-ae16-41e0-9c01-22c8cd929bb9.
+Updated D301 properties.
+Connected D301 pin 1 to Net-(C319-Pad1).
+Connected D301 pin 2 to +10.
+Added J301 (footprint 'if-log-amp:TE_5-1634503-1').
+Changed REF** reference designator to J301.
+Changed J301 value from TE_5-1634503-1 to Conn_Coaxial.
+Updated J301 symbol association from  to /6987431d-46da-4786-8718-591cfd165b0a.
+Updated J301 properties.
+Connected J301 pin 1 to Net-(C305-Pad1).
+Connected J301 pin 2 to GND.
+Added L301 (footprint 'Inductor_THT:L_Toroid_Horizontal_D12.7mm_P20.00mm_Diameter14-5mm_Amidon-T50').
+Changed REF** reference designator to L301.
+Changed L301 value from L_Toroid_Horizontal_D12.7mm_P20.00mm_Diameter14-5mm_Amidon-T50 to 1.05u.
+Updated L301 symbol association from  to /697a2a42-69fd-436b-8fcf-3eb612b271b7.
+Updated L301 properties.
+Connected L301 pin 1 to GND.
+Connected L301 pin 2 to Net-(C314-Pad2).
+Added R301 (footprint 'Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal').
+Changed REF** reference designator to R301.
+Changed R301 value from R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal to 2.2k.
+Updated R301 symbol association from  to /1a9c0a71-bdd3-4d66-8773-86c965feed0c.
+Updated R301 properties.
+Connected R301 pin 1 to +10.
+Connected R301 pin 2 to Net-(C304-Pad1).
+Added R302 (footprint 'Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal').
+Changed REF** reference designator to R302.
+Changed R302 value from R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal to 2.2k.
+Updated R302 symbol association from  to /1576052f-7341-4649-961a-6fa44acd4add.
+Updated R302 properties.
+Connected R302 pin 1 to Net-(C304-Pad1).
+Connected R302 pin 2 to GND.
+Added R303 (footprint 'Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal').
+Changed REF** reference designator to R303.
+Changed R303 value from R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal to 100.
+Updated R303 symbol association from  to /e2d92c44-d5f1-4abb-8fbb-b5f1dcb76fd8.
+Updated R303 properties.
+Connected R303 pin 1 to Net-(C305-Pad1).
+Connected R303 pin 2 to GND.
+Added R304 (footprint 'Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal').
+Changed REF** reference designator to R304.
+Changed R304 value from R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal to 680.
+Updated R304 symbol association from  to /f7ed73da-c6e3-4daa-953c-e3cc3a1f7346.
+Updated R304 properties.
+Connected R304 pin 1 to +10.
+Add net Net-(C301-Pad3).
+Connected R304 pin 2 to Net-(C301-Pad3).
+Added R305 (footprint 'Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal').
+Changed REF** reference designator to R305.
+Changed R305 value from R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal to 510.
+Updated R305 symbol association from  to /50f57d44-dd7d-4fad-a1cd-c5c75ef37e61.
+Updated R305 properties.
+Connected R305 pin 1 to Net-(C301-Pad3).
+Add net Net-(C303-Pad3).
+Connected R305 pin 2 to Net-(C303-Pad3).
+Added R306 (footprint 'Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal').
+Changed REF** reference designator to R306.
+Changed R306 value from R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal to 1k.
+Updated R306 symbol association from  to /9a7b9e44-1c46-43e8-8a39-bcc40d29da37.
+Updated R306 properties.
+Connected R306 pin 1 to Net-(C303-Pad3).
+Connected R306 pin 2 to GND.
+Added R307 (footprint 'Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal').
+Changed REF** reference designator to R307.
+Changed R307 value from R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal to 51.
+Updated R307 symbol association from  to /ac964def-301e-4952-bb3b-cd9cbd1eebb9.
+Updated R307 properties.
+Connected R307 pin 1 to Net-(C304-Pad1).
+Connected R307 pin 2 to Net-(C306-Pad1).
+Added R308 (footprint 'Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal').
+Changed REF** reference designator to R308.
+Changed R308 value from R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal to 2.2k.
+Updated R308 symbol association from  to /bc663e7e-08a9-4a6b-8220-6d0f3194a366.
+Updated R308 properties.
+Connected R308 pin 1 to Net-(C307-Pad1).
+Add net Net-(C302-Pad3).
+Connected R308 pin 2 to Net-(C302-Pad3).
+Added C304 (footprint 'Capacitor_THT:CP_Axial_L11.0mm_D6.0mm_P18.00mm_Horizontal').
+Added R309 (footprint 'Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal').
+Changed REF** reference designator to R309.
+Changed R309 value from R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal to 4.3k.
+Updated R309 symbol association from  to /c254d62d-da71-4878-93ec-01c9a953e41b.
+Updated R309 properties.
+Connected R309 pin 1 to Net-(C308-Pad1).
+Add net V+10.
+Connected R309 pin 2 to V+10.
+Changed REF** reference designator to C304.
+Added R310 (footprint 'Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal').
+Changed REF** reference designator to R310.
+Changed R310 value from R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal to 5.6k.
+Updated R310 symbol association from  to /50f3f762-3ffd-4bea-9880-dd80edaf4b44.
+Updated R310 properties.
+Connected R310 pin 1 to V+10.
+Connected R310 pin 2 to GND.
+Changed C304 value from CP_Axial_L11.0mm_D6.0mm_P18.00mm_Horizontal to 100u.
+Added R311 (footprint 'Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal').
+Changed REF** reference designator to R311.
+Changed R311 value from R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal to 10.
+Updated R311 symbol association from  to /2807793f-2348-49f9-9dc3-4463159e5569.
+Updated R311 properties.
+Add net +15.
+Connected R311 pin 1 to +15.
+Connected R311 pin 2 to Net-(C310-Pad1).
+Updated C304 symbol association from  to /64110ddc-ff1e-47ec-ab85-a28e7bae22d6.
+Added R312 (footprint 'Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal').
+Changed REF** reference designator to R312.
+Changed R312 value from R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal to 10.
+Updated R312 symbol association from  to /64b3d758-146d-498c-8e36-a7162573fa48.
+Updated R312 properties.
+Connected R312 pin 1 to +10.
+Connected R312 pin 2 to Net-(C312-Pad2).
+Updated C304 properties.
+Added R313 (footprint 'Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal').
+Changed REF** reference designator to R313.
+Changed R313 value from R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal to 1k.
+Updated R313 symbol association from  to /badbf28d-7dcc-468c-b51f-6cc1547b9546.
+Updated R313 properties.
+Add net Net-(R313-Pad1).
+Connected R313 pin 1 to Net-(R313-Pad1).
+Connected R313 pin 2 to Net-(C314-Pad1).
+Add net Net-(C304-Pad1).
+Added R314 (footprint 'Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal').
+Changed REF** reference designator to R314.
+Changed R314 value from R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal to 220.
+Updated R314 symbol association from  to /c792d8d9-4817-4d6f-a57e-3c117c43a497.
+Updated R314 properties.
+Connected R314 pin 1 to +10.
+Add net Net-(R314-Pad2).
+Connected R314 pin 2 to Net-(R314-Pad2).
+Connected C304 pin 1 to Net-(C304-Pad1).
+Added R315 (footprint 'Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal').
+Changed REF** reference designator to R315.
+Changed R315 value from R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal to 1.5k.
+Updated R315 symbol association from  to /faaa4eb1-3a85-4ffb-8e62-4408e03c107e.
+Updated R315 properties.
+Connected R315 pin 1 to Net-(R314-Pad2).
+Add net Net-(R315-Pad2).
+Connected R315 pin 2 to Net-(R315-Pad2).
+Add net GND.
+Added R316 (footprint 'Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal').
+Changed REF** reference designator to R316.
+Changed R316 value from R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal to 10.
+Updated R316 symbol association from  to /e4b4dd5e-42a4-4627-8586-9eebeb529b8b.
+Updated R316 properties.
+Connected R316 pin 1 to +15.
+Connected R316 pin 2 to Net-(C319-Pad1).
+Connected C304 pin 2 to GND.
+Added R317 (footprint 'Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal').
+Changed REF** reference designator to R317.
+Changed R317 value from R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal to 10.
+Updated R317 symbol association from  to /9759ad16-ddc1-4e8a-bc93-f83048114bb5.
+Updated R317 properties.
+Connected R317 pin 1 to +5.
+Connected R317 pin 2 to Net-(C318-Pad1).
+Added C305 (footprint 'Capacitor_THT:C_Radial_D4.0mm_H5.0mm_P1.50mm').
+Added R318 (footprint 'Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal').
+Changed REF** reference designator to R318.
+Changed R318 value from R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal to 680.
+Updated R318 symbol association from  to /9e5623f9-783d-4878-97fe-cbfa33a06396.
+Updated R318 properties.
+Add net Net-(R318-Pad1).
+Connected R318 pin 1 to Net-(R318-Pad1).
+Connected R318 pin 2 to GND.
+Changed REF** reference designator to C305.
+Added R319 (footprint 'Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal').
+Changed REF** reference designator to R319.
+Changed R319 value from R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal to 51.
+Updated R319 symbol association from  to /f31196ed-79cf-40fd-816f-a4b56947f2d0.
+Updated R319 properties.
+Connected R319 pin 1 to Net-(C322-Pad2).
+Add net Net-(C324-Pad1).
+Connected R319 pin 2 to Net-(C324-Pad1).
+Changed C305 value from C_Radial_D4.0mm_H5.0mm_P1.50mm to .1u.
+Added R320 (footprint 'Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal').
+Changed REF** reference designator to R320.
+Changed R320 value from R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal to 2.2k.
+Updated R320 symbol association from  to /1e3aa0e9-23c7-4a4f-8055-3fc31c319208.
+Updated R320 properties.
+Add net Net-(R320-Pad1).
+Connected R320 pin 1 to Net-(R320-Pad1).
+Connected R320 pin 2 to Net-(R318-Pad1).
+Updated C305 symbol association from  to /bb16a516-4131-4a51-bbea-b711bad6e2cf.
+Added R321 (footprint 'Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal').
+Changed REF** reference designator to R321.
+Changed R321 value from R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal to 1k.
+Updated R321 symbol association from  to /7746434b-c9c9-48c3-a08d-6e02730ecb43.
+Updated R321 properties.
+Connected R321 pin 1 to Net-(R320-Pad1).
+Add net Net-(C323-Pad1).
+Connected R321 pin 2 to Net-(C323-Pad1).
+Updated C305 properties.
+Added RV302 (footprint 'Potentiometer_THT:Potentiometer_Bourns_3386X_Horizontal').
+Changed REF** reference designator to RV302.
+Changed RV302 value from Potentiometer_Bourns_3386X_Horizontal to 100.
+Updated RV302 symbol association from  to /0c71b5d8-a695-40fb-820d-59a5cec04f71.
+Updated RV302 properties.
+Connected RV302 pin 1 to Net-(R315-Pad2).
+Connected RV302 pin 2 to GND.
+Connected RV302 pin 3 to GND.
+Add net Net-(C305-Pad1).
+Added U301 (footprint 'if-log-amp:AD603AQ').
+Changed REF** reference designator to U301.
+Changed U301 value from Q_8_ADI to AD603AQ.
+Updated U301 symbol association from  to /ebc7df2e-7b88-42e7-bc28-d43ddb17abe3.
+Updated U301 properties.
+Connected U301 pin 1 to Net-(C307-Pad1).
+Connected U301 pin 2 to Net-(C308-Pad1).
+Connected U301 pin 3 to Net-(C305-Pad2).
+Connected U301 pin 4 to Net-(C306-Pad1).
+Connected U301 pin 5 to Net-(C311-Pad1).
+Connected U301 pin 6 to GND.
+Connected U301 pin 7 to Net-(R313-Pad1).
+Connected U301 pin 8 to Net-(C312-Pad2).
+Connected C305 pin 1 to Net-(C305-Pad1).
+Added U302 (footprint 'Package_TO_SOT_THT:TO-92_Inline').
+Changed REF** reference designator to U302.
+Changed U302 value from TO-92_Inline to L78L05_TO92.
+Updated U302 symbol association from  to /df898859-dbc3-490a-8ee4-b0eb9fd23504.
+Updated U302 properties.
+Connected U302 pin 1 to +5.
+Connected U302 pin 2 to GND.
+Connected U302 pin 3 to Net-(C310-Pad1).
+Add net Net-(C305-Pad2).
+Added U303 (footprint 'Package_TO_SOT_THT:TO-92_Inline').
+Changed REF** reference designator to U303.
+Changed U303 value from TO-92_Inline to LM317L_TO92.
+Updated U303 symbol association from  to /b5f5179d-051c-4d34-be04-3c4219daac93.
+Updated U303 properties.
+Connected U303 pin 1 to Net-(R314-Pad2).
+Connected U303 pin 2 to +10.
+Connected U303 pin 3 to Net-(C319-Pad1).
+Connected C305 pin 2 to Net-(C305-Pad2).
+Added U304 (footprint 'if-log-amp:AD8307AN').
+Changed REF** reference designator to U304.
+Changed U304 value from N_8_ADI to AD8307AN.
+Updated U304 symbol association from  to /c814aa21-9c46-4566-a094-0e8d80cc6be7.
+Updated U304 properties.
+Connected U304 pin 1 to Net-(C320-Pad2).
+Connected U304 pin 2 to GND.
+Add net unconnected-(U304-Pad3).
+Connected U304 pin 3 to unconnected-(U304-Pad3).
+Connected U304 pin 4 to Net-(C321-Pad1).
+Add net unconnected-(U304-Pad5).
+Connected U304 pin 5 to unconnected-(U304-Pad5).
+Connected U304 pin 6 to Net-(C318-Pad1).
+Connected U304 pin 7 to Net-(C318-Pad1).
+Connected U304 pin 8 to Net-(C317-Pad2).
+Added C306 (footprint 'Capacitor_THT:C_Radial_D4.0mm_H5.0mm_P1.50mm').
+Added U305 (footprint 'if-log-amp:CA3140EZ').
+Changed REF** reference designator to U305.
+Changed U305 value from PDIP8_7P11X10P16_REN to CA3140.
+Updated U305 symbol association from  to /136266f2-a71e-4a9b-ac1e-bb1da15a76c1.
+Updated U305 properties.
+Connected U305 pin 1 to GND.
+Connected U305 pin 2 to Net-(R318-Pad1).
+Connected U305 pin 3 to Net-(C321-Pad1).
+Add net unconnected-(U305-Pad4).
+Connected U305 pin 4 to unconnected-(U305-Pad4).
+Add net unconnected-(U305-Pad5).
+Connected U305 pin 5 to unconnected-(U305-Pad5).
+Connected U305 pin 6 to Net-(R320-Pad1).
+Connected U305 pin 7 to Net-(C322-Pad2).
+Add net unconnected-(U305-Pad8).
+Connected U305 pin 8 to unconnected-(U305-Pad8).
+Warning: No net found for symbol C315 pin 3.
+Warning: No net found for symbol J301 pin 5.
+Warning: No net found for symbol J301 pin 3.
+Warning: No net found for symbol J301 pin 4.
+
+
+Info: Total warnings: 0, errors: 0.
