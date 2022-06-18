@@ -1682,8 +1682,8 @@
   )
 
   (gr_rect (start 75.946 48.006) (end 164.338 138.684) (layer "Edge.Cuts") (width 0.1) (fill none) (tstamp 1e3ea05b-dee2-424d-a01d-5110d4e2636a))
-  (gr_text "Spectrum Analyzer: \n15V Dual Supply\n\nAndy McCann KA3KAF\nDoug McCann KA3KAG" (at 145.034 63.246) (layer "F.SilkS") (tstamp e0270fae-0352-488f-a52f-f0544135488f)
-    (effects (font (size 1.5 1.5) (thickness 0.3)))
+  (gr_text "Spectrum Analyzer: \n15V Dual Supply \nRev 0.0\n\nAndy McCann KA3KAF\nDoug McCann KA3KAG" (at 131.826 62.484) (layer "F.SilkS") (tstamp e0270fae-0352-488f-a52f-f0544135488f)
+    (effects (font (size 1.5 1.5) (thickness 0.3)) (justify left))
   )
 
   (segment (start 124.5249 96.7091) (end 125.73 95.504) (width 0.25) (layer "F.Cu") (net 1) (tstamp 2108f818-6fd7-4088-b15a-befe58ba058e))
