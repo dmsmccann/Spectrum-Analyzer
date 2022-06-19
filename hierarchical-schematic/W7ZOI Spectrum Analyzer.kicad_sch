@@ -18,7 +18,48 @@
   )
 
 
-  (image (at 82.55 54.61) (scale 0.801488)
+  (polyline (pts (xy 307.34 156.21) (xy 307.34 167.64))
+    (stroke (width 0) (type default) (color 0 0 0 0))
+    (uuid 0cc1da98-c217-428c-afd7-256a8cc34d1c)
+  )
+  (polyline (pts (xy 279.4 156.21) (xy 279.4 151.13))
+    (stroke (width 0) (type default) (color 0 0 0 0))
+    (uuid 12ebb989-4b4a-4b53-98a5-cd7ea2e95f32)
+  )
+  (polyline (pts (xy 336.55 157.48) (xy 336.55 167.64))
+    (stroke (width 0) (type default) (color 0 0 0 0))
+    (uuid 18f81b48-f325-45f5-8a02-c2473bbe9010)
+  )
+  (polyline (pts (xy 336.55 167.64) (xy 309.88 167.64))
+    (stroke (width 0) (type default) (color 0 0 0 0))
+    (uuid 4a2d4f86-3123-4e2d-9285-8366035a36a2)
+  )
+  (polyline (pts (xy 307.34 151.13) (xy 307.34 156.21))
+    (stroke (width 0) (type default) (color 0 0 0 0))
+    (uuid 80001a61-1fa4-4527-9790-681f063e52bc)
+  )
+  (polyline (pts (xy 309.88 157.48) (xy 336.55 157.48))
+    (stroke (width 0) (type default) (color 0 0 0 0))
+    (uuid abf30506-d72b-4fb8-b78e-1487025dcbbf)
+  )
+  (polyline (pts (xy 279.4 151.13) (xy 307.34 151.13))
+    (stroke (width 0) (type default) (color 0 0 0 0))
+    (uuid adda2825-fd6b-411e-8fa8-f55af6a6ac82)
+  )
+  (polyline (pts (xy 309.88 157.48) (xy 309.88 167.64))
+    (stroke (width 0) (type default) (color 0 0 0 0))
+    (uuid b14058f2-585d-44cc-a69e-39f730bb5aad)
+  )
+  (polyline (pts (xy 279.4 156.21) (xy 279.4 167.64))
+    (stroke (width 0) (type default) (color 0 0 0 0))
+    (uuid b73ab730-b65a-4be4-a993-38d0b25c820a)
+  )
+  (polyline (pts (xy 307.34 167.64) (xy 279.4 167.64))
+    (stroke (width 0) (type default) (color 0 0 0 0))
+    (uuid d68338f4-57cb-4a4c-9885-6f2cec03b628)
+  )
+
+  (image (at 86.36 158.75) (scale 0.801488)
     (uuid 82e15225-a105-45b2-84d4-4b70931897e0)
     (data
       iVBORw0KGgoAAAANSUhEUgAAB8AAAASGCAIAAADZyyOxAAAAA3NCSVQICAjb4U/gAAAACXBIWXMA
@@ -8643,59 +8684,69 @@
     )
   )
 
-  (hierarchical_label "+15" (shape input) (at 237.49 66.04 0)
-    (effects (font (size 1.27 1.27)) (justify left))
-    (uuid 4611d015-c989-4fab-aa53-c7c5b65433f6)
+  (text ".options gmin=1e-10\n.options abstol=1e-10\n.tran 10m 500m"
+    (at 312.42 166.37 0)
+    (effects (font (size 1.27 1.27)) (justify left bottom))
+    (uuid 13e45302-c2b9-43b1-ad53-d9e19578fd32)
   )
-  (hierarchical_label "-15v" (shape input) (at 237.49 91.44 0)
-    (effects (font (size 1.27 1.27)) (justify left))
-    (uuid babe6489-6488-41f6-b8a8-bbbf8dda43a4)
+  (text ".param Rt=10k set=0.9\n.param Rt2=10k set2=0.5\n.param Rt3=5k set3=0.5\n.param Rt4=10k set4=0.9\n.param Rt5=5k set5=0.9\n.param Rt6=5k set6=0.5\n"
+    (at 280.67 166.37 0)
+    (effects (font (size 1.27 1.27)) (justify left bottom))
+    (uuid 8eeb0c61-44b5-4a74-abd4-58daeefd7508)
+  )
+  (text "Simulation Commands" (at 312.42 160.02 0)
+    (effects (font (size 1.27 1.27) (thickness 0.254) bold) (justify left bottom))
+    (uuid d32e8011-0c3b-458f-8e32-a02564bb6e01)
+  )
+  (text "Settings for Pots" (at 280.67 153.67 0)
+    (effects (font (size 1.27 1.27) (thickness 0.254) bold) (justify left bottom))
+    (uuid fb2d846d-feb6-4ddc-a64b-0a37d2657aff)
   )
 
-  (sheet (at 166.37 120.65) (size 33.02 39.37) (fields_autoplaced)
+  (sheet (at 161.29 22.86) (size 33.02 39.37) (fields_autoplaced)
     (stroke (width 0.254) (type solid) (color 255 0 255 1))
     (fill (color 132 132 0 1.0000))
     (uuid 1213119d-b3ea-47c8-aaf6-ecc398bfbb00)
-    (property "Sheet name" "Resolution Filters" (id 0) (at 166.37 119.9384 0)
+    (property "Sheet name" "Resolution Filters" (id 0) (at 161.29 22.1484 0)
       (effects (font (size 2.54 2.54)) (justify left bottom))
     )
-    (property "Sheet file" "Resolution Filters.kicad_sch" (id 1) (at 166.37 160.6046 0)
+    (property "Sheet file" "Resolution Filters.kicad_sch" (id 1) (at 161.29 62.8146 0)
       (effects (font (size 1.905 1.905)) (justify left top))
     )
   )
 
-  (sheet (at 234.95 59.69) (size 31.75 40.64) (fields_autoplaced)
+  (sheet (at 19.05 22.86) (size 30.48 39.37) (fields_autoplaced)
     (stroke (width 0.254) (type solid) (color 255 0 255 1))
     (fill (color 194 194 194 1.0000))
     (uuid 633a963b-5ac6-4181-b149-baaec0e755c1)
-    (property "Sheet name" "15v-power-supply" (id 0) (at 234.95 58.2926 0)
+    (property "Sheet name" "15v-power-supply" (id 0) (at 19.05 21.4626 0)
       (effects (font (size 2.54 2.54)) (justify left bottom))
     )
-    (property "Sheet file" "15v-power-supply.kicad_sch" (id 1) (at 234.95 101.2194 0)
+    (property "Sheet file" "15v-power-supply.kicad_sch" (id 1) (at 19.05 63.1194 0)
       (effects (font (size 1.905 1.905)) (justify left top))
     )
   )
 
-  (sheet (at 240.03 120.65) (size 33.02 39.37)
+  (sheet (at 223.52 22.86) (size 33.02 39.37)
     (stroke (width 0.254) (type solid) (color 255 0 255 1))
     (fill (color 132 132 0 1.0000))
     (uuid 91afdbb9-c6d6-4a76-a186-be607f7c2a6b)
-    (property "Sheet name" "IF and Log Amplifier" (id 0) (at 237.49 118.11 0)
+    (property "Sheet name" "IF and Log Amplifier" (id 0) (at 220.98 20.32 0)
       (effects (font (size 2.54 2.54)) (justify left bottom))
     )
-    (property "Sheet file" "if_log_amplifier.kicad_sch" (id 1) (at 234.95 162.56 0)
+    (property "Sheet file" "if_log_amplifier.kicad_sch" (id 1) (at 218.44 64.77 0)
       (effects (font (size 1.905 1.905)) (justify left top))
     )
   )
 
-  (sheet (at 21.59 132.08) (size 33.02 39.37)
+  (sheet (at 91.44 22.86) (size 33.02 39.37)
     (stroke (width 0.254) (type solid) (color 255 0 255 1))
     (fill (color 132 132 0 1.0000))
     (uuid e5c5d6b0-703e-4a07-baca-024b54565ece)
-    (property "Sheet name" "TimeBase" (id 0) (at 29.21 129.54 0)
+    (property "Sheet name" "TimeBase" (id 0) (at 99.06 20.32 0)
       (effects (font (size 2.54 2.54)) (justify left bottom))
     )
-    (property "Sheet file" "Timebase.kicad_sch" (id 1) (at 21.59 172.0346 0)
+    (property "Sheet file" "Timebase.kicad_sch" (id 1) (at 91.44 62.8146 0)
       (effects (font (size 1.905 1.905)) (justify left top))
     )
   )
@@ -8790,17 +8841,11 @@
     (path "/e5c5d6b0-703e-4a07-baca-024b54565ece/1567daac-fc19-4d91-9614-5997c53df3de"
       (reference "#PWR015") (unit 1) (value "GND") (footprint "")
     )
-    (path "/e5c5d6b0-703e-4a07-baca-024b54565ece/51c873db-0602-4fbf-b5f8-9bb8f65d1d74"
-      (reference "#PWR016") (unit 1) (value "GND") (footprint "")
-    )
     (path "/e5c5d6b0-703e-4a07-baca-024b54565ece/fe7f195b-9cc7-4d46-8981-0f7c963b0ae9"
       (reference "#PWR017") (unit 1) (value "GND") (footprint "")
     )
     (path "/e5c5d6b0-703e-4a07-baca-024b54565ece/6eea5c74-74e4-4561-98d5-f88060458b32"
       (reference "#PWR018") (unit 1) (value "GND") (footprint "")
-    )
-    (path "/e5c5d6b0-703e-4a07-baca-024b54565ece/f54a71f5-08a5-4c9f-abde-53f63c58ed5a"
-      (reference "#PWR019") (unit 1) (value "GND") (footprint "")
     )
     (path "/e5c5d6b0-703e-4a07-baca-024b54565ece/17e4b05a-5b73-49c6-acba-a1c88a40b2b6"
       (reference "#PWR020") (unit 1) (value "GND") (footprint "")
@@ -8810,15 +8855,6 @@
     )
     (path "/e5c5d6b0-703e-4a07-baca-024b54565ece/19a64ee2-6cf4-43d0-a0c5-06a7840a6055"
       (reference "#PWR022") (unit 1) (value "GND") (footprint "")
-    )
-    (path "/e5c5d6b0-703e-4a07-baca-024b54565ece/cdaa8220-cb85-4081-8cd8-3498c13d0ae9"
-      (reference "#PWR023") (unit 1) (value "GND") (footprint "")
-    )
-    (path "/e5c5d6b0-703e-4a07-baca-024b54565ece/9a78f27f-8ebb-4899-a8d0-5136e40e60a5"
-      (reference "#PWR0101") (unit 1) (value "GND") (footprint "")
-    )
-    (path "/e5c5d6b0-703e-4a07-baca-024b54565ece/4d49c78c-fd0e-4050-82e0-9a8cb921086d"
-      (reference "#PWR0102") (unit 1) (value "GND") (footprint "")
     )
     (path "/91afdbb9-c6d6-4a76-a186-be607f7c2a6b/560c3dbb-ab57-471f-8d71-d3e427376a37"
       (reference "#PWR0103") (unit 1) (value "GND") (footprint "")
@@ -9207,18 +9243,6 @@
     (path "/633a963b-5ac6-4181-b149-baaec0e755c1/83e4f5b2-2aa2-4328-b1f7-13d7940d942d"
       (reference "F901") (unit 1) (value "0.5A") (footprint "")
     )
-    (path "/e5c5d6b0-703e-4a07-baca-024b54565ece/a5e98d84-d1a7-44fd-8f2a-8c243a582d46"
-      (reference "H1") (unit 1) (value "MountingHole_Pad") (footprint "MountingHole:MountingHole_2.7mm_M2.5_DIN965_Pad_TopOnly")
-    )
-    (path "/e5c5d6b0-703e-4a07-baca-024b54565ece/b87c65c9-ec3b-45ea-90f3-95476eea7d52"
-      (reference "H2") (unit 1) (value "MountingHole_Pad") (footprint "MountingHole:MountingHole_2.7mm_M2.5_DIN965_Pad_TopOnly")
-    )
-    (path "/e5c5d6b0-703e-4a07-baca-024b54565ece/a3d597da-707e-4562-8cbb-a972a48b51b1"
-      (reference "H3") (unit 1) (value "MountingHole_Pad") (footprint "MountingHole:MountingHole_2.7mm_M2.5_DIN965_Pad_TopOnly")
-    )
-    (path "/e5c5d6b0-703e-4a07-baca-024b54565ece/5b6e3e2e-b7bd-481d-941d-d5bc38f60f37"
-      (reference "H4") (unit 1) (value "MountingHole_Pad") (footprint "MountingHole:MountingHole_2.7mm_M2.5_DIN965_Pad_TopOnly")
-    )
     (path "/633a963b-5ac6-4181-b149-baaec0e755c1/aaab055d-e2c8-47ec-bf52-ba6cbf89c068"
       (reference "H901") (unit 1) (value "MountingHole") (footprint "MountingHole:MountingHole_3.2mm_M3")
     )
@@ -9239,12 +9263,6 @@
     )
     (path "/e5c5d6b0-703e-4a07-baca-024b54565ece/4247b454-2825-495d-a5d7-a6d4965d376a"
       (reference "J9") (unit 1) (value "Conn_Coaxial") (footprint "SnapEDA Library:TE_5-1634503-1")
-    )
-    (path "/e5c5d6b0-703e-4a07-baca-024b54565ece/eeba3f92-201a-4f56-afb1-a990ad9a518a"
-      (reference "J402") (unit 1) (value "Jack-DC") (footprint "SnapEDA Library:CUI_PJ-007")
-    )
-    (path "/e5c5d6b0-703e-4a07-baca-024b54565ece/828929ad-f86d-4271-8167-d5d47d1d234b"
-      (reference "J404") (unit 1) (value "Jack-DC") (footprint "SnapEDA Library:CUI_PJ-007")
     )
     (path "/1213119d-b3ea-47c8-aaf6-ecc398bfbb00/5c2fd91a-2547-4d62-bb9f-a69cddcb397b"
       (reference "J501") (unit 1) (value "Conn_Coaxial") (footprint "")
@@ -9515,12 +9533,6 @@
     )
     (path "/633a963b-5ac6-4181-b149-baaec0e755c1/89e85ee3-bf08-4d94-97ac-77b0e3f043c9"
       (reference "U902") (unit 1) (value "LM7915") (footprint "Package_TO_SOT_THT:TO-220-3_Horizontal_TabUp")
-    )
-    (path "/e5c5d6b0-703e-4a07-baca-024b54565ece/663fb189-de49-422b-ad38-7d7dade67ea7"
-      (reference "V401") (unit 1) (value "DC 15") (footprint "SnapEDA Library:CUI_PJ-009A")
-    )
-    (path "/e5c5d6b0-703e-4a07-baca-024b54565ece/1cda291b-3970-4d26-9e57-945fdd846461"
-      (reference "V402") (unit 1) (value "DC -15") (footprint "SnapEDA Library:CUI_PJ-009A")
     )
     (path "/1213119d-b3ea-47c8-aaf6-ecc398bfbb00/1a05bef1-a2a6-4cee-a2ef-ce4abb0dcdfa"
       (reference "V501") (unit 1) (value "VSIN") (footprint "")
