@@ -1,0 +1,7 @@
+Add asterisks to indicate location of pin 1 for op amps
+Replace J401 and J402 with wire solder points
+Add board name and revision to silk
+Star pin 1 for leads to pots?
+Switch capacitor footprints to be vertical
+Update coax connector to be amphenol 112404
+change board mounting holes

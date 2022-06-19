@@ -1,0 +1,6 @@
+confirm c10 and c11 are c904 and 905 and then update the annotation
+digikey bom uses 25V rated caps - schematic says 35V - conform
+account for the heat sink in the layout
+reverse the model pins so the regulators lay tab down
+c904 and c905 footprints indicate polarized caps - that is likely wrong
+determine proper fuse rating
