@@ -2,5 +2,5 @@ change footprints for polar caps - done
 L301 vertical? - done
 ft caps need ground point - done
 eliminate coax pcb [do same timebase] - done
-ground hole to ground box to board - done
+ground hole to ground box to board - done ** RECONSIDER THIS **
 
