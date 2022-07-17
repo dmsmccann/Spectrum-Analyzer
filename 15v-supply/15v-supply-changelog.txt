@@ -1,6 +1,9 @@
-confirm c10 and c11 are c904 and 905 and then update the annotation
-digikey bom uses 25V rated caps - schematic says 35V - conform
-account for the heat sink in the layout
-reverse the model pins so the regulators lay tab down
-c904 and c905 footprints indicate polarized caps - that is likely wrong
-determine proper fuse rating
+confirm c10 and c11 are c904 and 905 and then update the annotation - done
+digikey bom uses 25V rated caps - schematic says 35V - conform - done
+account for the heat sink in the layout - done
+
+c904 and c905 footprints indicate polarized caps - they are, so done
+determine proper fuse rating - done
+re-route board due to error in diode pin outs
+use larger footprints for passives
+Indiate on silkscreen which output on terminal block is +15 out
