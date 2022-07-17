@@ -3,4 +3,6 @@ L301 vertical? - done
 ft caps need ground point - done
 eliminate coax pcb [do same timebase] - done
 ground hole to ground box to board - done ** RECONSIDER THIS **
+move the silkscreen pin 1 markers to outsie of the footprint body so visible after IC mounting
+pin 4 of CA3140 must be grounded.
 
