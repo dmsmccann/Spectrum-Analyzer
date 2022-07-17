@@ -6,4 +6,4 @@ ground hole to ground box to board - done ** RECONSIDER THIS **
 move the silkscreen pin 1 markers to outsie of the footprint body so visible after IC mounting
 pin 4 of CA3140 must be grounded.
 pin 1 of CA3140 should be a no-connect
-
+J305 will be a little better if flipped so that the ground is toward outside of the board
