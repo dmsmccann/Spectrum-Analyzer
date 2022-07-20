@@ -2,10 +2,10 @@ change footprints for polar caps - done
 L301 vertical? - done
 ft caps need ground point - done
 eliminate coax pcb [do same timebase] - done
-ground hole to ground box to board - done ** RECONSIDER THIS **
-move the silkscreen pin 1 markers to outsie of the footprint body so visible after IC mounting
-pin 4 of CA3140 must be grounded.
-pin 1 of CA3140 should be a no-connect
-J305 will be a little better if flipped so that the ground is toward outside of the board
-cap leads should be 5mm apart
-changer "j" solder holes to "C" to reflect connection of feedthrough caps - label to indicate hot is not connected
+ground hole to ground box to board - done ** RECONSIDER THIS ** - removed
+move the silkscreen pin 1 markers to outsie of the footprint body so visible after IC mounting - done
+pin 4 of CA3140 must be grounded. - done
+pin 1 of CA3140 should be a no-connect - done
+J305 will be a little better if flipped so that the ground is toward outside of the board - removed and replaced with feedthrough cap fp 
+cap leads should be 5mm apart -done 
+changer "j" solder holes to "C" to reflect connection of feedthrough caps - label to indicate hot is not connected - done except silkscreen - might eliminate hole
