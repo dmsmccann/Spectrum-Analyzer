@@ -3020,7 +3020,7 @@
     (property "Footprint" "if-log-amp:GKG60015" (id 2) (at 167.64 72.39 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "~" (id 3) (at 167.64 72.39 0)
+    (property "Datasheet" "https://media.digikey.com/pdf/Data%20Sheets/EW%20Electronics-Edmar/GKGxx015_016_Series_DS.pdf" (id 3) (at 167.64 72.39 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid 1830fda6-2b6e-4a4c-a29f-36393253ca71))
