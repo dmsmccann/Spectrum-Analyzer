@@ -6,8 +6,8 @@
 
   (title_block
     (title "Spectrum Analyzer IF and Log Amp")
-    (date "2022-06-12")
-    (rev "0.0")
+    (date "2022-07-18")
+    (rev "1.0")
     (company "Andy McCann KA3KAF and Doug McCann KA3KAG")
     (comment 2 "Wes Hayward W7ZOI")
     (comment 3 "Original Design By:")
@@ -2269,6 +2269,10 @@
   (text "T50-6\nQu=250\n16.2 turns" (at 143.51 77.47 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 3defaca2-da09-413b-8e01-bac4b2c97437)
+  )
+  (text "need d301 r309 r310 c316" (at 133.35 135.89 0)
+    (effects (font (size 1.27 1.27)) (justify left bottom))
+    (uuid 4770a7b9-51a6-4646-8ba5-eabff2c9bf53)
   )
   (text "Adj" (at 170.18 170.18 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))

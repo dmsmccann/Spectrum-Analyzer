@@ -7,3 +7,5 @@ move the silkscreen pin 1 markers to outsie of the footprint body so visible aft
 pin 4 of CA3140 must be grounded.
 pin 1 of CA3140 should be a no-connect
 J305 will be a little better if flipped so that the ground is toward outside of the board
+cap leads should be 5mm apart
+changer "j" solder holes to "C" to reflect connection of feedthrough caps - label to indicate hot is not connected

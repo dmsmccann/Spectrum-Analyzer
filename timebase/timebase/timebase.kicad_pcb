@@ -3834,6 +3834,12 @@
   )
 
   (gr_rect (start 97.028 61.976) (end 182.372 138.43) (layer "Edge.Cuts") (width 0.1) (fill none) (tstamp fd1d5da9-cff8-4c76-9b2b-14585edbbb1e))
+  (gr_text "Centering" (at 163.576 108.458) (layer "F.SilkS") (tstamp 28109d65-fc35-4eb0-839c-b3880686a116)
+    (effects (font (size 1.5 1.5) (thickness 0.3)))
+  )
+  (gr_text "Cal Max Span" (at 132.842 122.682) (layer "F.SilkS") (tstamp 32bbe2f2-48ee-40ce-b991-b2da3db91ab6)
+    (effects (font (size 1.5 1.5) (thickness 0.3)))
+  )
   (gr_text "Spectrum Analyzer Time Base Rev 1.0" (at 179.07 99.314 90) (layer "F.SilkS") (tstamp 337d7f57-0203-44f6-9a6a-a65ece9d7368)
     (effects (font (size 1.5 1.5) (thickness 0.3)))
   )
