@@ -10,3 +10,4 @@ J305 will be a little better if flipped so that the ground is toward outside of 
 cap leads should be 5mm apart -done 
 changer "j" solder holes to "C" to reflect connection of feedthrough caps - label to indicate hot is not connected - done except silkscreen - might eliminate hole
 make c311 polarized, negative terminal to ground - done
+schematic - switched output coax and feedthrough cap so feedthrough cap is before ouput connector - done

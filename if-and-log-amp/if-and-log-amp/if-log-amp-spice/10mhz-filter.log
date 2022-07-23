@@ -1,8 +1,8 @@
-Circuit: * C:\Users\Dougl\OneDrive\Ham Radio\KiCad Files\W7ZOI Spectrum Analyzer\if-and-log-amp\if-and-log-amp\if-log-amp-spice\10mhz-filter.asc
+Circuit: * C:\Users\Dougl\Downloads\10mhz-filter.asc
 
 
-Date: Tue Jun 21 16:45:31 2022
-Total elapsed time: 0.723 seconds.
+Date: Thu Jul 21 08:03:38 2022
+Total elapsed time: 0.527 seconds.
 
 tnom = 27
 temp = 27
