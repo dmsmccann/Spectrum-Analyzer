@@ -4084,7 +4084,7 @@
       (effects (font (size 1.524 1.524)) hide)
     )
     (property "Datasheet" "https://www.analog.com/media/en/technical-documentation/data-sheets/ad603.pdf" (id 3) (at 90.17 63.5 0)
-      (effects (font (size 1.524 1.524)))
+      (effects (font (size 1.524 1.524)) hide)
     )
     (property "Spice_Primitive" "X" (id 4) (at 90.17 63.5 0)
       (effects (font (size 1.27 1.27)) hide)
