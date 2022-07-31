@@ -4,7 +4,16 @@
     (thickness 1.6)
   )
 
-  (paper "A4")
+  (paper "USLetter")
+  (title_block
+    (title "Spectrum Analyzer Resolution Filter")
+    (date "2022-07-30")
+    (rev "0")
+    (company "Andy McCann KA3KAF Doug McCann KA3KAG")
+    (comment 2 "Wes Hayward W7ZOI")
+    (comment 3 "Original Design By")
+  )
+
   (layers
     (0 "F.Cu" signal)
     (31 "B.Cu" signal)
@@ -54,7 +63,7 @@
     (pad_to_mask_clearance 0)
     (grid_origin 101.6 111.76)
     (pcbplotparams
-      (layerselection 0x00010fc_ffffffff)
+      (layerselection 0x0000020_7ffffffe)
       (disableapertmacros false)
       (usegerberextensions false)
       (usegerberattributes true)
@@ -71,18 +80,18 @@
       (hpglpenspeed 20)
       (hpglpendiameter 15.000000)
       (dxfpolygonmode true)
-      (dxfimperialunits true)
+      (dxfimperialunits false)
       (dxfusepcbnewfont true)
       (psnegative false)
       (psa4output false)
       (plotreference true)
-      (plotvalue true)
+      (plotvalue false)
       (plotinvisibletext false)
       (sketchpadsonfab false)
       (subtractmaskfromsilk false)
-      (outputformat 1)
+      (outputformat 3)
       (mirror false)
-      (drillshape 1)
+      (drillshape 0)
       (scaleselection 1)
       (outputdirectory "")
     )
@@ -114,7 +123,7 @@
 
   (footprint "resolution-filters:GKG60015" (layer "F.Cu")
     (tedit 0) (tstamp 01ad4597-14da-4844-b13a-fa101f9de910)
-    (at 162.0613 93.3703)
+    (at 162.061296 93.370298)
     (property "Sheetfile" "resolution-filters.kicad_sch")
     (property "Sheetname" "")
     (path "/634bbb35-ad2a-436a-bd6c-1d776bf5ac24")
@@ -220,11 +229,21 @@
       (net 18 "Net-(C513-Pad1)") (pintype "passive") (tstamp 49743b78-8276-4920-b844-9d998f1d64d3))
     (pad "2" thru_hole circle locked (at 5.08 0) (size 1.7018 1.7018) (drill 1.1938) (layers *.Cu *.Mask)
       (net 3 "GND") (pintype "passive") (tstamp 5924c4fe-0ca0-4d15-aaec-911bdbf2bbe1))
+    (model "${KIPRJMOD}/resolution-filters-models/resolution-filters-3D/Trimmer Cap - Brown.step"
+      (offset (xyz 0 0 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 0))
+    )
+    (model "${KIPRJMOD}/resolution-filters-models/resolution-filters-3D/Trimmer Cap - Brown.wrl"
+      (offset (xyz 0 0 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 0))
+    )
   )
 
   (footprint "resolution-filters:GKG60015" (layer "F.Cu")
     (tedit 0) (tstamp 02b57ae3-cbf2-4b78-a3c5-b6d9ad9018ce)
-    (at 121.2535 80.518)
+    (at 121.253504 80.518)
     (property "Sheetfile" "resolution-filters.kicad_sch")
     (property "Sheetname" "")
     (path "/b2d57885-8786-4dc3-b1c7-b1b397afb79f")
@@ -330,11 +349,21 @@
       (net 5 "Net-(C509-Pad2)") (pintype "passive") (tstamp d2fe7032-f886-4baf-9118-8b61c1d5aaa9))
     (pad "2" thru_hole circle (at 5.08 0) (size 1.7018 1.7018) (drill 1.1938) (layers *.Cu *.Mask)
       (net 3 "GND") (pintype "passive") (tstamp 607d7aa6-b678-427b-ad8d-34e921c6b0de))
+    (model "${KIPRJMOD}/resolution-filters-models/resolution-filters-3D/Trimmer Cap - Brown.step"
+      (offset (xyz 0 0 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 0))
+    )
+    (model "${KIPRJMOD}/resolution-filters-models/resolution-filters-3D/Trimmer Cap - Brown.wrl"
+      (offset (xyz 0 0 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 0))
+    )
   )
 
   (footprint "Inductor_THT:L_Toroid_Vertical_L13.0mm_W6.5mm_P5.60mm" (layer "F.Cu")
     (tedit 5AE59B06) (tstamp 0437e814-d888-4e5a-886d-9cd36dea0652)
-    (at 117.1 77.089 -90)
+    (at 117.099994 77.089 -90)
     (descr "L_Toroid, Vertical series, Radial, pin pitch=5.60mm, , length*width=13*6.5mm^2")
     (tags "L_Toroid Vertical series Radial pin pitch 5.60mm  length 13mm width 6.5mm")
     (property "Sheetfile" "resolution-filters.kicad_sch")
@@ -385,7 +414,12 @@
       (net 1 "Net-(C501-Pad1)") (pinfunction "1") (pintype "passive") (tstamp c7af2285-6642-4bfb-9a4e-62ef2af928d3))
     (pad "2" thru_hole circle (at 0 5.6 270) (size 2.6 2.6) (drill 1.3) (layers *.Cu *.Mask)
       (net 3 "GND") (pinfunction "2") (pintype "passive") (tstamp cf738f80-2e99-479b-9a53-8e0fef48a3a2))
-    (model "${KICAD6_3DMODEL_DIR}/Inductor_THT.3dshapes/L_Toroid_Vertical_L13.0mm_W6.5mm_P5.60mm.wrl"
+    (model "${KIPRJMOD}/resolution-filters-models/resolution-filters-3D/T37-6 IND004.step"
+      (offset (xyz 0 0 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 0))
+    )
+    (model "${KIPRJMOD}/resolution-filters-models/resolution-filters-3D/T37-6 IND004.wrl"
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -498,7 +532,7 @@
 
   (footprint "resolution-filters:GKG60015" (layer "F.Cu")
     (tedit 0) (tstamp 1e11af30-aa2c-41d7-9e9e-1af99d41cc4e)
-    (at 169.7129 93.3703)
+    (at 169.712894 93.370298)
     (property "Sheetfile" "resolution-filters.kicad_sch")
     (property "Sheetname" "")
     (path "/bb468ebc-7f2d-418e-96a5-492d38be3103")
@@ -604,11 +638,21 @@
       (net 21 "Net-(C516-Pad1)") (pintype "passive") (tstamp fc082414-ebca-495a-b79c-78c232a82817))
     (pad "2" thru_hole circle locked (at 5.08 0) (size 1.7018 1.7018) (drill 1.1938) (layers *.Cu *.Mask)
       (net 3 "GND") (pintype "passive") (tstamp 8f03b024-cf51-47b8-9287-31792d6c989b))
+    (model "${KIPRJMOD}/resolution-filters-models/resolution-filters-3D/Trimmer Cap - Brown.step"
+      (offset (xyz 0 0 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 0))
+    )
+    (model "${KIPRJMOD}/resolution-filters-models/resolution-filters-3D/Trimmer Cap - Brown.wrl"
+      (offset (xyz 0 0 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 0))
+    )
   )
 
   (footprint "resolution-filters:GKG60015" (layer "F.Cu")
     (tedit 0) (tstamp 24b677c1-2859-42c8-a09c-be8f6a1adee0)
-    (at 135.0457 93.599)
+    (at 135.045704 93.599)
     (property "Sheetfile" "resolution-filters.kicad_sch")
     (property "Sheetname" "")
     (path "/3e0ba2bc-efd7-49d4-83ff-d4eddca14c50")
@@ -714,6 +758,16 @@
       (net 20 "Net-(C508-Pad1)") (pintype "passive") (tstamp 8879f19c-789b-43d6-a0e8-eb834e513cce))
     (pad "2" thru_hole circle locked (at 5.08 0) (size 1.7018 1.7018) (drill 1.1938) (layers *.Cu *.Mask)
       (net 3 "GND") (pintype "passive") (tstamp 3f37a9be-3981-4e14-8db2-3abd95a516d0))
+    (model "${KIPRJMOD}/resolution-filters-models/resolution-filters-3D/Trimmer Cap - Brown.step"
+      (offset (xyz 0 0 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 0))
+    )
+    (model "${KIPRJMOD}/resolution-filters-models/resolution-filters-3D/Trimmer Cap - Brown.wrl"
+      (offset (xyz 0 0 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 0))
+    )
   )
 
   (footprint "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" (layer "F.Cu")
@@ -766,7 +820,7 @@
 
   (footprint "Inductor_THT:L_Toroid_Vertical_L13.0mm_W6.5mm_P5.60mm" (layer "F.Cu")
     (tedit 5AE59B06) (tstamp 36179f62-8d91-4cb8-b735-f84a305ee8ab)
-    (at 148.965 76.962 90)
+    (at 148.965006 76.962 90)
     (descr "L_Toroid, Vertical series, Radial, pin pitch=5.60mm, , length*width=13*6.5mm^2")
     (tags "L_Toroid Vertical series Radial pin pitch 5.60mm  length 13mm width 6.5mm")
     (property "Sheetfile" "resolution-filters.kicad_sch")
@@ -817,7 +871,12 @@
       (net 6 "Net-(C514-Pad2)") (pinfunction "1") (pintype "passive") (tstamp 568accc3-0963-4391-8f74-713b10ca9560))
     (pad "2" thru_hole circle (at 0 5.6 90) (size 2.6 2.6) (drill 1.3) (layers *.Cu *.Mask)
       (net 3 "GND") (pinfunction "2") (pintype "passive") (tstamp ea8f0df6-2bb2-41f4-8e8c-3dc71815c26f))
-    (model "${KICAD6_3DMODEL_DIR}/Inductor_THT.3dshapes/L_Toroid_Vertical_L13.0mm_W6.5mm_P5.60mm.wrl"
+    (model "${KIPRJMOD}/resolution-filters-models/resolution-filters-3D/T37-6 IND004.step"
+      (offset (xyz 0 0 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 0))
+    )
+    (model "C:/Users/Dougl/OneDrive/Ham Radio/KiCad Files/W7ZOI Spectrum Analyzer/if-and-log-amp/if-and-log-amp/if-log-amp-models/if-log-amp-3D/T37-6 IND004.wrl"
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -872,7 +931,7 @@
 
   (footprint "resolution-filters:GKG60015" (layer "F.Cu")
     (tedit 0) (tstamp 46d272e5-901d-41ec-a61a-a66b8da15489)
-    (at 157.8803 80.2132)
+    (at 157.880304 80.2132)
     (property "Sheetfile" "resolution-filters.kicad_sch")
     (property "Sheetname" "")
     (path "/086ca953-977d-4699-95a4-445af35df2d6")
@@ -978,6 +1037,16 @@
       (net 7 "Net-(C519-Pad2)") (pintype "passive") (tstamp 3ff43dde-f212-4089-91f3-9daf8b042252))
     (pad "2" thru_hole circle locked (at 5.08 0) (size 1.7018 1.7018) (drill 1.1938) (layers *.Cu *.Mask)
       (net 3 "GND") (pintype "passive") (tstamp a058a1a0-ee79-4d77-a988-6cd49812e549))
+    (model "${KIPRJMOD}/resolution-filters-models/resolution-filters-3D/Trimmer Cap - Brown.step"
+      (offset (xyz 0 0 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 0))
+    )
+    (model "${KIPRJMOD}/resolution-filters-models/resolution-filters-3D/Trimmer Cap - Brown.wrl"
+      (offset (xyz 0 0 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 0))
+    )
   )
 
   (footprint "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" (layer "F.Cu")
@@ -1030,7 +1099,7 @@
 
   (footprint "resolution-filters:GKG60015" (layer "F.Cu")
     (tedit 0) (tstamp 4aae2a8a-91de-4431-b51a-f30af8ea2418)
-    (at 139.5415 80.3148)
+    (at 139.541504 80.3148)
     (property "Sheetfile" "resolution-filters.kicad_sch")
     (property "Sheetname" "")
     (path "/44359aa3-a146-4361-a6d3-bf8baf4d0769")
@@ -1136,11 +1205,21 @@
       (net 6 "Net-(C514-Pad2)") (pintype "passive") (tstamp e6ba6fbb-ac97-4258-889f-77fede62b1c8))
     (pad "2" thru_hole circle locked (at 5.08 0) (size 1.7018 1.7018) (drill 1.1938) (layers *.Cu *.Mask)
       (net 3 "GND") (pintype "passive") (tstamp 7d8372ed-a106-49f6-83a5-d7b3cfbebf4d))
+    (model "${KIPRJMOD}/resolution-filters-models/resolution-filters-3D/Trimmer Cap - Brown.step"
+      (offset (xyz 0 0 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 0))
+    )
+    (model "${KIPRJMOD}/resolution-filters-models/resolution-filters-3D/Trimmer Cap - Brown.wrl"
+      (offset (xyz 0 0 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 0))
+    )
   )
 
   (footprint "Inductor_THT:L_Toroid_Vertical_L13.0mm_W6.5mm_P5.60mm" (layer "F.Cu")
     (tedit 5AE59B06) (tstamp 4f05b86e-42c4-4593-9580-d7aca97a7b04)
-    (at 130.55 76.962 90)
+    (at 130.550006 76.962 90)
     (descr "L_Toroid, Vertical series, Radial, pin pitch=5.60mm, , length*width=13*6.5mm^2")
     (tags "L_Toroid Vertical series Radial pin pitch 5.60mm  length 13mm width 6.5mm")
     (property "Sheetfile" "resolution-filters.kicad_sch")
@@ -1191,7 +1270,12 @@
       (net 5 "Net-(C509-Pad2)") (pinfunction "1") (pintype "passive") (tstamp 8459f9e9-3b4b-4548-8d15-75ffec285d73))
     (pad "2" thru_hole circle (at 0 5.6 90) (size 2.6 2.6) (drill 1.3) (layers *.Cu *.Mask)
       (net 3 "GND") (pinfunction "2") (pintype "passive") (tstamp 6bb25240-8725-4e39-84e3-5743e224d867))
-    (model "${KICAD6_3DMODEL_DIR}/Inductor_THT.3dshapes/L_Toroid_Vertical_L13.0mm_W6.5mm_P5.60mm.wrl"
+    (model "${KIPRJMOD}/resolution-filters-models/resolution-filters-3D/T37-6 IND004.step"
+      (offset (xyz 0 0 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 0))
+    )
+    (model "C:/Users/Dougl/OneDrive/Ham Radio/KiCad Files/W7ZOI Spectrum Analyzer/if-and-log-amp/if-and-log-amp/if-log-amp-models/if-log-amp-3D/T37-6 IND004.wrl"
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -1325,11 +1409,21 @@
       (net 21 "Net-(C516-Pad1)") (pinfunction "2") (pintype "passive") (tstamp 817142c1-2f1d-4fe4-a223-d9aa36bbc6d1))
     (pad "3" thru_hole circle locked (at 2.44 0 90) (size 1.03 1.03) (drill 0.63) (layers *.Cu *.Mask)
       (net 3 "GND") (pinfunction "3") (pintype "passive") (tstamp 0e799283-0f4a-427a-9690-a07b164feb1d))
+    (model "${KIPRJMOD}/resolution-filters-models/resolution-filters-3D/UM-007.step"
+      (offset (xyz 0 0 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 0))
+    )
+    (model "${KIPRJMOD}/resolution-filters-models/resolution-filters-3D/UM-007.wrl"
+      (offset (xyz 0 0 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 0))
+    )
   )
 
   (footprint "Connector_Wire:SolderWire-0.5sqmm_1x02_P4.6mm_D0.9mm_OD2.1mm" (layer "F.Cu")
     (tedit 5EB70B43) (tstamp 685137c3-c93a-4c37-b15d-f5b20a9990ec)
-    (at 104.521 98.961 90)
+    (at 104.521 98.960991 90)
     (descr "Soldered wire connection, for 2 times 0.5 mm² wires, basic insulation, conductor diameter 0.9mm, outer diameter 2.1mm, size source Multi-Contact FLEXI-E 0.5 (https://ec.staubli.com/AcroFiles/Catalogues/TM_Cab-Main-11014119_(en)_hi.pdf), bend radius 3 times outer diameter, generated with kicad-footprint-generator")
     (tags "connector wire 0.5sqmm")
     (property "Sheetfile" "resolution-filters.kicad_sch")
@@ -1365,11 +1459,6 @@
       (net 11 "/VIn") (pinfunction "In") (pintype "passive") (tstamp ddd2ecbe-ab48-488e-a063-e4468ce6589f))
     (pad "2" thru_hole circle (at 4.6 0 90) (size 2.1 2.1) (drill 1.1) (layers *.Cu *.Mask)
       (net 3 "GND") (pinfunction "Ext") (pintype "passive") (tstamp ae849d0f-bd95-4d11-a502-f8ca01aabcaa))
-    (model "${KICAD6_3DMODEL_DIR}/Connector_Wire.3dshapes/SolderWire-0.5sqmm_1x02_P4.6mm_D0.9mm_OD2.1mm.wrl"
-      (offset (xyz 0 0 0))
-      (scale (xyz 1 1 1))
-      (rotate (xyz 0 0 0))
-    )
   )
 
   (footprint "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" (layer "F.Cu")
@@ -1516,7 +1605,7 @@
 
   (footprint "Inductor_THT:L_Toroid_Vertical_L13.0mm_W6.5mm_P5.60mm" (layer "F.Cu")
     (tedit 5AE59B06) (tstamp 787a6a50-26cc-4240-a98f-fb5841712b66)
-    (at 131.1109 104.5463 -90)
+    (at 131.110888 104.546298 -90)
     (descr "L_Toroid, Vertical series, Radial, pin pitch=5.60mm, , length*width=13*6.5mm^2")
     (tags "L_Toroid Vertical series Radial pin pitch 5.60mm  length 13mm width 6.5mm")
     (property "Sheetfile" "resolution-filters.kicad_sch")
@@ -1567,7 +1656,12 @@
       (net 15 "Net-(K501-Pad10)") (pinfunction "AA") (pintype "passive") (tstamp 719822f6-5ab8-434d-bc73-33487bf49583))
     (pad "2" thru_hole circle (at 0 5.6 270) (size 2.6 2.6) (drill 1.3) (layers *.Cu *.Mask)
       (net 3 "GND") (pinfunction "AB") (pintype "passive") (tstamp 027e34f6-5b74-43a2-8125-5b0a41fad0de))
-    (model "${KICAD6_3DMODEL_DIR}/Inductor_THT.3dshapes/L_Toroid_Vertical_L13.0mm_W6.5mm_P5.60mm.wrl"
+    (model "${KIPRJMOD}/resolution-filters-models/resolution-filters-3D/T37-6 IND004.step"
+      (offset (xyz 0 0 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 0))
+    )
+    (model "C:/Users/Dougl/OneDrive/Ham Radio/KiCad Files/W7ZOI Spectrum Analyzer/if-and-log-amp/if-and-log-amp/if-log-amp-models/if-log-amp-3D/T37-6 IND004.wrl"
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -1576,7 +1670,7 @@
 
   (footprint "resolution-filters:GKG60015" (layer "F.Cu")
     (tedit 0) (tstamp 7c76ddb2-9714-419e-a6a6-67148adb1c4f)
-    (at 127.5781 93.5736)
+    (at 127.578104 93.5736)
     (property "Sheetfile" "resolution-filters.kicad_sch")
     (property "Sheetname" "")
     (path "/4bec1a9e-d426-40c2-9e19-6f55ab399553")
@@ -1682,6 +1776,16 @@
       (net 19 "Net-(C505-Pad1)") (pintype "passive") (tstamp 32c5ff4b-186b-44d3-88f9-09189d5408fa))
     (pad "2" thru_hole circle locked (at 5.08 0) (size 1.7018 1.7018) (drill 1.1938) (layers *.Cu *.Mask)
       (net 3 "GND") (pintype "passive") (tstamp e9cff7ce-a264-497e-bb15-000aa8ac303c))
+    (model "${KIPRJMOD}/resolution-filters-models/resolution-filters-3D/Trimmer Cap - Brown.step"
+      (offset (xyz 0 0 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 0))
+    )
+    (model "${KIPRJMOD}/resolution-filters-models/resolution-filters-3D/Trimmer Cap - Brown.wrl"
+      (offset (xyz 0 0 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 0))
+    )
   )
 
   (footprint "Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P5.00mm" (layer "F.Cu")
@@ -1870,7 +1974,7 @@
 
   (footprint "resolution-filters:XTAL_ECS-10.7-7.5B" (layer "F.Cu")
     (tedit 62B58515) (tstamp 957cf592-1398-434a-a851-ad74b97e0cd8)
-    (at 162.2552 105.3083 90)
+    (at 162.2552 105.308298 90)
     (property "Sheetfile" "resolution-filters.kicad_sch")
     (property "Sheetname" "")
     (path "/8c96d15b-2a9a-4bfe-ac9e-af0b6bde75a3")
@@ -1903,6 +2007,16 @@
       (net 22 "Net-(C518-Pad1)") (pinfunction "2") (pintype "passive") (tstamp 23bfd507-a243-46cb-a096-8c460255b7bb))
     (pad "3" thru_hole circle locked (at 2.44 0 90) (size 1.03 1.03) (drill 0.63) (layers *.Cu *.Mask)
       (net 3 "GND") (pinfunction "3") (pintype "passive") (tstamp f1fc3077-f6b2-440c-bb35-ce457e233b5f))
+    (model "${KIPRJMOD}/resolution-filters-models/resolution-filters-3D/UM-007.step"
+      (offset (xyz 0 0 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 0))
+    )
+    (model "${KIPRJMOD}/resolution-filters-models/resolution-filters-3D/UM-007.wrl"
+      (offset (xyz 0 0 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 0))
+    )
   )
 
   (footprint "MountingHole:MountingHole_3.2mm_M3" (layer "F.Cu")
@@ -2075,7 +2189,7 @@
 
   (footprint "Inductor_THT:L_Toroid_Vertical_L13.0mm_W6.5mm_P5.60mm" (layer "F.Cu")
     (tedit 5AE59B06) (tstamp 9f3d2cc0-f3c9-43ae-a698-44b5b7291388)
-    (at 167.4562 104.3432 90)
+    (at 167.456206 104.3432 90)
     (descr "L_Toroid, Vertical series, Radial, pin pitch=5.60mm, , length*width=13*6.5mm^2")
     (tags "L_Toroid Vertical series Radial pin pitch 5.60mm  length 13mm width 6.5mm")
     (property "Sheetfile" "resolution-filters.kicad_sch")
@@ -2126,7 +2240,12 @@
       (net 16 "Net-(K502-Pad10)") (pinfunction "AA") (pintype "passive") (tstamp f614523d-b319-467a-a1f5-bb3e18d9e618))
     (pad "2" thru_hole circle (at 0 5.6 90) (size 2.6 2.6) (drill 1.3) (layers *.Cu *.Mask)
       (net 3 "GND") (pinfunction "AB") (pintype "passive") (tstamp 6ac7b5f2-abb0-4902-8714-42efb7f1f400))
-    (model "${KICAD6_3DMODEL_DIR}/Inductor_THT.3dshapes/L_Toroid_Vertical_L13.0mm_W6.5mm_P5.60mm.wrl"
+    (model "${KIPRJMOD}/resolution-filters-models/resolution-filters-3D/T37-6 IND004.step"
+      (offset (xyz 0 0 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 0))
+    )
+    (model "C:/Users/Dougl/OneDrive/Ham Radio/KiCad Files/W7ZOI Spectrum Analyzer/if-and-log-amp/if-and-log-amp/if-log-amp-models/if-log-amp-3D/T37-6 IND004.wrl"
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -2135,7 +2254,7 @@
 
   (footprint "Connector_Wire:SolderWire-0.5sqmm_1x02_P4.6mm_D0.9mm_OD2.1mm" (layer "F.Cu")
     (tedit 5EB70B43) (tstamp a2859ebf-dc33-44b3-a04c-fdccfabc7482)
-    (at 190.0682 98.6168 90)
+    (at 190.0682 98.616795 90)
     (descr "Soldered wire connection, for 2 times 0.5 mm² wires, basic insulation, conductor diameter 0.9mm, outer diameter 2.1mm, size source Multi-Contact FLEXI-E 0.5 (https://ec.staubli.com/AcroFiles/Catalogues/TM_Cab-Main-11014119_(en)_hi.pdf), bend radius 3 times outer diameter, generated with kicad-footprint-generator")
     (tags "connector wire 0.5sqmm")
     (property "Sheetfile" "resolution-filters.kicad_sch")
@@ -2171,16 +2290,11 @@
       (net 13 "Net-(J503-Pad1)") (pinfunction "In") (pintype "passive") (tstamp 12084bfb-bbed-425c-9849-0aa93c05f85a))
     (pad "2" thru_hole circle (at 4.6 0 90) (size 2.1 2.1) (drill 1.1) (layers *.Cu *.Mask)
       (net 3 "GND") (pinfunction "Ext") (pintype "passive") (tstamp c0646acd-a235-4166-8a77-c16176c09410))
-    (model "${KICAD6_3DMODEL_DIR}/Connector_Wire.3dshapes/SolderWire-0.5sqmm_1x02_P4.6mm_D0.9mm_OD2.1mm.wrl"
-      (offset (xyz 0 0 0))
-      (scale (xyz 1 1 1))
-      (rotate (xyz 0 0 0))
-    )
   )
 
   (footprint "resolution-filters:XTAL_ECS-10.7-7.5B" (layer "F.Cu")
     (tedit 62B58515) (tstamp a603a5c5-85ed-4b09-897d-785145fc44e6)
-    (at 137.9629 105.2498 90)
+    (at 137.962894 105.249802 90)
     (property "Sheetfile" "resolution-filters.kicad_sch")
     (property "Sheetname" "")
     (path "/c824767b-ca57-4867-8527-11815d916e34")
@@ -2213,6 +2327,16 @@
       (net 20 "Net-(C508-Pad1)") (pinfunction "2") (pintype "passive") (tstamp d0e41787-2720-4a9f-bae2-84f14a03496e))
     (pad "3" thru_hole circle locked (at 2.44 0 90) (size 1.03 1.03) (drill 0.63) (layers *.Cu *.Mask)
       (net 3 "GND") (pinfunction "3") (pintype "passive") (tstamp 3ce37d9e-6447-43a1-ad0e-30cb70ff8fdd))
+    (model "${KIPRJMOD}/resolution-filters-models/resolution-filters-3D/UM-007.step"
+      (offset (xyz 0 0 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 0))
+    )
+    (model "${KIPRJMOD}/resolution-filters-models/resolution-filters-3D/UM-007.wrl"
+      (offset (xyz 0 0 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 0))
+    )
   )
 
   (footprint "Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P5.00mm" (layer "F.Cu")
@@ -2541,6 +2665,16 @@
       (net 17 "Net-(C511-Pad1)") (pintype "passive") (tstamp 65d1865e-dda2-4817-80b0-6e88022748a6))
     (pad "2" thru_hole circle locked (at 5.08 0) (size 1.7018 1.7018) (drill 1.1938) (layers *.Cu *.Mask)
       (net 3 "GND") (pintype "passive") (tstamp 3eeeae7f-37d3-47bb-88d7-c12939a49124))
+    (model "${KIPRJMOD}/resolution-filters-models/resolution-filters-3D/Trimmer Cap - Brown.step"
+      (offset (xyz 0 0 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 0))
+    )
+    (model "${KIPRJMOD}/resolution-filters-models/resolution-filters-3D/Trimmer Cap - Brown.wrl"
+      (offset (xyz 0 0 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 0))
+    )
   )
 
   (footprint "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" (layer "F.Cu")
@@ -2593,7 +2727,7 @@
 
   (footprint "Inductor_THT:L_Toroid_Vertical_L13.0mm_W6.5mm_P5.60mm" (layer "F.Cu")
     (tedit 5AE59B06) (tstamp d866fedb-1055-432d-ac36-e213a2609321)
-    (at 167.507 76.962 90)
+    (at 167.507006 76.962 90)
     (descr "L_Toroid, Vertical series, Radial, pin pitch=5.60mm, , length*width=13*6.5mm^2")
     (tags "L_Toroid Vertical series Radial pin pitch 5.60mm  length 13mm width 6.5mm")
     (property "Sheetfile" "resolution-filters.kicad_sch")
@@ -2644,7 +2778,12 @@
       (net 7 "Net-(C519-Pad2)") (pinfunction "1") (pintype "passive") (tstamp 41ddae2c-f9b8-4224-87db-25f7305fa87d))
     (pad "2" thru_hole circle (at 0 5.6 90) (size 2.6 2.6) (drill 1.3) (layers *.Cu *.Mask)
       (net 3 "GND") (pinfunction "2") (pintype "passive") (tstamp 90c034dc-28f2-41e2-aa42-dcc028db33db))
-    (model "${KICAD6_3DMODEL_DIR}/Inductor_THT.3dshapes/L_Toroid_Vertical_L13.0mm_W6.5mm_P5.60mm.wrl"
+    (model "${KIPRJMOD}/resolution-filters-models/resolution-filters-3D/T37-6 IND004.step"
+      (offset (xyz 0 0 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 0))
+    )
+    (model "C:/Users/Dougl/OneDrive/Ham Radio/KiCad Files/W7ZOI Spectrum Analyzer/if-and-log-amp/if-and-log-amp/if-log-amp-models/if-log-amp-3D/T37-6 IND004.wrl"
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -2653,7 +2792,7 @@
 
   (footprint "resolution-filters:GKG60015" (layer "F.Cu")
     (tedit 0) (tstamp dad05c54-d827-453c-8910-428f74104fa1)
-    (at 177.1743 93.3703)
+    (at 177.174296 93.370298)
     (property "Sheetfile" "resolution-filters.kicad_sch")
     (property "Sheetname" "")
     (path "/e885adeb-30a8-4c45-8713-fc2d2ae6704d")
@@ -2759,6 +2898,16 @@
       (net 22 "Net-(C518-Pad1)") (pintype "passive") (tstamp 7f6e35ca-7cbc-40c1-9bc1-8c4dccd59108))
     (pad "2" thru_hole circle locked (at 5.08 0) (size 1.7018 1.7018) (drill 1.1938) (layers *.Cu *.Mask)
       (net 3 "GND") (pintype "passive") (tstamp 42780282-a55e-4035-902e-ebb0297c53e7))
+    (model "${KIPRJMOD}/resolution-filters-models/resolution-filters-3D/Trimmer Cap - Brown.step"
+      (offset (xyz 0 0 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 0))
+    )
+    (model "${KIPRJMOD}/resolution-filters-models/resolution-filters-3D/Trimmer Cap - Brown.wrl"
+      (offset (xyz 0 0 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 0))
+    )
   )
 
   (footprint "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" (layer "F.Cu")
@@ -2887,6 +3036,16 @@
       (net 3 "GND") (pintype "passive") (tstamp befc21e9-0824-4a70-bc0b-5692f3c302be))
     (pad "2" thru_hole circle locked (at 2.5 0 90) (size 1.95 1.95) (drill 1.3) (layers *.Cu *.Mask)
       (net 12 "Net-(C503-Pad3)") (pintype "passive") (tstamp 1f7c6380-532a-4482-ba11-4992a71e8bd6))
+    (model "${KIPRJMOD}/resolution-filters-models/resolution-filters-3D/691103110002.step"
+      (offset (xyz 0 0 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 0))
+    )
+    (model "${KIPRJMOD}/resolution-filters-models/resolution-filters-3D/691103110002_1.wrl"
+      (offset (xyz 0 0 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 0))
+    )
   )
 
   (footprint "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" (layer "F.Cu")
@@ -2999,7 +3158,7 @@
 
   (footprint "resolution-filters:GKG60015" (layer "F.Cu")
     (tedit 0) (tstamp f2d165f6-81e1-4e6b-b912-60e580f9c6ba)
-    (at 102.7115 80.645)
+    (at 102.711504 80.645)
     (property "Sheetfile" "resolution-filters.kicad_sch")
     (property "Sheetname" "")
     (path "/36e783d5-9ae1-4da1-b87d-c4c3d6925974")
@@ -3105,6 +3264,16 @@
       (net 1 "Net-(C501-Pad1)") (pintype "passive") (tstamp 36108dd0-7696-44e9-894c-eacf96bf83e1))
     (pad "2" thru_hole circle locked (at 5.08 0) (size 1.7018 1.7018) (drill 1.1938) (layers *.Cu *.Mask)
       (net 3 "GND") (pintype "passive") (tstamp ec79dfb4-4e25-42a9-bc2a-b746f2369a5f))
+    (model "${KIPRJMOD}/resolution-filters-models/resolution-filters-3D/Trimmer Cap - Brown.step"
+      (offset (xyz 0 0 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 0))
+    )
+    (model "C:/Users/Dougl/OneDrive/Ham Radio/KiCad Files/W7ZOI Spectrum Analyzer/if-and-log-amp/if-and-log-amp/if-log-amp-models/if-log-amp-3D/Trimmer Cap - Brown.wrl"
+      (offset (xyz 0 0 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 0))
+    )
   )
 
   (footprint "Relay_THT:Relay_SPDT_Omron_G5V-1" (layer "F.Cu")
@@ -3173,7 +3342,7 @@
 
   (footprint "resolution-filters:XTAL_ECS-10.7-7.5B" (layer "F.Cu")
     (tedit 62B58515) (tstamp fddeef41-fecd-4bc5-9387-56b8e91b9b57)
-    (at 144.4399 105.1813 90)
+    (at 144.439894 105.181298 90)
     (property "Sheetfile" "resolution-filters.kicad_sch")
     (property "Sheetname" "")
     (path "/bc3d74aa-5dd6-4810-9c52-54a38394b60f")
@@ -3206,6 +3375,16 @@
       (net 17 "Net-(C511-Pad1)") (pinfunction "2") (pintype "passive") (tstamp 16ac94b6-e726-430e-9284-245fe74485fa))
     (pad "3" thru_hole circle locked (at 2.44 0 90) (size 1.03 1.03) (drill 0.63) (layers *.Cu *.Mask)
       (net 3 "GND") (pinfunction "3") (pintype "passive") (tstamp 9470dadf-2e65-4d37-9300-4d4f3e39f57e))
+    (model "${KIPRJMOD}/resolution-filters-models/resolution-filters-3D/UM-007.step"
+      (offset (xyz 0 0 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 0))
+    )
+    (model "${KIPRJMOD}/resolution-filters-models/resolution-filters-3D/UM-007.wrl"
+      (offset (xyz 0 0 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 0))
+    )
   )
 
   (gr_arc (start 101.117263 67.604851) (mid 102.349348 64.630345) (end 105.323854 63.39826) (layer "Edge.Cuts") (width 0.16) (tstamp 22490e1c-d27d-466f-8cbf-43f8f7fe114a))

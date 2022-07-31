@@ -11,7 +11,7 @@
     (via_costs 50)
     (plane_via_costs 5)
     (start_ripup_costs 100)
-    (start_pass_no 1104)
+    (start_pass_no 1491)
     (layer_rule F.Cu
       (active on)
       (preferred_direction horizontal)
@@ -53,11 +53,11 @@
     "kicad_default" "Via[0-1]_800:400_um-kicad_default"
   )
   (class default
-    "Net-(C304-Pad1)" GND "Net-(C305-Pad1)" "Net-(C305-Pad2)" "Net-(C306-Pad1)" "Net-(C307-Pad1)" "Net-(C308-Pad1)" +5
-    "Net-(C310-Pad1)" "Net-(C311-Pad1)" "Net-(C312-Pad2)" +10 "Net-(C314-Pad1)" "Net-(C314-Pad2)" "Net-(C317-Pad2)" "Net-(C318-Pad1)"
-    "Net-(C319-Pad1)" "Net-(C320-Pad2)" "Net-(C321-Pad1)" "Net-(C322-Pad2)" "Net-(C301-Pad3)" "Net-(C303-Pad3)" +15 "Net-(R313-Pad1)"
-    "Net-(R314-Pad2)" "Net-(R315-Pad2)" "Net-(R318-Pad1)" "Net-(C324-Pad1)" "Net-(R320-Pad1)" "unconnected-(U304-Pad3)" "unconnected-(U304-Pad5)" "unconnected-(U305-Pad4)"
-    "unconnected-(U305-Pad5)" "unconnected-(U305-Pad8)" "Net-(C302-Pad3)" "Net-(C323-Pad1)"
+    "Net-(C304-Pad1)" GND "Net-(C305-Pad2)" "Net-(C306-Pad1)" "Net-(C307-Pad1)" "Net-(C308-Pad1)" +5 "Net-(C310-Pad1)"
+    "Net-(C311-Pad1)" "Net-(C312-Pad2)" +10 "Net-(C314-Pad1)" "Net-(C314-Pad2)" "Net-(C317-Pad2)" "Net-(C318-Pad1)" "Net-(C319-Pad1)"
+    "Net-(C320-Pad2)" "Net-(C321-Pad1)" "Net-(C322-Pad2)" "Net-(C301-Pad3)" "Net-(C303-Pad3)" +15 "Net-(R313-Pad1)" "Net-(R314-Pad2)"
+    "Net-(R315-Pad2)" "Net-(R318-Pad1)" "unconnected-(U304-Pad3)" "unconnected-(U304-Pad5)" "unconnected-(U305-Pad5)" "unconnected-(U305-Pad8)" "Net-(C302-Pad3)" "Net-(C323-Pad1)"
+    /In "Net-(R320-Pad1)" "unconnected-(U305-Pad1)"
     (clearance_class default)
     (via_rule default)
     (rule
