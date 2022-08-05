@@ -1,0 +1,5 @@
+(sym_lib_table
+  (lib (name "2ndmixer-2ndlo")(type "KiCad")(uri "${KIPRJMOD}/2ndmixer-2ndlo-models/2ndmixer-2ndlo-symbols/2N5179.kicad_sym")(options "")(descr ""))
+  (lib (name "2022-08-04_19-42-18")(type "KiCad")(uri "${KIPRJMOD}/2ndmixer-2ndlo-models/2ndmixer-2ndlo-symbols/2022-08-04_19-42-18.kicad_sym")(options "")(descr ""))
+  (lib (name "2N5109")(type "KiCad")(uri "${KIPRJMOD}/2ndmixer-2ndlo-models/2ndmixer-2ndlo-symbols/2N5109.kicad_sym")(options "")(descr ""))
+)

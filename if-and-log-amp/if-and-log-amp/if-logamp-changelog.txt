@@ -11,3 +11,5 @@ cap leads should be 5mm apart -done
 changer "j" solder holes to "C" to reflect connection of feedthrough caps - label to indicate hot is not connected - done except silkscreen - might eliminate hole
 make c311 polarized, negative terminal to ground - done
 schematic - switched output coax and feedthrough cap so feedthrough cap is before ouput connector - done
+doublecheck order of pot caps to make sure pin 2 is in middle
+fix footprints for non polar caps
