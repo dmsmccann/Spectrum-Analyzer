@@ -3698,7 +3698,7 @@
     (property "Footprint" "if-log-amp:691103110002" (id 2) (at 287.02 42.545 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "~" (id 3) (at 287.02 42.545 0)
+    (property "Datasheet" "https://www.we-online.com/katalog/datasheet/691137710002.pdf" (id 3) (at 287.02 42.545 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid 7eebc141-3e5c-4295-aa06-517997e7d6e6))
