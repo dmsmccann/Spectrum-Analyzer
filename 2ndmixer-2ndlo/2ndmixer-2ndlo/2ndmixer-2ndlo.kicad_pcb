@@ -449,6 +449,16 @@
       (net 5 "Net-(C204-Pad1)") (pintype "passive") (tstamp 5addfc87-0ab7-4b8f-95b6-3ffa4fc7a79d))
     (pad "2" thru_hole circle locked (at 5.08 0 270) (size 1.7018 1.7018) (drill 1.1938) (layers *.Cu *.Mask)
       (net 2 "GND") (pintype "passive") (tstamp dc85f7de-bac5-4b8a-8315-57b7e61da94c))
+    (model "${KIPRJMOD}/2ndmixer-2ndlo-models/2ndmixer-2ndlo-3D/Trimmer Cap - Brown.stp"
+      (offset (xyz 2.8 0 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 90))
+    )
+    (model "${KIPRJMOD}/2ndmixer-2ndlo-models/2ndmixer-2ndlo-3D/Trimmer Cap - Brown.wrl"
+      (offset (xyz 0 0 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 0))
+    )
   )
 
   (footprint "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" (layer "F.Cu")
@@ -646,6 +656,16 @@
       (net 21 "/+15") (pinfunction "Pin_1") (pintype "passive") (tstamp 45f7526b-300a-48d5-9399-a2611d5d27da))
     (pad "2" thru_hole circle locked (at 1.75 0 90) (size 1.8 1.8) (drill 1.2) (layers *.Cu *.Mask)
       (net 2 "GND") (pinfunction "Pin_2") (pintype "passive") (tstamp d6ba14e7-d8ba-4c0f-b2e3-49fedb6f37f8))
+    (model "${KIPRJMOD}/2ndmixer-2ndlo-models/2ndmixer-2ndlo-3D/691103110002_1.step"
+      (offset (xyz 0 0 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 0))
+    )
+    (model "${KIPRJMOD}/2ndmixer-2ndlo-models/2ndmixer-2ndlo-3D/691103110002_1.wrl"
+      (offset (xyz 0 0 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 0))
+    )
   )
 
   (footprint "MountingHole:MountingHole_3.2mm_M3" (layer "F.Cu")
@@ -1387,6 +1407,11 @@
       (net 2 "GND") (pinfunction "RF-OUT/DC-IN") (pintype "bidirectional") (tstamp 2cf1a667-cf6b-445a-afe6-554013a3f833))
     (pad "4" smd rect locked (at 0 -3.175) (size 0.762 1.4732) (layers "F.Cu" "F.Paste" "F.Mask")
       (net 2 "GND") (pinfunction "GND") (pintype "power_in") (tstamp 7464549f-5eca-4073-8ec4-d421ece14779))
+    (model "${KIPRJMOD}/2ndmixer-2ndlo-models/2ndmixer-2ndlo-3D/RRR137_MNC.step"
+      (offset (xyz 0 0 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 0))
+    )
   )
 
   (footprint "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" (layer "F.Cu")
@@ -1620,6 +1645,16 @@
       (net 5 "Net-(C204-Pad1)") (pintype "passive") (tstamp 5f90dcf9-5777-486a-b342-bec8db398568))
     (pad "4" thru_hole circle locked (at 0 -1.27 90) (size 1.11 1.11) (drill 0.71) (layers *.Cu *.Mask)
       (net 2 "GND") (pinfunction "SHIELD") (pintype "passive") (tstamp d98bebe5-718e-4fd9-9ebb-9269f190a6ba))
+    (model "${KIPRJMOD}/2ndmixer-2ndlo-models/2ndmixer-2ndlo-3D/to-72.step"
+      (offset (xyz 0 0 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 0))
+    )
+    (model "${KIPRJMOD}/2ndmixer-2ndlo-models/2ndmixer-2ndlo-3D/to-72.wrl"
+      (offset (xyz 0 0 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 0))
+    )
   )
 
   (footprint "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" (layer "F.Cu")
@@ -2221,7 +2256,12 @@
       (net 20 "Net-(L203-Pad1)") (pintype "passive") (tstamp 5b9e0ec5-afcf-4fce-984a-d789b6dab722))
     (pad "2" thru_hole circle (at 0 5.6) (size 2.6 2.6) (drill 1.3) (layers *.Cu *.Mask)
       (net 12 "Net-(C212-Pad1)") (pintype "passive") (tstamp b719586e-6f7c-4efe-9567-14fdb34e3c22))
-    (model "${KICAD6_3DMODEL_DIR}/Inductor_THT.3dshapes/L_Toroid_Vertical_L13.0mm_W6.5mm_P5.60mm.wrl"
+    (model "${KIPRJMOD}/2ndmixer-2ndlo-models/2ndmixer-2ndlo-3D/T37-6 IND004.step"
+      (offset (xyz 0 0 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 0))
+    )
+    (model "${KIPRJMOD}/2ndmixer-2ndlo-models/2ndmixer-2ndlo-3D/T37-6 IND004.wrl"
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -2281,7 +2321,12 @@
       (net 19 "Net-(L202-Pad1)") (pintype "passive") (tstamp 6c54d288-0475-4d93-ad64-43934449428c))
     (pad "2" thru_hole circle (at 0 5.6) (size 2.6 2.6) (drill 1.3) (layers *.Cu *.Mask)
       (net 2 "GND") (pintype "passive") (tstamp 2352eec2-f311-4af3-8941-9828d12e66fa))
-    (model "${KICAD6_3DMODEL_DIR}/Inductor_THT.3dshapes/L_Toroid_Vertical_L13.0mm_W6.5mm_P5.60mm.wrl"
+    (model "${KIPRJMOD}/2ndmixer-2ndlo-models/2ndmixer-2ndlo-3D/T37-6 IND004.step"
+      (offset (xyz 0 0 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 0))
+    )
+    (model "${KIPRJMOD}/2ndmixer-2ndlo-models/2ndmixer-2ndlo-3D/T37-6 IND004.wrl"
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -2349,8 +2394,13 @@
       (net 15 "Net-(C214-Pad1)") (pinfunction "2") (pintype "passive") (tstamp 22f55603-6dd2-4b7b-b05e-f28b9c935628))
     (pad "3" thru_hole circle (at 15 0) (size 3 3) (drill 1.2) (layers *.Cu *.Mask)
       (net 23 "Net-(Q202-PadC)") (pinfunction "3") (pintype "passive") (tstamp 99f1d8e2-2c1a-4323-957c-10338435a5ef))
-    (model "${KICAD6_3DMODEL_DIR}/Transformer_THT.3dshapes/Autotransformer_Toroid_1Tap_Horizontal_D10.5mm_Amidon-T37.wrl"
-      (offset (xyz 0 0 0))
+    (model "${KIPRJMOD}/2ndmixer-2ndlo-models/2ndmixer-2ndlo-3D/L_Tor_13x8x5_3a_cp.step"
+      (offset (xyz 0 -5 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 0))
+    )
+    (model "${KIPRJMOD}/2ndmixer-2ndlo-models/2ndmixer-2ndlo-3D/L_Tor_13x8x5_3a_cp.wrl"
+      (offset (xyz 0 -5 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
@@ -2505,7 +2555,12 @@
       (net 1 "Net-(C202-Pad1)") (pintype "passive") (tstamp 36564c94-5a6a-4bd4-aca6-b852e2e633e4))
     (pad "2" thru_hole circle (at 0 5.6) (size 2.6 2.6) (drill 1.3) (layers *.Cu *.Mask)
       (net 5 "Net-(C204-Pad1)") (pintype "passive") (tstamp aa73e7f1-8df1-47b5-9c98-34eae6dd0b2c))
-    (model "${KICAD6_3DMODEL_DIR}/Inductor_THT.3dshapes/L_Toroid_Vertical_L13.0mm_W6.5mm_P5.60mm.wrl"
+    (model "${KIPRJMOD}/2ndmixer-2ndlo-models/2ndmixer-2ndlo-3D/T37-6 IND004.step"
+      (offset (xyz 0 0 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 0))
+    )
+    (model "${KIPRJMOD}/2ndmixer-2ndlo-models/2ndmixer-2ndlo-3D/T37-6 IND004.wrl"
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -2519,10 +2574,10 @@
   (gr_text "+15" (at 104.4448 94.1578) (layer "F.SilkS") (tstamp 1d3e0ea9-bfc7-45e9-b4a5-fb23e59e3046)
     (effects (font (size 1 1) (thickness 0.2)))
   )
-  (gr_text "In" (at 108.3818 113.3348) (layer "F.SilkS") (tstamp 641c9af9-fd06-421f-9518-f67b466732dd)
+  (gr_text "In" (at 106.2736 115.6462 90) (layer "F.SilkS") (tstamp 641c9af9-fd06-421f-9518-f67b466732dd)
     (effects (font (size 1.5 1.5) (thickness 0.3)))
   )
-  (gr_text "Out" (at 165.1508 123.3932) (layer "F.SilkS") (tstamp b53dca4f-e347-4762-a202-fd1e0b5f38a8)
+  (gr_text "Out" (at 164.465 120.9548 90) (layer "F.SilkS") (tstamp b53dca4f-e347-4762-a202-fd1e0b5f38a8)
     (effects (font (size 1.5 1.5) (thickness 0.3)))
   )
   (gr_text "Andy McCann KA3KAF\nDoug McCann KA3KAG" (at 169.7736 98.9838 270) (layer "F.SilkS") (tstamp c0e34bba-ae39-4544-890b-3615b26b4c6a)
@@ -20421,7 +20476,7 @@
         (xy 116.688618 88.397886)
         (xy 116.75093 88.36386)
         (xy 116.819254 88.368026)
-        (xy 116.98535 88.426029)
+        (xy 117.026597 88.440433)
         (xy 117.031013 88.441975)
         (xy 117.035606 88.442847)
         (xy 117.290509 88.491242)
@@ -22205,9 +22260,10 @@
         (xy 106.782424 86.492038)
         (xy 106.771738 86.482835)
         (xy 106.762173 86.487238)
+        (xy 105.97241 87.277)
         (xy 105.6132 87.63621)
-        (xy 104.823382 88.426029)
-        (xy 104.816623 88.438406)
+        (xy 104.823383 88.426028)
+        (xy 104.816624 88.438407)
         (xy 104.821905 88.445461)
         (xy 104.99828 88.548527)
         (xy 105.007563 88.552974)

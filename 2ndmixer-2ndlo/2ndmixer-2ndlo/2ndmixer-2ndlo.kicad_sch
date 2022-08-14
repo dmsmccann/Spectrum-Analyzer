@@ -5,7 +5,7 @@
   (paper "USLegal")
 
   (title_block
-    (title "Spectrum Analyzer: Second Mixer and Second Local Analyzer")
+    (title "Spectrum Analyzer: Second Mixer and Second Local Oscillator")
     (date "2022-08-04")
     (rev "0")
     (company "Andy McCann KA3KAF and Doug McCann KA3KAG")
