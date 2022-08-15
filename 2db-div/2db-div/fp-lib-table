@@ -1,0 +1,3 @@
+(fp_lib_table
+  (lib (name "2db-div")(type "KiCad")(uri "${KIPRJMOD}/2db-div-models/2db-div.pretty")(options "")(descr ""))
+)
