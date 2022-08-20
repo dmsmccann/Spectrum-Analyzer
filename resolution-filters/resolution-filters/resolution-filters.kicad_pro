@@ -372,7 +372,9 @@
     "meta": {
       "version": 2
     },
-    "net_colors": null
+    "net_colors": {
+      "/501-in": "rgb(255, 19, 136)"
+    }
   },
   "pcbnew": {
     "last_paths": {

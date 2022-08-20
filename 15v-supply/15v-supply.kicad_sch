@@ -5,9 +5,9 @@
   (paper "A")
 
   (title_block
-    (title "Dual Polarity 15V Supply")
+    (title "Spectrum Analyzer: Dual Polarity 15V Supply")
     (date "2022-06-16")
-    (rev "0.0")
+    (rev "0")
     (company "Andy McCann KA3KAF and Doug McCann KA3KAG")
     (comment 2 "Audiophile's Project Source Book, Fig 7-8")
     (comment 3 "G. Randy Slone")

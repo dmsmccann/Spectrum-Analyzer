@@ -1,0 +1,7 @@
+* A dual opamp ngspice model
+* file name: LM358-dual.lib
+.subckt MC1458_ti 1out 1in- 1in+ vcc- 2in+ 2in- 2out vcc+
+.include MC1458.lib
+XU1A 1in+ 1in- vcc+ vcc- 1out MC1458
+XU1B 2in+ 2in- vcc+ vcc- 2out MC1458
+.ends
