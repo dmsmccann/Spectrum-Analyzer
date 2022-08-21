@@ -443,6 +443,10 @@
     [
       "633a963b-5ac6-4181-b149-baaec0e755c1",
       "15v-power-supply"
+    ],
+    [
+      "b6030815-2e40-4c5d-a264-1a0d5112a2b3",
+      "2nd Mixer 2nd LO"
     ]
   ],
   "text_variables": {}

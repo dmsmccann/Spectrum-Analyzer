@@ -1878,11 +1878,6 @@
     (uuid fe47c687-5d5d-4090-ab5d-9b48dbd8e002)
   )
 
-  (text "Notes:\n-Digikey does not have 82u caps\n-Seems like 100Mhz 5th overtone xtal is special order\n-MAV-11 is available but not on Digi-Key and as a surface mount\n-TUF-1H+ not on Digi-Key but avaialble from MiniCircuits\n"
-    (at 16.51 196.85 0)
-    (effects (font (size 1.27 1.27)) (justify left bottom))
-    (uuid 3ccb287f-603c-48b2-ac1a-eb15cd249308)
-  )
   (text "6db Pad" (at 132.08 133.985 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid b262b334-6e62-435c-86a7-af91eb8b4917)
