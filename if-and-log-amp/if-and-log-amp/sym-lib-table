@@ -3,4 +3,5 @@
   (lib (name "AD8307AN")(type "KiCad")(uri "${KIPRJMOD}/if-log-amp-models/if-log-amp-symbols/AD8307AN.kicad_sym")(options "")(descr ""))
   (lib (name "CA3140EZ")(type "KiCad")(uri "${KIPRJMOD}/if-log-amp-models/if-log-amp-symbols/CA3140EZ.kicad_sym")(options "")(descr ""))
   (lib (name "Vishay Trim Cap")(type "KiCad")(uri "${KIPRJMOD}/if-log-amp-models/if-log-amp-symbols/Vishay Trim Cap.kicad_sym")(options "")(descr ""))
+  (lib (name "ad8307an")(type "KiCad")(uri "C:/Users/Dougl/OneDrive/Desktop/ad8307an.kicad_sym")(options "")(descr ""))
 )

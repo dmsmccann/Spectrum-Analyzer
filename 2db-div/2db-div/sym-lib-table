@@ -1,3 +1,4 @@
 (sym_lib_table
   (lib (name "2db-div")(type "KiCad")(uri "${KIPRJMOD}/2db-div-models/2db-div-symbols/2022-08-15_18-24-30.kicad_sym")(options "")(descr ""))
+  (lib (name "mc1458p")(type "KiCad")(uri "C:/Users/Dougl/OneDrive/Desktop/mc1458p.kicad_sym")(options "")(descr ""))
 )
