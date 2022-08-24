@@ -1,0 +1,4 @@
+(sym_lib_table
+  (lib (name "vco-1stmixer")(type "KiCad")(uri "${KIPRJMOD}/vco-1stmixer-models/vco-1stmixer-symbols/vco-1stmixer.kicad_sym")(options "")(descr ""))
+  (lib (name "mav-11")(type "KiCad")(uri "C:/Users/Dougl/OneDrive/Ham Radio/KiCad Files/W7ZOI Spectrum Analyzer/2ndmixer-2ndlo/2ndmixer-2ndlo/2ndmixer-2ndlo-models/2ndmixer-2ndlo-symbols/mav-11.kicad_sym")(options "")(descr ""))
+)

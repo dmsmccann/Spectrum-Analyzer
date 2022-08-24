@@ -332,7 +332,7 @@
       "no_connect_dangling": "warning",
       "pin_not_connected": "error",
       "pin_not_driven": "error",
-      "pin_to_pin": "warning",
+      "pin_to_pin": "error",
       "power_pin_not_driven": "error",
       "similar_labels": "warning",
       "unannotated": "error",
@@ -386,7 +386,7 @@
     "page_layout_descr_file": ""
   },
   "schematic": {
-    "annotate_start_num": 300,
+    "annotate_start_num": 0,
     "drawing": {
       "default_line_thickness": 6.0,
       "default_text_size": 50.0,
@@ -429,20 +429,40 @@
       ""
     ],
     [
+      "633a963b-5ac6-4181-b149-baaec0e755c1",
+      "15V Dual Power Supply"
+    ],
+    [
       "e5c5d6b0-703e-4a07-baca-024b54565ece",
       "TimeBase"
     ],
     [
-      "91afdbb9-c6d6-4a76-a186-be607f7c2a6b",
-      "IF and Log Amplifier"
+      "7dc681f1-2943-4bbb-a02b-632990122836",
+      "70 MHz LP Filter"
+    ],
+    [
+      "cdcab9f9-dac7-455c-a5f6-cabc856b606c",
+      "VCO -1st Mixer"
+    ],
+    [
+      "4cf381d6-c54e-40dd-966c-58f7fa278f2b",
+      "110.7 MHz Filter"
+    ],
+    [
+      "b6030815-2e40-4c5d-a264-1a0d5112a2b3",
+      "2nd Mixer 2nd LO"
     ],
     [
       "1213119d-b3ea-47c8-aaf6-ecc398bfbb00",
       "Resolution Filters"
     ],
     [
-      "633a963b-5ac6-4181-b149-baaec0e755c1",
-      "15v-power-supply"
+      "91afdbb9-c6d6-4a76-a186-be607f7c2a6b",
+      "IF and Log Amplifier"
+    ],
+    [
+      "6702cb80-1bae-4aa2-9f4a-d16d8c775e6d",
+      "2db-div Board"
     ]
   ],
   "text_variables": {}

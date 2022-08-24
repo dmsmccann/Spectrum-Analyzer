@@ -1,0 +1,3 @@
+(fp_lib_table
+  (lib (name "vco-1stmixer")(type "KiCad")(uri "${KIPRJMOD}/vco-1stmixer-models/vco-1stmixer.pretty")(options "")(descr ""))
+)
