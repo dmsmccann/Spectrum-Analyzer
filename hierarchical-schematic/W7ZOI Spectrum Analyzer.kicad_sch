@@ -11266,10 +11266,10 @@
       (reference "J602") (unit 1) (value "Out") (footprint "")
     )
     (path "/7dc681f1-2943-4bbb-a02b-632990122836/82a24083-ad90-416c-a37d-72c44e9f0968"
-      (reference "J701") (unit 1) (value "Coax Solder Point") (footprint "Connector_Wire:SolderWire-0.5sqmm_1x02_P4.6mm_D0.9mm_OD2.1mm")
+      (reference "J701") (unit 1) (value "In") (footprint "Connector_Wire:SolderWire-0.5sqmm_1x02_P4.6mm_D0.9mm_OD2.1mm")
     )
     (path "/7dc681f1-2943-4bbb-a02b-632990122836/843c2f3b-4c2f-487d-818f-dbe5d2e816ce"
-      (reference "J702") (unit 1) (value "Coax Solder Point") (footprint "Connector_Wire:SolderWire-0.5sqmm_1x02_P4.6mm_D0.9mm_OD2.1mm")
+      (reference "J702") (unit 1) (value "Out") (footprint "Connector_Wire:SolderWire-0.5sqmm_1x02_P4.6mm_D0.9mm_OD2.1mm")
     )
     (path "/6702cb80-1bae-4aa2-9f4a-d16d8c775e6d/c2304d81-cf9f-40ef-8655-3f9b78bfd0ae"
       (reference "J1001") (unit 1) (value "Conn_01x02") (footprint "2db-div:691103110002")
