@@ -404,7 +404,7 @@
   )
 
   (symbol (lib_id "Mechanical:MountingHole") (at 163.195 162.56 0) (unit 1)
-    (in_bom yes) (on_board yes) (fields_autoplaced)
+    (in_bom no) (on_board yes) (fields_autoplaced)
     (uuid 0fd813d0-f45f-4d78-b9ef-2b0884bce909)
     (property "Reference" "H701" (id 0) (at 165.735 161.2899 0)
       (effects (font (size 1.27 1.27)) (justify left))
@@ -436,7 +436,7 @@
   )
 
   (symbol (lib_id "Mechanical:MountingHole") (at 198.755 162.56 0) (unit 1)
-    (in_bom yes) (on_board yes) (fields_autoplaced)
+    (in_bom no) (on_board yes) (fields_autoplaced)
     (uuid 181eb2b4-bd40-40e0-a1ed-d79f5880ae41)
     (property "Reference" "H703" (id 0) (at 201.295 161.2899 0)
       (effects (font (size 1.27 1.27)) (justify left))
@@ -542,7 +542,7 @@
   )
 
   (symbol (lib_id "Mechanical:MountingHole") (at 180.975 162.56 0) (unit 1)
-    (in_bom yes) (on_board yes) (fields_autoplaced)
+    (in_bom no) (on_board yes) (fields_autoplaced)
     (uuid 64817cdb-2158-4cac-aa6b-5921373afce2)
     (property "Reference" "H702" (id 0) (at 183.515 161.2899 0)
       (effects (font (size 1.27 1.27)) (justify left))
@@ -575,7 +575,7 @@
   )
 
   (symbol (lib_id "Connector:Conn_Coaxial") (at 203.2 99.06 0) (unit 1)
-    (in_bom yes) (on_board yes) (fields_autoplaced)
+    (in_bom no) (on_board yes) (fields_autoplaced)
     (uuid 76a4bab3-c931-417d-8276-1d7a8dd671ef)
     (property "Reference" "J702" (id 0) (at 205.74 98.0831 0)
       (effects (font (size 1.27 1.27)) (justify left))
@@ -653,7 +653,7 @@
   )
 
   (symbol (lib_id "Mechanical:MountingHole") (at 217.805 162.56 0) (unit 1)
-    (in_bom yes) (on_board yes) (fields_autoplaced)
+    (in_bom no) (on_board yes) (fields_autoplaced)
     (uuid a7af3750-771b-42df-9d50-07fdf8ee18d4)
     (property "Reference" "H704" (id 0) (at 220.345 161.2899 0)
       (effects (font (size 1.27 1.27)) (justify left))
@@ -735,7 +735,7 @@
   )
 
   (symbol (lib_id "Connector:Conn_Coaxial") (at 73.66 99.06 0) (mirror y) (unit 1)
-    (in_bom yes) (on_board yes) (fields_autoplaced)
+    (in_bom no) (on_board yes) (fields_autoplaced)
     (uuid e775b7f5-e59f-434c-8a34-56ea695e2529)
     (property "Reference" "J701" (id 0) (at 73.9774 91.44 0))
     (property "Value" "Coax Solder Point" (id 1) (at 73.9774 93.98 0))
