@@ -686,7 +686,7 @@
     (property "Spice_Model" "MC1458_ti")
     (property "Spice_Netlist_Enabled" "Y")
     (property "Spice_Primitive" "X")
-    (path "/de8877da-b168-40b5-835e-f7a9f82dba34")
+    (path "/82a9052a-1777-4305-bae2-b0aa1226b184")
     (attr through_hole)
     (fp_text reference "U1001" (at -3.81 -5.715) (layer "F.SilkS")
       (effects (font (size 1 1) (thickness 0.15)))

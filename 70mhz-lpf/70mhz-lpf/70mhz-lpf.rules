@@ -11,7 +11,7 @@
     (via_costs 50)
     (plane_via_costs 5)
     (start_ripup_costs 100)
-    (start_pass_no 63)
+    (start_pass_no 166)
     (layer_rule F.Cu
       (active on)
       (preferred_direction horizontal)
@@ -53,7 +53,7 @@
     "kicad_default" "Via[0-1]_800:400_um-kicad_default"
   )
   (class default
-    "Net-(C701-Pad1)" GND "Net-(C702-Pad1)" "Net-(C703-Pad1)" "Net-(C704-Pad1)" "Net-(C705-Pad1)" "unconnected-(J701-Pad2)" "unconnected-(J702-Pad2)"
+    "Net-(C701-Pad1)" GND "Net-(C702-Pad1)" "Net-(C703-Pad1)" "Net-(C704-Pad1)" "Net-(C705-Pad1)"
     (clearance_class default)
     (via_rule default)
     (rule
