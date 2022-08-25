@@ -11,7 +11,7 @@
     (via_costs 50)
     (plane_via_costs 5)
     (start_ripup_costs 100)
-    (start_pass_no 947)
+    (start_pass_no 793)
     (layer_rule F.Cu
       (active on)
       (preferred_direction horizontal)
@@ -55,7 +55,7 @@
   (class default
     "Net-(C201-Pad1)" GND "Net-(C203-Pad1)" "Net-(C201-Pad2)" "Net-(C204-Pad1)" "Net-(C204-Pad2)" "Net-(C207-Pad2)" "Net-(C209-Pad1)"
     "Net-(C209-Pad2)" "Net-(C210-Pad1)" "Net-(C211-Pad1)" "Net-(C212-Pad1)" "Net-(C212-Pad2)" "Net-(C213-Pad2)" "Net-(J203-Pad1)" "Net-(C214-Pad2)"
-    "Net-(L202-Pad2)" "Net-(J201-Pad1)" "Net-(L204-Pad1)" "Net-(L203-Pad1)" /+15 "Net-(Q202-Pad1)" "Net-(Q202-Pad3)" "Net-(R213-Pad2)"
+    "Net-(L202-Pad2)" "Net-(J201-Pad1)" "Net-(L204-Pad1)" "Net-(L203-Pad1)" /+15 "Net-(Q202-Pad1)" "Net-(Q202-Pad3)"
     (clearance_class default)
     (via_rule default)
     (rule
