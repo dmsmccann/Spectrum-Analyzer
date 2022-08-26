@@ -1,0 +1,31 @@
+.title KiCad schematic
+.include "2db-div-spice\MC1458-dual.lib"
+.include "2db-div-spice\Pot.lib"
+.include "2db-div-spice\Pot2.lib"
+.include "2db-div-spice\fairch.lib"
+XR1006 GND Net-_R1006-Pad2_ /-15 pot_lin
+R1008 Net-_R1006-Pad2_ Net-_D1001-Pad2_ 20k
+XU1001 Net-_R1005-Pad2_ Net-_R1004-Pad2_ GND Net-_C1002-Pad2_ GND Net-_D1001-Pad2_ Net-_D1001-Pad1_ Net-_R1001-Pad1_ MC1458_ti
+R1011 Net-_R1009-Pad2_ Net-_D1001-Pad1_ 4.99k
+R1013 Net-_D1001-Pad1_ Net-_R1013-Pad2_ 1k
+XR1012 /-15 Net-_R1010-Pad2_ GND pot_lin2
+C1003 Net-_C1003-Pad1_ GND .1u
+C1004 Net-_C1004-Pad1_ GND 3.3u
+V1001 /In GND dc 5
+V1003 /+15 GND dc 15
+V1002 /-15 GND dc -15
+R1003 Net-_D1001-Pad2_ Net-_R1001-Pad1_ 20k
+R1001 Net-_R1001-Pad1_ /+15 43
+C1001 /+15 GND 100u
+J1002 /In From R2
+R1005 Net-_R1004-Pad2_ Net-_R1005-Pad2_ 40k
+R1004 /In Net-_R1004-Pad2_ 20k
+C1002 GND Net-_C1002-Pad2_ 100u
+R1002 /-15 Net-_C1002-Pad2_ 43
+R1010 Net-_D1001-Pad2_ Net-_R1010-Pad2_ 249k
+R1007 Net-_R1005-Pad2_ Net-_D1001-Pad2_ 10k
+D1001 Net-_D1001-Pad2_ Net-_D1001-Pad1_ 1N4152
+R1009 Net-_D1001-Pad2_ Net-_R1009-Pad2_ 20k
+.param Rt=10k set=0.5
+.param Rt2=10k set2=0.5
+.end
