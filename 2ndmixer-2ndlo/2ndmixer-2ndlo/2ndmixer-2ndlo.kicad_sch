@@ -2507,6 +2507,8 @@
     (property "Datasheet" "" (id 3) (at 289.56 96.52 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "Field4" "FT-37-43 " (id 4) (at 303.53 97.79 90))
+    (property "Field5" "10T #28" (id 5) (at 302.26 100.33 90))
     (pin "1" (uuid cf7f05ac-0e8f-404f-bf68-3da0403bd365))
     (pin "2" (uuid aff5248d-e36c-40e9-b381-899bb545fdf1))
     (pin "3" (uuid 6b3bf837-d34f-447a-b912-c187d41dfc11))
