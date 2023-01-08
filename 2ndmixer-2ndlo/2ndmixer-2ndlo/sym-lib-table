@@ -1,5 +1,3 @@
 (sym_lib_table
-  (lib (name "2ndmixer-2ndlo")(type "KiCad")(uri "${KIPRJMOD}/2ndmixer-2ndlo-models/2ndmixer-2ndlo-symbols/2ndmixer-2ndlo.kicad_sym")(options "")(descr ""))
-  (lib (name "tuf-1h+")(type "KiCad")(uri "C:/Users/Dougl/OneDrive/Desktop/tuf-1h+.kicad_sym")(options "")(descr ""))
-  (lib (name "bifilar_transformer")(type "KiCad")(uri "C:/Users/Dougl/OneDrive/Desktop/bifilar_transformer.kicad_sym")(options "")(descr ""))
+  (lib (name "spectrum_analyzer")(type "KiCad")(uri "C:/Users/Dougl/OneDrive/Ham Radio/KiCad Files/W7ZOI Spectrum Analyzer/hierarchical-schematic/spectrum-analyzer-models/spectrum-analyzer-symbols/spectrum-analyzer.kicad_sym")(options "")(descr ""))
 )

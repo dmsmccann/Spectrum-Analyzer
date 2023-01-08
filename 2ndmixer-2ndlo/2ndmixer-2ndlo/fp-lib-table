@@ -1,3 +1,3 @@
 (fp_lib_table
-  (lib (name "2ndmixer-2ndlo")(type "KiCad")(uri "${KIPRJMOD}/2ndmixer-2ndlo-models/2ndmixer-2ndlo.pretty")(options "")(descr ""))
+  (lib (name "spectrum_analyzer")(type "KiCad")(uri "C:/Users/Dougl/OneDrive/Ham Radio/KiCad Files/W7ZOI Spectrum Analyzer/hierarchical-schematic/spectrum-analyzer-models/spectrum-analyzer.pretty")(options "")(descr ""))
 )
