@@ -11,7 +11,7 @@
     (via_costs 50)
     (plane_via_costs 5)
     (start_ripup_costs 100)
-    (start_pass_no 891)
+    (start_pass_no 1103)
     (layer_rule F.Cu
       (active on)
       (preferred_direction horizontal)
@@ -53,9 +53,9 @@
     "kicad_default" "Via[0-1]_800:400_um-kicad_default"
   )
   (class default
-    "Net-(C501-Pad1)" "Net-(C501-Pad2)" GND "/501-in" "Net-(C509-Pad2)" "Net-(C514-Pad2)" "Net-(C519-Pad2)" "/502-in"
-    "Net-(C523-Pad2)" "Net-(K502-Pad1)" /VIn "Net-(C503-Pad3)" "Net-(J503-Pad1)" "Net-(K501-Pad5)" "Net-(K501-Pad10)" "Net-(K502-Pad10)"
-    "Net-(C511-Pad1)" "Net-(C513-Pad1)" "Net-(C505-Pad1)" "Net-(C508-Pad1)" "Net-(C516-Pad1)" "Net-(C518-Pad1)"
+    "/300kHz In" "Net-(C501-Pad2)" GND "/501-in" "Net-(C505-Pad2)" "Net-(C514-Pad2)" "Net-(C508-Pad2)" "/502-in"
+    "Net-(C511-Pad2)" "Net-(C519-Pad1)" /VIn "Net-(C520-Pad1)" "Net-(C521-Pad1)" "Net-(K501-Pad5)" "Net-(C522-Pad1)" "Net-(C523-Pad1)"
+    "Net-(J502-Pad1)" "Net-(C524-Pad3)" "/30kHz In" "/300kHz Out" "/30Khz Out" "Net-(C518-Pad1)"
     (clearance_class default)
     (via_rule default)
     (rule

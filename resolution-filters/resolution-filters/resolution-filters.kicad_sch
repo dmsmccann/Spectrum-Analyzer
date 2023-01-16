@@ -2463,7 +2463,7 @@
   (symbol (lib_id "Connector:TestPoint_Probe") (at 248.92 139.7 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 2853c34b-984d-44d8-ba16-62d0c554a1d2)
-    (property "Reference" "TP106" (id 0) (at 247.65 134.62 0)
+    (property "Reference" "TP506" (id 0) (at 247.65 134.62 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "TestPoint" (id 1) (at 245.11 132.08 0)
@@ -4476,9 +4476,6 @@
     (path "/07ac3fad-8f3c-4068-ae53-91e4dc181eee"
       (reference "T502") (unit 1) (value "Transformer_1P_1S") (footprint "Transformer_THT:Transformer_Toroid_Horizontal_D14.0mm_Amidon-T50")
     )
-    (path "/2853c34b-984d-44d8-ba16-62d0c554a1d2"
-      (reference "TP106") (unit 1) (value "TestPoint") (footprint "TestPoint:TestPoint_Pad_D2.0mm")
-    )
     (path "/55b937a5-a069-41a7-a6cd-6eb20147a4cb"
       (reference "TP501") (unit 1) (value "TestPoint") (footprint "TestPoint:TestPoint_Pad_D2.0mm")
     )
@@ -4493,6 +4490,9 @@
     )
     (path "/66484e79-0eed-4703-a007-3a29f77d8141"
       (reference "TP505") (unit 1) (value "TestPoint") (footprint "TestPoint:TestPoint_Pad_D2.0mm")
+    )
+    (path "/2853c34b-984d-44d8-ba16-62d0c554a1d2"
+      (reference "TP506") (unit 1) (value "TestPoint") (footprint "TestPoint:TestPoint_Pad_D2.0mm")
     )
     (path "/95c07863-759b-434d-bbc4-10e35dd940f5"
       (reference "V501") (unit 1) (value "VSIN") (footprint "")
