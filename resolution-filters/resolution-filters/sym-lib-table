@@ -1,3 +1,5 @@
 (sym_lib_table
+  (version 7)
   (lib (name "resolution-filters")(type "KiCad")(uri "${KIPRJMOD}/resolution-filters-models/resolution-filters-symbols/resolution-filters.kicad_sym")(options "")(descr ""))
+  (lib (name "Relay1")(type "KiCad")(uri "${KIPRJMOD}/resolution-filters-models/resolution-filters-symbols/Relay.kicad_sym")(options "")(descr ""))
 )

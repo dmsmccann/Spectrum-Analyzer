@@ -1,0 +1,6 @@
+.subckt SPDT 5 1 10 2 9
+S1 5 1 9 2 MYSW1
+S2 5 10 2 9 MYSW2
+.model MYSW1 SW(Ron=.01 Roff=1000Meg Vh=0 Vt=-.5)
+.model MYSW2 SW(Ron=.01 Roff=1000Meg Vh=0 Vt=.5)
+.ends
