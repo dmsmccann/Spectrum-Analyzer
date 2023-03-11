@@ -1132,21 +1132,9 @@
         (effects (font (size 1.27 1.27)) hide)
       )
       (symbol "TUF-1H+_0_1"
-        (rectangle (start -6.35 -3.81) (end 7.62 -3.81)
+        (rectangle (start -6.35 3.81) (end 7.62 -3.81)
           (stroke (width 0) (type default))
-          (fill (type none))
-        )
-        (rectangle (start -6.35 3.81) (end -6.35 -3.81)
-          (stroke (width 0) (type default))
-          (fill (type none))
-        )
-        (rectangle (start -6.35 3.81) (end 7.62 3.81)
-          (stroke (width 0) (type default))
-          (fill (type none))
-        )
-        (rectangle (start 7.62 -3.81) (end 7.62 3.81)
-          (stroke (width 0) (type default))
-          (fill (type none))
+          (fill (type background))
         )
       )
       (symbol "TUF-1H+_1_1"
@@ -1169,7 +1157,6 @@
       )
     )
   )
-
 
   (junction (at 322.58 104.14) (diameter 0) (color 0 0 0 0)
     (uuid 00ca7a84-b9e9-4fcc-ad5c-8d06a8064364)
