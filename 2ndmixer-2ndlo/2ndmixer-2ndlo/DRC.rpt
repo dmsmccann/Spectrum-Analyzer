@@ -1,0 +1,28 @@
+** Drc report for /home/andrew/github/Spectrum-Analyzer/2ndmixer-2ndlo/2ndmixer-2ndlo/2ndmixer-2ndlo.kicad_pcb **
+** Created on 2023-03-11 21:04:35 **
+
+** Found 6 DRC violations **
+[lib_footprint_issues]: Footprint 'GKG60015' not found in library 'spectrum_analyzer'.
+    Local override; Severity: warning
+    @(164.7444 mm, 79.9592 mm): Footprint C206
+[lib_footprint_issues]: Footprint '691103110002' not found in library 'spectrum_analyzer'.
+    Local override; Severity: warning
+    @(138.4300 mm, 89.3064 mm): Footprint J202
+[lib_footprint_issues]: Footprint 'MAV-11BSM&plus_' not found in library 'spectrum_analyzer'.
+    Local override; Severity: warning
+    @(156.5148 mm, 117.6528 mm): Footprint U201
+[lib_footprint_issues]: Footprint 'TUF-1H' not found in library 'spectrum_analyzer'.
+    Local override; Severity: warning
+    @(180.3908 mm, 110.5408 mm): Footprint U202
+[lib_footprint_issues]: Footprint 'TO127P584H533-4N' not found in library 'spectrum_analyzer'.
+    Local override; Severity: warning
+    @(151.3332 mm, 88.0872 mm): Footprint Q201
+[lib_footprint_issues]: Footprint 'TO127P584H533-4N' not found in library 'spectrum_analyzer'.
+    Local override; Severity: warning
+    @(197.0278 mm, 108.8898 mm): Footprint Q202
+
+** Found 0 unconnected pads **
+
+** Found 0 Footprint errors **
+
+** End of Report **
