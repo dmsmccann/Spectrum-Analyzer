@@ -84,11 +84,11 @@
         )
       )
     )
-    (symbol "Connector:Conn_01x01_Female" (pin_names (offset 1.016) hide) (in_bom yes) (on_board yes)
+    (symbol "Connector:Conn_01x01_Socket" (pin_names (offset 1.016) hide) (in_bom yes) (on_board yes)
       (property "Reference" "J" (at 0 2.54 0)
         (effects (font (size 1.27 1.27)))
       )
-      (property "Value" "Conn_01x01_Female" (at 0 -2.54 0)
+      (property "Value" "Conn_01x01_Socket" (at 0 -2.54 0)
         (effects (font (size 1.27 1.27)))
       )
       (property "Footprint" "" (at 0 0 0)
@@ -97,16 +97,19 @@
       (property "Datasheet" "~" (at 0 0 0)
         (effects (font (size 1.27 1.27)) hide)
       )
+      (property "ki_locked" "" (at 0 0 0)
+        (effects (font (size 1.27 1.27)))
+      )
       (property "ki_keywords" "connector" (at 0 0 0)
         (effects (font (size 1.27 1.27)) hide)
       )
-      (property "ki_description" "Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)" (at 0 0 0)
+      (property "ki_description" "Generic connector, single row, 01x01, script generated" (at 0 0 0)
         (effects (font (size 1.27 1.27)) hide)
       )
-      (property "ki_fp_filters" "Connector*:*" (at 0 0 0)
+      (property "ki_fp_filters" "Connector*:*_1x??_*" (at 0 0 0)
         (effects (font (size 1.27 1.27)) hide)
       )
-      (symbol "Conn_01x01_Female_1_1"
+      (symbol "Conn_01x01_Socket_1_1"
         (polyline
           (pts
             (xy -1.27 0)
@@ -1151,7 +1154,7 @@
       (property "Datasheet" "" (at 0 0 0)
         (effects (font (size 1.27 1.27)) hide)
       )
-      (property "ki_keywords" "power-flag" (at 0 0 0)
+      (property "ki_keywords" "global power" (at 0 0 0)
         (effects (font (size 1.27 1.27)) hide)
       )
       (property "ki_description" "Power symbol creates a global label with name \"GND\" , ground" (at 0 0 0)
@@ -1191,7 +1194,7 @@
       (property "Datasheet" "~" (at 0 0 0)
         (effects (font (size 1.27 1.27)) hide)
       )
-      (property "ki_keywords" "power-flag" (at 0 0 0)
+      (property "ki_keywords" "flag power" (at 0 0 0)
         (effects (font (size 1.27 1.27)) hide)
       )
       (property "ki_description" "Special symbol for telling ERC where power comes from" (at 0 0 0)
@@ -1237,39 +1240,13 @@
       (property "ki_fp_filters" "Q_8_ADI" (at 0 0 0)
         (effects (font (size 1.27 1.27)) hide)
       )
+      (symbol "AD603AQ_0_1"
+        (rectangle (start 7.62 5.08) (end 33.02 -12.7)
+          (stroke (width 0) (type default))
+          (fill (type background))
+        )
+      )
       (symbol "AD603AQ_1_1"
-        (polyline
-          (pts
-            (xy 7.62 -12.7)
-            (xy 33.02 -12.7)
-          )
-          (stroke (width 0.127) (type default))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy 7.62 5.08)
-            (xy 7.62 -12.7)
-          )
-          (stroke (width 0.127) (type default))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy 33.02 -12.7)
-            (xy 33.02 5.08)
-          )
-          (stroke (width 0.127) (type default))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy 33.02 5.08)
-            (xy 7.62 5.08)
-          )
-          (stroke (width 0.127) (type default))
-          (fill (type none))
-        )
         (pin passive line (at 0 0 0) (length 7.62)
           (name "GPOS" (effects (font (size 1.4986 1.4986))))
           (number "1" (effects (font (size 1.4986 1.4986))))
@@ -1323,39 +1300,13 @@
       (property "ki_fp_filters" "N_8_ADI" (at 0 0 0)
         (effects (font (size 1.27 1.27)) hide)
       )
+      (symbol "AD8307AN_0_1"
+        (rectangle (start 7.62 5.08) (end 33.02 -12.7)
+          (stroke (width 0) (type default))
+          (fill (type background))
+        )
+      )
       (symbol "AD8307AN_1_1"
-        (polyline
-          (pts
-            (xy 7.62 -12.7)
-            (xy 33.02 -12.7)
-          )
-          (stroke (width 0.127) (type default))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy 7.62 5.08)
-            (xy 7.62 -12.7)
-          )
-          (stroke (width 0.127) (type default))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy 33.02 -12.7)
-            (xy 33.02 5.08)
-          )
-          (stroke (width 0.127) (type default))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy 33.02 5.08)
-            (xy 7.62 5.08)
-          )
-          (stroke (width 0.127) (type default))
-          (fill (type none))
-        )
         (pin passive line (at 0 0 0) (length 7.62)
           (name "INM" (effects (font (size 1.4986 1.4986))))
           (number "1" (effects (font (size 1.4986 1.4986))))
@@ -1391,6 +1342,7 @@
       )
     )
   )
+
 
   (junction (at 58.42 22.86) (diameter 0) (color 0 0 0 0)
     (uuid 01ef037b-1967-4c16-a4cf-4b4f1c1908a0)
@@ -3320,8 +3272,8 @@
     )
   )
 
-  (symbol (lib_id "Connector:Conn_01x01_Female") (at 38.1 162.56 270) (mirror x) (unit 1)
-    (in_bom yes) (on_board no) (dnp no)
+  (symbol (lib_id "Connector:Conn_01x01_Socket") (at 38.1 162.56 270) (mirror x) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no)
     (uuid 4df86f97-3bf1-42cf-9a6d-137cd70a722b)
     (property "Reference" "J304" (at 35.56 162.56 0)
       (effects (font (size 1.27 1.27)) (justify left))
@@ -4256,8 +4208,8 @@
     )
   )
 
-  (symbol (lib_id "Connector:Conn_01x01_Female") (at 38.1 119.38 270) (mirror x) (unit 1)
-    (in_bom yes) (on_board no) (dnp no)
+  (symbol (lib_id "Connector:Conn_01x01_Socket") (at 38.1 119.38 270) (mirror x) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no)
     (uuid 92940a7a-14f8-454b-a088-061da3e0796d)
     (property "Reference" "J302" (at 35.56 119.38 0)
       (effects (font (size 1.27 1.27)) (justify left))
@@ -4356,8 +4308,8 @@
     )
   )
 
-  (symbol (lib_id "Connector:Conn_01x01_Female") (at 38.1 140.97 270) (mirror x) (unit 1)
-    (in_bom yes) (on_board no) (dnp no)
+  (symbol (lib_id "Connector:Conn_01x01_Socket") (at 38.1 140.97 270) (mirror x) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no)
     (uuid 9d0898e1-153c-4ca9-ad94-02c98ca1f240)
     (property "Reference" "J303" (at 35.56 140.97 0)
       (effects (font (size 1.27 1.27)) (justify left))

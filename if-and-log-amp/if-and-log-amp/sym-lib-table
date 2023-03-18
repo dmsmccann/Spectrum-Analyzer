@@ -1,7 +1,9 @@
 (sym_lib_table
+  (version 7)
   (lib (name "AD603AQ")(type "KiCad")(uri "${KIPRJMOD}/if-log-amp-models/if-log-amp-symbols/AD603AQ.kicad_sym")(options "")(descr ""))
   (lib (name "AD8307AN")(type "KiCad")(uri "${KIPRJMOD}/if-log-amp-models/if-log-amp-symbols/AD8307AN.kicad_sym")(options "")(descr ""))
   (lib (name "CA3140EZ")(type "KiCad")(uri "${KIPRJMOD}/if-log-amp-models/if-log-amp-symbols/CA3140EZ.kicad_sym")(options "")(descr ""))
   (lib (name "Vishay Trim Cap")(type "KiCad")(uri "${KIPRJMOD}/if-log-amp-models/if-log-amp-symbols/Vishay Trim Cap.kicad_sym")(options "")(descr ""))
   (lib (name "ad8307an")(type "KiCad")(uri "C:/Users/Dougl/OneDrive/Desktop/ad8307an.kicad_sym")(options "")(descr ""))
+  (lib (name "spectrum analyzer")(type "KiCad")(uri "C:/Users/Dougl/OneDrive/Ham Radio/KiCad Files/W7ZOI Spectrum Analyzer/hierarchical-schematic/spectrum-analyzer-models/spectrum-analyzer-symbols/spectrum-analyzer.kicad_sym")(options "")(descr ""))
 )

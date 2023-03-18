@@ -4584,7 +4584,7 @@
     (property "Value" "1u" (at 74.9363 59.69 90)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "Capacitor_THT:CP_Radial_D8.0mm_P3.50mm" (at 74.93 63.5 0)
+    (property "Footprint" "Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P5.00mm" (at 74.93 63.5 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 74.93 63.5 0)

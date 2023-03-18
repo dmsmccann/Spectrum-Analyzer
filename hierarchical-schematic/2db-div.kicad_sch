@@ -12,11 +12,11 @@
   )
 
   (lib_symbols
-    (symbol "Connector:Conn_01x01_Female" (pin_names (offset 1.016) hide) (in_bom yes) (on_board yes)
+    (symbol "Connector:Conn_01x01_Socket" (pin_names (offset 1.016) hide) (in_bom yes) (on_board yes)
       (property "Reference" "J" (at 0 2.54 0)
         (effects (font (size 1.27 1.27)))
       )
-      (property "Value" "Conn_01x01_Female" (at 0 -2.54 0)
+      (property "Value" "Conn_01x01_Socket" (at 0 -2.54 0)
         (effects (font (size 1.27 1.27)))
       )
       (property "Footprint" "" (at 0 0 0)
@@ -25,16 +25,19 @@
       (property "Datasheet" "~" (at 0 0 0)
         (effects (font (size 1.27 1.27)) hide)
       )
+      (property "ki_locked" "" (at 0 0 0)
+        (effects (font (size 1.27 1.27)))
+      )
       (property "ki_keywords" "connector" (at 0 0 0)
         (effects (font (size 1.27 1.27)) hide)
       )
-      (property "ki_description" "Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)" (at 0 0 0)
+      (property "ki_description" "Generic connector, single row, 01x01, script generated" (at 0 0 0)
         (effects (font (size 1.27 1.27)) hide)
       )
-      (property "ki_fp_filters" "Connector*:*" (at 0 0 0)
+      (property "ki_fp_filters" "Connector*:*_1x??_*" (at 0 0 0)
         (effects (font (size 1.27 1.27)) hide)
       )
-      (symbol "Conn_01x01_Female_1_1"
+      (symbol "Conn_01x01_Socket_1_1"
         (polyline
           (pts
             (xy -1.27 0)
@@ -837,7 +840,7 @@
       (property "Datasheet" "" (at 0 0 0)
         (effects (font (size 1.27 1.27)) hide)
       )
-      (property "ki_keywords" "power-flag" (at 0 0 0)
+      (property "ki_keywords" "global power" (at 0 0 0)
         (effects (font (size 1.27 1.27)) hide)
       )
       (property "ki_description" "Power symbol creates a global label with name \"GND\" , ground" (at 0 0 0)
@@ -877,7 +880,7 @@
       (property "Datasheet" "~" (at 0 0 0)
         (effects (font (size 1.27 1.27)) hide)
       )
-      (property "ki_keywords" "power-flag" (at 0 0 0)
+      (property "ki_keywords" "flag power" (at 0 0 0)
         (effects (font (size 1.27 1.27)) hide)
       )
       (property "ki_description" "Special symbol for telling ERC where power comes from" (at 0 0 0)
@@ -983,6 +986,7 @@
       )
     )
   )
+
 
   (junction (at 116.84 130.81) (diameter 0) (color 0 0 0 0)
     (uuid 08096896-f503-4af7-b2e0-b57224e37675)
@@ -2480,7 +2484,7 @@
     )
   )
 
-  (symbol (lib_id "Connector:Conn_01x01_Female") (at 113.03 83.82 0) (mirror y) (unit 1)
+  (symbol (lib_id "Connector:Conn_01x01_Socket") (at 113.03 83.82 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid e88479d0-fc2a-46c6-9763-e27cfe4f77af)
     (property "Reference" "J1002" (at 113.665 78.74 0)
