@@ -1,0 +1,3 @@
+#Input equations here
+range(1,16384)
+sin(2*pi*x*1000)

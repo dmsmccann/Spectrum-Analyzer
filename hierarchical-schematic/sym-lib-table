@@ -1,3 +1,4 @@
 (sym_lib_table
+  (version 7)
   (lib (name "spectrum analyzer")(type "KiCad")(uri "${KIPRJMOD}/spectrum-analyzer-models/spectrum-analyzer-symbols/spectrum-analyzer.kicad_sym")(options "")(descr ""))
 )

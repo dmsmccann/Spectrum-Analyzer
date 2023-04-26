@@ -399,16 +399,7 @@
     },
     "net_colors": null,
     "netclass_assignments": null,
-    "netclass_patterns": [
-      {
-        "netclass": "Power",
-        "pattern": "/15V Dual Power Supply/+15 Regulated"
-      },
-      {
-        "netclass": "Power",
-        "pattern": "/15V Dual Power Supply/-15 Regulated"
-      }
-    ]
+    "netclass_patterns": []
   },
   "pcbnew": {
     "last_paths": {
