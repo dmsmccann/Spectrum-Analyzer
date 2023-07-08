@@ -1,0 +1,32 @@
+ERC report (Sat Mar 11 21:04:10 2023, Encoding UTF8)
+
+***** Sheet /
+[lib_symbol_issues]: Symbol 'MAV-11' not found in symbol library 'spectrum_analyzer'
+    ; Severity: warning
+    @(184.1500 mm, 120.6500 mm): Symbol U201 [MAV-11]
+[simulation_model_issue]: Error loading simulation model library '': Simulation model library not found at '/home/andrew/github/Spectrum-Analyzer/2ndmixer-2ndlo/2ndmixer-2ndlo/2ndmixer-2ndlo-spice\2N5179.LIB' or '2ndmixer-2ndlo-spice\2N5179.LIB'
+
+    ; Severity: error
+    @(58.4200 mm, 119.3800 mm): Symbol Q201 [2N5179]
+[lib_symbol_issues]: Symbol '2N5179' not found in symbol library 'spectrum_analyzer'
+    ; Severity: warning
+    @(58.4200 mm, 119.3800 mm): Symbol Q201 [2N5179]
+[simulation_model_issue]: Error loading simulation model library '': Simulation model library not found at '/home/andrew/github/Spectrum-Analyzer/2ndmixer-2ndlo/2ndmixer-2ndlo/2ndmixer-2ndlo-spice\xtal.lib' or '2ndmixer-2ndlo-spice\xtal.lib'
+
+    ; Severity: error
+    @(85.0900 mm, 119.3800 mm): Symbol Y201 [Crystal_Small]
+[lib_symbol_issues]: Symbol 'Bifilar_Transformer' not found in symbol library 'spectrum_analyzer'
+    ; Severity: warning
+    @(289.5600 mm, 96.5200 mm): Symbol T201 [Bifilar_Transformer]
+[simulation_model_issue]: Error loading simulation model library '': Simulation model library not found at '/home/andrew/github/Spectrum-Analyzer/2ndmixer-2ndlo/2ndmixer-2ndlo/2ndmixer-2ndlo-spice\2N5179.LIB' or '2ndmixer-2ndlo-spice\2N5179.LIB'
+
+    ; Severity: error
+    @(298.4500 mm, 123.1900 mm): Symbol Q202 [2N5179]
+[lib_symbol_issues]: Symbol '2N5179' not found in symbol library 'spectrum_analyzer'
+    ; Severity: warning
+    @(298.4500 mm, 123.1900 mm): Symbol Q202 [2N5179]
+[lib_symbol_issues]: Symbol 'TUF-1H+' not found in symbol library 'spectrum_analyzer'
+    ; Severity: warning
+    @(251.4600 mm, 123.1900 mm): Symbol U202 [TUF-1H+]
+
+ ** ERC messages: 8  Errors 3  Warnings 5
