@@ -3,58 +3,9 @@ Circuit: * C:\Users\Dougl\OneDrive\Ham Radio\KiCad Files\W7ZOI Spectrum Analyzer
 WARNING: Node OUT is floating.
 
 Direct Newton iteration for .op point succeeded.
-.step c=1.2e-011
-.step c=1.3e-011
-.step c=1.4e-011
-.step c=1.5e-011
-.step c=1.6e-011
-.step c=1.7e-011
-.step c=1.8e-011
-.step c=1.9e-011
-.step c=2e-011
-.step c=2.1e-011
-.step c=2.2e-011
-.step c=2.3e-011
-.step c=2.4e-011
-.step c=2.5e-011
-.step c=2.6e-011
-.step c=2.7e-011
-.step c=2.8e-011
-.step c=2.9e-011
-.step c=3e-011
-.step c=3.1e-011
-.step c=3.2e-011
-.step c=3.3e-011
-.step c=3.4e-011
-.step c=3.5e-011
-.step c=3.6e-011
-.step c=3.7e-011
-.step c=3.8e-011
-.step c=3.9e-011
-.step c=4e-011
-.step c=4.1e-011
-.step c=4.2e-011
-.step c=4.3e-011
-.step c=4.4e-011
-.step c=4.5e-011
-.step c=4.6e-011
-.step c=4.7e-011
-.step c=4.8e-011
-.step c=4.9e-011
-.step c=5e-011
-.step c=5.1e-011
-.step c=5.2e-011
-.step c=5.3e-011
-.step c=5.4e-011
-.step c=5.5e-011
-.step c=5.6e-011
-.step c=5.7e-011
-.step c=5.8e-011
-.step c=5.9e-011
-.step c=6e-011
 
-Date: Sun Aug 06 10:53:38 2023
-Total elapsed time: 0.868 seconds.
+Date: Sun Aug 06 11:02:01 2023
+Total elapsed time: 0.063 seconds.
 
 tnom = 27
 temp = 27
@@ -67,6 +18,6 @@ rejected = 0
 matrix size = 12
 fillins = 8
 solver = Normal
-Matrix Compiler1: 1.19 KB object code size  0.3/0.2/[0.1]
-Matrix Compiler2: 1.08 KB object code size  0.1/0.2/[0.1]
+Matrix Compiler1: 1.19 KB object code size  0.5/0.3/[0.1]
+Matrix Compiler2: 1.08 KB object code size  0.3/0.3/[0.1]
 
