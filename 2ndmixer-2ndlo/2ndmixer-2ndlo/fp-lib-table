@@ -1,4 +1,4 @@
 (fp_lib_table
   (version 7)
-  (lib (name "spectrum_analyzer")(type "KiCad")(uri "/Users/mccannfive/Library/CloudStorage/OneDrive-Personal/Ham Radio/KiCad Files/W7ZOI Spectrum Analyzer/hierarchical-schematic/spectrum-analyzer-models/spectrum-analyzer.pretty")(options "")(descr ""))
+  (lib (name "spectrum_analyzer")(type "KiCad")(uri "/mnt/c/Users/Dougl/OneDrive/Ham Radio/KiCad Files/W7ZOI Spectrum Analyzer/hierarchical-schematic/spectrum-analyzer-models/spectrum-analyzer.pretty")(options "")(descr ""))
 )
