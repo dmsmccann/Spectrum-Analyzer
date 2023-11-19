@@ -7,12 +7,13 @@
   (title_block
     (title "Spectrum Analyzer: Second Mixer and Second Local Oscillator")
     (date "2022-08-20")
-    (rev "0")
+    (rev "0.1")
     (company "Andy McCann KA3KAF and Doug McCann KA3KAG")
     (comment 1 "https://www.kangaus.com/documentation/New%20SA/Second_LO_SCH.pdf")
     (comment 2 "As modified by Kanga US schematic:")
     (comment 3 "Wes Hayward W7ZOI")
     (comment 4 "Original Design By:")
+    (comment 6 "Update Q201 Silk Screen Error")
   )
 
   (lib_symbols
@@ -2704,7 +2705,7 @@
     (property "Reference" "TP203" (at 69.85 109.22 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Value" "Q-Emit1" (at 67.945 114.935 0)
+    (property "Value" "Q-Coll1" (at 67.945 114.935 0)
       (effects (font (size 1.27 1.27)) (justify left) hide)
     )
     (property "Footprint" "TestPoint:TestPoint_Pad_1.0x1.0mm" (at 71.12 109.22 0)
@@ -2719,7 +2720,7 @@
     (property "Sim.Device" "SPICE" (at 0 39.37 0)
       (effects (font (size 0 0)) hide)
     )
-    (property "Sim.Params" "Q-Emit1" (at 69.85 111.76 0)
+    (property "Sim.Params" "Q-Coll11" (at 69.85 111.76 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Sim.Pins" "1=1" (at 0 39.37 0)
@@ -3870,7 +3871,7 @@
     (property "Reference" "TP204" (at 73.025 117.475 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Value" "Q-Coll1" (at 74.676 123.19 0)
+    (property "Value" "Q-Emit1" (at 74.676 123.19 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Footprint" "TestPoint:TestPoint_Pad_1.0x1.0mm" (at 82.55 119.38 0)
@@ -3885,8 +3886,8 @@
     (property "Sim.Device" "SPICE" (at 0 0 0)
       (effects (font (size 0 0)) hide)
     )
-    (property "Sim.Params" "Q-Coll1" (at 74.676 123.19 0)
-      (effects (font (size 1.27 1.27)) (justify left))
+    (property "Sim.Params" "Q-Emit1" (at 74.676 123.19 0)
+      (effects (font (size 1.27 1.27)) (justify left) hide)
     )
     (property "Sim.Pins" "1=1" (at 0 0 0)
       (effects (font (size 0 0)) hide)
@@ -3894,7 +3895,7 @@
     (property "Digikey-Part-Number" "N/A" (at 77.47 119.38 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 4453e89e-0cd1-42cc-9af0-15039042a899))
+    (pin "1" (uuid d66be1f1-9470-446f-a6ca-e1d83db508d5))
     (instances
       (project "2ndmixer-2ndlo"
         (path "/eb21458e-c691-455b-9e40-6abe8ef9cffb"
