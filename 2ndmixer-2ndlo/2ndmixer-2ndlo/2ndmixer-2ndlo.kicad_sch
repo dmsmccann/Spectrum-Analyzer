@@ -1978,6 +1978,10 @@
     (uuid fbbcdad1-f6cb-47b1-a813-8b363577d1a0)
   )
 
+  (text "used 3T" (at 87.63 104.775 0)
+    (effects (font (size 1.27 1.27)) (justify left bottom))
+    (uuid 035f96d3-dc76-4260-9028-6db868a6a6e1)
+  )
   (text "http://www.kangaus.com/documentation/New%20SA/Second_LO_SCH.pdf"
     (at 139.7 201.93 0)
     (effects (font (size 1.27 1.27)) (justify left bottom) (href "http://www.kangaus.com/documentation/New%20SA/Second_LO_SCH.pdf"))
@@ -1986,6 +1990,10 @@
   (text "6db Pad" (at 132.08 133.985 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid b262b334-6e62-435c-86a7-af91eb8b4917)
+  )
+  (text "changed to 5.6pf" (at 125.73 111.76 0)
+    (effects (font (size 1.27 1.27)) (justify left bottom))
+    (uuid ea4a1f7f-18b1-4691-9283-ce0a30387010)
   )
 
   (label "+15" (at 85.09 176.53 90) (fields_autoplaced)
