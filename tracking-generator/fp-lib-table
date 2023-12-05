@@ -1,0 +1,4 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "tracking-generator")(type "KiCad")(uri "${KIPRJMOD}/tracking-generator-models/tracking-generator.pretty")(options "")(descr ""))
+)
