@@ -1,7 +1,11 @@
+version 2
 1
 1
-.ac dec 1001 1E6 100E6{return}{return}
-1
+.ac dec 1001 1.0k 200.0Meg{return}{return}{return}.kicad adjustpaths{return}.save all{return}.probe alli
+2
 9
-/Out
-V
+V(/Out)
+ 
+5
+V(/Out)
+ 
