@@ -2168,7 +2168,7 @@
   )
 
   (symbol (lib_id "Simulation_SPICE:VDC") (at 73.66 180.34 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (in_bom no) (on_board no) (dnp no) (fields_autoplaced)
     (uuid 5bda01b6-5651-4c38-a073-ebd5dc3d7572)
     (property "Reference" "V1003" (at 77.47 178.9402 0)
       (effects (font (size 1.27 1.27)) (justify left))
@@ -2465,7 +2465,7 @@
   )
 
   (symbol (lib_id "Simulation_SPICE:VDC") (at 26.67 180.34 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (in_bom no) (on_board no) (dnp no) (fields_autoplaced)
     (uuid 8959db23-1370-4463-a409-25f4aaa8fad4)
     (property "Reference" "V1001" (at 30.48 178.9402 0)
       (effects (font (size 1.27 1.27)) (justify left))
@@ -2551,7 +2551,7 @@
   )
 
   (symbol (lib_id "Simulation_SPICE:VDC") (at 49.53 180.34 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (in_bom no) (on_board no) (dnp no) (fields_autoplaced)
     (uuid b19b76d2-3e83-4098-8a84-33e8ee89d417)
     (property "Reference" "V1002" (at 53.34 178.9402 0)
       (effects (font (size 1.27 1.27)) (justify left))
