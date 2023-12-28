@@ -2,4 +2,7 @@
   (version 7)
   (lib (name "resolution-filters")(type "KiCad")(uri "${KIPRJMOD}/resolution-filters-models/resolution-filters-symbols/resolution-filters.kicad_sym")(options "")(descr ""))
   (lib (name "Relay1")(type "KiCad")(uri "${KIPRJMOD}/resolution-filters-models/resolution-filters-symbols/Relay.kicad_sym")(options "")(descr ""))
+  (lib (name "g5v-1")(type "KiCad")(uri "C:/Users/Dougl/OneDrive/Desktop/g5v-1.kicad_sym")(options "")(descr ""))
+  (lib (name "crystal_gnd3_small")(type "KiCad")(uri "C:/Users/Dougl/OneDrive/Desktop/crystal_gnd3_small.kicad_sym")(options "")(descr ""))
+  (lib (name "transformer_1p_1s")(type "KiCad")(uri "C:/Users/Dougl/OneDrive/Desktop/transformer_1p_1s.kicad_sym")(options "")(descr ""))
 )

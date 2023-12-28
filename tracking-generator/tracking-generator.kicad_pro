@@ -345,10 +345,6 @@
     "netclass_assignments": null,
     "netclass_patterns": [
       {
-        "netclass": "Default",
-        "pattern": ""
-      },
-      {
         "netclass": "Power",
         "pattern": "/+12"
       },
