@@ -487,7 +487,7 @@
   (symbol (lib_id "Device:L_Small") (at 212.09 113.03 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 5ea77f42-c583-411d-9613-5c2fbc48ee54)
-    (property "Reference" "L705" (at 212.09 107.95 90)
+    (property "Reference" "L704" (at 212.09 107.95 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "150n" (at 212.09 110.49 90)
@@ -504,7 +504,7 @@
     (instances
       (project "W7ZOI Spectrum Analyzer"
         (path "/d5173421-a214-4849-aa93-f108d8644c8a/7dc681f1-2943-4bbb-a02b-632990122836"
-          (reference "L705") (unit 1)
+          (reference "L704") (unit 1)
         )
       )
     )
@@ -699,7 +699,7 @@
   (symbol (lib_id "Device:L_Small") (at 186.69 113.03 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid d721ec65-a368-4359-bf60-43039c06808e)
-    (property "Reference" "L704" (at 186.69 107.95 90)
+    (property "Reference" "L703" (at 186.69 107.95 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "180n" (at 186.69 110.49 90)
@@ -716,7 +716,7 @@
     (instances
       (project "W7ZOI Spectrum Analyzer"
         (path "/d5173421-a214-4849-aa93-f108d8644c8a/7dc681f1-2943-4bbb-a02b-632990122836"
-          (reference "L704") (unit 1)
+          (reference "L703") (unit 1)
         )
       )
     )
@@ -725,7 +725,7 @@
   (symbol (lib_id "Device:L_Small") (at 135.89 113.03 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid e07778cb-d108-44c3-a3e4-eda8d65808ba)
-    (property "Reference" "L702" (at 135.89 107.95 90)
+    (property "Reference" "L701" (at 135.89 107.95 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "150n" (at 135.89 110.49 90)
@@ -742,7 +742,7 @@
     (instances
       (project "W7ZOI Spectrum Analyzer"
         (path "/d5173421-a214-4849-aa93-f108d8644c8a/7dc681f1-2943-4bbb-a02b-632990122836"
-          (reference "L702") (unit 1)
+          (reference "L701") (unit 1)
         )
       )
     )
@@ -776,7 +776,7 @@
   (symbol (lib_id "Device:L_Small") (at 161.29 113.03 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid ea8d18be-cea5-41e8-8979-1e4f706eacfb)
-    (property "Reference" "L703" (at 161.29 107.95 90)
+    (property "Reference" "L702" (at 161.29 107.95 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "180n" (at 161.29 110.49 90)
@@ -793,7 +793,7 @@
     (instances
       (project "W7ZOI Spectrum Analyzer"
         (path "/d5173421-a214-4849-aa93-f108d8644c8a/7dc681f1-2943-4bbb-a02b-632990122836"
-          (reference "L703") (unit 1)
+          (reference "L702") (unit 1)
         )
       )
     )
