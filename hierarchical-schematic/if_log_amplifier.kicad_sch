@@ -2390,7 +2390,7 @@
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 1d7ee13a-b70e-4d04-834a-59b98ed96f22)
   )
-  (text "From 110 MHz Filter" (at 19.685 99.06 90)
+  (text "From Resolution Filter" (at 19.685 99.06 90)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 6e3707e8-080f-4c23-a6db-b34797665025)
   )
