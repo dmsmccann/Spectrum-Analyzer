@@ -1,0 +1,83 @@
+Circuit: * C:\Users\Dougl\OneDrive\Ham Radio\KiCad Files\W7ZOI Spectrum Analyzer\2ndmixer-2ndlo\2ndmixer-2ndlo\2ndmixer-2ndlo-spice\diplexer.asc
+
+Warning: Multiple definitions of model "bcx17" Type: BJT
+Warning: Multiple definitions of model "bc858b" Type: BJT
+Warning: Multiple definitions of model "bc848b" Type: BJT
+Warning: Multiple definitions of model "bc817-16" Type: BJT
+Warning: Multiple definitions of model "bc807-16" Type: BJT
+Warning: Multiple definitions of model "2sd2707" Type: BJT
+Warning: Multiple definitions of model "2sd2704k" Type: BJT
+Warning: Multiple definitions of model "2sd2654" Type: BJT
+Warning: Multiple definitions of model "2sd2537" Type: BJT
+Warning: Multiple definitions of model "2sd2351" Type: BJT
+Warning: Multiple definitions of model "2sd2226k" Type: BJT
+Warning: Multiple definitions of model "2sd2153" Type: BJT
+Warning: Multiple definitions of model "2sd2114k" Type: BJT
+Warning: Multiple definitions of model "2sc4098" Type: BJT
+Warning: Multiple definitions of model "2sc2412k" Type: BJT
+Warning: Multiple definitions of model "2sa1037ak" Type: BJT
+Warning: Multiple definitions of model "d45h11" Type: BJT
+Warning: Multiple definitions of model "bc856b" Type: BJT
+Warning: Multiple definitions of model "bc556b" Type: BJT
+Warning: Multiple definitions of model "bc846b" Type: BJT
+Warning: Multiple definitions of model "bc546b" Type: BJT
+Warning: Multiple definitions of model "bc327-40" Type: BJT
+Warning: Multiple definitions of model "bc327-25" Type: BJT
+Warning: Multiple definitions of model "bc807-40" Type: BJT
+Warning: Multiple definitions of model "bc807-25" Type: BJT
+Warning: Multiple definitions of model "bc857c" Type: BJT
+Warning: Multiple definitions of model "bc857b" Type: BJT
+Warning: Multiple definitions of model "bc857a" Type: BJT
+Warning: Multiple definitions of model "bc557c" Type: BJT
+Warning: Multiple definitions of model "bc557b" Type: BJT
+Warning: Multiple definitions of model "bc337-40" Type: BJT
+Warning: Multiple definitions of model "bc337-25" Type: BJT
+Warning: Multiple definitions of model "bc817-40" Type: BJT
+Warning: Multiple definitions of model "bc817-25" Type: BJT
+Warning: Multiple definitions of model "bc847c" Type: BJT
+Warning: Multiple definitions of model "bc847b" Type: BJT
+Warning: Multiple definitions of model "bc847a" Type: BJT
+Warning: Multiple definitions of model "bc547c" Type: BJT
+Warning: Multiple definitions of model "bc547b" Type: BJT
+Warning: Multiple definitions of model "2n3019" Type: BJT
+Warning: Multiple definitions of model "2n3055" Type: BJT
+Warning: Multiple definitions of model "2n5771" Type: BJT
+Warning: Multiple definitions of model "2n5769" Type: BJT
+Warning: Multiple definitions of model "2n2369" Type: BJT
+Warning: Multiple definitions of model "2n5401" Type: BJT
+Warning: Multiple definitions of model "2n5550" Type: BJT
+Warning: Multiple definitions of model "2n4403" Type: BJT
+Warning: Multiple definitions of model "2n4401" Type: BJT
+Warning: Multiple definitions of model "2n2905a" Type: BJT
+Warning: Multiple definitions of model "2n2219a" Type: BJT
+Warning: Multiple definitions of model "2n5087" Type: BJT
+Warning: Multiple definitions of model "2n5210" Type: BJT
+Warning: Multiple definitions of model "2n5089" Type: BJT
+Warning: Multiple definitions of model "2n3391a" Type: BJT
+Warning: Multiple definitions of model "2n4126" Type: BJT
+Warning: Multiple definitions of model "2n4124" Type: BJT
+Warning: Multiple definitions of model "ztx1048a" Type: BJT
+Warning: Multiple definitions of model "fzt849" Type: BJT
+Warning: Multiple definitions of model "2n3906" Type: BJT
+Warning: Multiple definitions of model "2n3904" Type: BJT
+Warning: Multiple definitions of model "2n2907" Type: BJT
+Warning: Multiple definitions of model "2n2222" Type: BJT
+Direct Newton iteration for .op point succeeded.
+
+Date: Sat Jan 20 18:16:24 2024
+Total elapsed time: 0.243 seconds.
+
+tnom = 27
+temp = 27
+method = modified trap
+totiter = 13824
+traniter = 13803
+tranpoints = 3286
+accept = 2142
+rejected = 1144
+matrix size = 36
+fillins = 20
+solver = Normal
+Matrix Compiler1: 3.69 KB object code size  0.5/0.3/[0.2]
+Matrix Compiler2: off  [0.2]/0.4/0.2
+

@@ -1,0 +1,9 @@
+*The following is the instance card:
+xqexample 1 2 vdivide
+*The following are the subcircuit definition cards:
+.subckt vdivide 1 2
+C1p 1 2 6.2pF
+L1s 1 3 26mH
+C2s 3 4 19.6fF
+R1s 4 2 972
+.ends
