@@ -503,7 +503,7 @@
   (symbol (lib_id "Device:C_Trim_Small") (at 156.21 118.11 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 0e0bc70e-532e-4af4-8adb-7f47282b0467)
-    (property "Reference" "C4" (at 158.75 116.7129 0)
+    (property "Reference" "C604" (at 158.75 116.7129 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "1p-10p" (at 158.75 119.2529 0)
@@ -520,7 +520,7 @@
     (instances
       (project "110mhz"
         (path "/ed989016-ade2-44f8-a212-24da0fb5d2b0"
-          (reference "C4") (unit 1)
+          (reference "C604") (unit 1)
         )
       )
     )
@@ -529,7 +529,7 @@
   (symbol (lib_id "Device:L_Small") (at 113.03 110.49 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 10139ec9-5972-4c3e-9672-4814ee8cc191)
-    (property "Reference" "L1" (at 113.03 105.41 90)
+    (property "Reference" "L601" (at 113.03 105.41 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "300n" (at 113.03 107.95 90)
@@ -546,7 +546,7 @@
     (instances
       (project "110mhz"
         (path "/ed989016-ade2-44f8-a212-24da0fb5d2b0"
-          (reference "L1") (unit 1)
+          (reference "L601") (unit 1)
         )
       )
     )
@@ -555,7 +555,7 @@
   (symbol (lib_id "power:GND") (at 100.33 125.73 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 1f3de56b-a99d-40a4-af28-a5d735d8699c)
-    (property "Reference" "#PWR02" (at 100.33 132.08 0)
+    (property "Reference" "#PWR0603" (at 100.33 132.08 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 100.33 130.81 0)
@@ -571,7 +571,7 @@
     (instances
       (project "110mhz"
         (path "/ed989016-ade2-44f8-a212-24da0fb5d2b0"
-          (reference "#PWR02") (unit 1)
+          (reference "#PWR0603") (unit 1)
         )
       )
     )
@@ -580,7 +580,7 @@
   (symbol (lib_id "Device:C_Trim_Small") (at 176.53 118.11 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 22a10280-b162-498b-8f50-742923a46b9d)
-    (property "Reference" "C6" (at 179.07 116.7129 0)
+    (property "Reference" "C606" (at 179.07 116.7129 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "1p-10p" (at 179.07 119.2529 0)
@@ -597,7 +597,7 @@
     (instances
       (project "110mhz"
         (path "/ed989016-ade2-44f8-a212-24da0fb5d2b0"
-          (reference "C6") (unit 1)
+          (reference "C606") (unit 1)
         )
       )
     )
@@ -606,7 +606,7 @@
   (symbol (lib_id "Device:C_Small") (at 166.37 110.49 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 2c11b614-cbfc-4a1d-99b2-68836b025674)
-    (property "Reference" "C5" (at 166.3763 104.14 90)
+    (property "Reference" "C605" (at 166.3763 104.14 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" ".092p" (at 166.3763 106.68 90)
@@ -623,7 +623,7 @@
     (instances
       (project "110mhz"
         (path "/ed989016-ade2-44f8-a212-24da0fb5d2b0"
-          (reference "C5") (unit 1)
+          (reference "C605") (unit 1)
         )
       )
     )
@@ -632,7 +632,7 @@
   (symbol (lib_id "Simulation_SPICE:VSIN") (at 55.88 133.35 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 2d26ff7c-dea9-4c91-b9ba-550fe51b06c3)
-    (property "Reference" "V1" (at 59.182 131.0571 0)
+    (property "Reference" "V601" (at 59.182 131.0571 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "VSIN" (at 59.182 133.594 0)
@@ -658,7 +658,7 @@
     (instances
       (project "110mhz"
         (path "/ed989016-ade2-44f8-a212-24da0fb5d2b0"
-          (reference "V1") (unit 1)
+          (reference "V601") (unit 1)
         )
       )
     )
@@ -667,7 +667,7 @@
   (symbol (lib_id "Device:C_Trim_Small") (at 125.73 118.11 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 2f44858b-9ad7-411b-95ba-c0da546d63cb)
-    (property "Reference" "C2" (at 128.27 116.7129 0)
+    (property "Reference" "C602" (at 128.27 116.7129 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "1p-10p" (at 128.27 119.2529 0)
@@ -684,7 +684,7 @@
     (instances
       (project "110mhz"
         (path "/ed989016-ade2-44f8-a212-24da0fb5d2b0"
-          (reference "C2") (unit 1)
+          (reference "C602") (unit 1)
         )
       )
     )
@@ -693,7 +693,7 @@
   (symbol (lib_id "Device:L_Small") (at 144.78 118.11 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 31411c4e-e43a-49db-93c1-1239d2090d18)
-    (property "Reference" "L2" (at 146.05 116.8399 0)
+    (property "Reference" "L602" (at 146.05 116.8399 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "300n" (at 146.05 119.3799 0)
@@ -710,7 +710,7 @@
     (instances
       (project "110mhz"
         (path "/ed989016-ade2-44f8-a212-24da0fb5d2b0"
-          (reference "L2") (unit 1)
+          (reference "L602") (unit 1)
         )
       )
     )
@@ -719,7 +719,7 @@
   (symbol (lib_id "Device:L_Small") (at 189.23 110.49 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 5170bcc4-7411-4fc2-a008-c485ed9c32be)
-    (property "Reference" "L3" (at 189.23 105.41 90)
+    (property "Reference" "L603" (at 189.23 105.41 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "300n" (at 189.23 107.95 90)
@@ -736,7 +736,7 @@
     (instances
       (project "110mhz"
         (path "/ed989016-ade2-44f8-a212-24da0fb5d2b0"
-          (reference "L3") (unit 1)
+          (reference "L603") (unit 1)
         )
       )
     )
@@ -745,7 +745,7 @@
   (symbol (lib_id "power:GND") (at 144.78 125.73 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 6dbc895c-1dd3-4e7d-b81b-ca254a096bab)
-    (property "Reference" "#PWR04" (at 144.78 132.08 0)
+    (property "Reference" "#PWR0605" (at 144.78 132.08 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 144.78 130.81 0)
@@ -761,7 +761,7 @@
     (instances
       (project "110mhz"
         (path "/ed989016-ade2-44f8-a212-24da0fb5d2b0"
-          (reference "#PWR04") (unit 1)
+          (reference "#PWR0605") (unit 1)
         )
       )
     )
@@ -770,7 +770,7 @@
   (symbol (lib_id "Connector:Conn_Coaxial") (at 87.63 110.49 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 938aa0af-9153-4422-a100-a454b6c26a1b)
-    (property "Reference" "J1" (at 87.9474 102.87 0)
+    (property "Reference" "J601" (at 87.9474 102.87 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "In" (at 87.9474 105.41 0)
@@ -799,7 +799,7 @@
     (instances
       (project "110mhz"
         (path "/ed989016-ade2-44f8-a212-24da0fb5d2b0"
-          (reference "J1") (unit 1)
+          (reference "J601") (unit 1)
         )
       )
     )
@@ -808,7 +808,7 @@
   (symbol (lib_id "Connector:Conn_Coaxial") (at 214.63 110.49 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid a19003b5-38e6-453a-819f-2495226f9dd4)
-    (property "Reference" "J2" (at 217.17 109.5131 0)
+    (property "Reference" "J602" (at 217.17 109.5131 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "Out" (at 217.17 112.0531 0)
@@ -837,7 +837,7 @@
     (instances
       (project "110mhz"
         (path "/ed989016-ade2-44f8-a212-24da0fb5d2b0"
-          (reference "J2") (unit 1)
+          (reference "J602") (unit 1)
         )
       )
     )
@@ -846,7 +846,7 @@
   (symbol (lib_id "power:GND") (at 214.63 125.73 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid b04ee077-b596-4567-a9d0-522e69ac19e6)
-    (property "Reference" "#PWR08" (at 214.63 132.08 0)
+    (property "Reference" "#PWR0609" (at 214.63 132.08 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 214.63 130.81 0)
@@ -862,7 +862,7 @@
     (instances
       (project "110mhz"
         (path "/ed989016-ade2-44f8-a212-24da0fb5d2b0"
-          (reference "#PWR08") (unit 1)
+          (reference "#PWR0609") (unit 1)
         )
       )
     )
@@ -871,7 +871,7 @@
   (symbol (lib_id "power:GND") (at 55.88 142.24 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid b0b4726e-2db0-44b7-89f9-18ddacbccb83)
-    (property "Reference" "#PWR09" (at 55.88 148.59 0)
+    (property "Reference" "#PWR0601" (at 55.88 148.59 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 55.88 147.32 0)
@@ -887,7 +887,7 @@
     (instances
       (project "110mhz"
         (path "/ed989016-ade2-44f8-a212-24da0fb5d2b0"
-          (reference "#PWR09") (unit 1)
+          (reference "#PWR0601") (unit 1)
         )
       )
     )
@@ -896,7 +896,7 @@
   (symbol (lib_id "power:GND") (at 176.53 125.73 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid b17590ac-bb78-4798-b20d-40942eeb2176)
-    (property "Reference" "#PWR06" (at 176.53 132.08 0)
+    (property "Reference" "#PWR0607" (at 176.53 132.08 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 176.53 130.81 0)
@@ -912,7 +912,7 @@
     (instances
       (project "110mhz"
         (path "/ed989016-ade2-44f8-a212-24da0fb5d2b0"
-          (reference "#PWR06") (unit 1)
+          (reference "#PWR0607") (unit 1)
         )
       )
     )
@@ -921,7 +921,7 @@
   (symbol (lib_id "Device:C_Small") (at 201.93 118.11 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid b99f9499-0c91-445d-a980-2bd6905aa648)
-    (property "Reference" "C7" (at 204.47 116.8462 0)
+    (property "Reference" "C607" (at 204.47 116.8462 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "100p" (at 204.47 119.3862 0)
@@ -938,7 +938,7 @@
     (instances
       (project "110mhz"
         (path "/ed989016-ade2-44f8-a212-24da0fb5d2b0"
-          (reference "C7") (unit 1)
+          (reference "C607") (unit 1)
         )
       )
     )
@@ -947,7 +947,7 @@
   (symbol (lib_id "power:GND") (at 201.93 125.73 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid bba479f7-4d73-489b-8526-162992e850d7)
-    (property "Reference" "#PWR07" (at 201.93 132.08 0)
+    (property "Reference" "#PWR0608" (at 201.93 132.08 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 201.93 130.81 0)
@@ -963,7 +963,7 @@
     (instances
       (project "110mhz"
         (path "/ed989016-ade2-44f8-a212-24da0fb5d2b0"
-          (reference "#PWR07") (unit 1)
+          (reference "#PWR0608") (unit 1)
         )
       )
     )
@@ -972,7 +972,7 @@
   (symbol (lib_id "Device:C_Small") (at 135.89 110.49 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid be89b0a4-e407-4d28-8e97-da954dd5f237)
-    (property "Reference" "C3" (at 135.8963 104.14 90)
+    (property "Reference" "C603" (at 135.8963 104.14 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" ".092p" (at 135.8963 106.68 90)
@@ -989,7 +989,7 @@
     (instances
       (project "110mhz"
         (path "/ed989016-ade2-44f8-a212-24da0fb5d2b0"
-          (reference "C3") (unit 1)
+          (reference "C603") (unit 1)
         )
       )
     )
@@ -998,7 +998,7 @@
   (symbol (lib_id "power:GND") (at 87.63 125.73 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid d53c75bf-40fb-4a35-a6a9-1f16e4b23ff0)
-    (property "Reference" "#PWR01" (at 87.63 132.08 0)
+    (property "Reference" "#PWR0602" (at 87.63 132.08 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 87.63 130.81 0)
@@ -1014,7 +1014,7 @@
     (instances
       (project "110mhz"
         (path "/ed989016-ade2-44f8-a212-24da0fb5d2b0"
-          (reference "#PWR01") (unit 1)
+          (reference "#PWR0602") (unit 1)
         )
       )
     )
@@ -1023,7 +1023,7 @@
   (symbol (lib_id "power:GND") (at 125.73 125.73 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid df56e37c-16da-4fc2-9005-4a69db1286be)
-    (property "Reference" "#PWR03" (at 125.73 132.08 0)
+    (property "Reference" "#PWR0604" (at 125.73 132.08 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 125.73 130.81 0)
@@ -1039,7 +1039,7 @@
     (instances
       (project "110mhz"
         (path "/ed989016-ade2-44f8-a212-24da0fb5d2b0"
-          (reference "#PWR03") (unit 1)
+          (reference "#PWR0604") (unit 1)
         )
       )
     )
@@ -1048,7 +1048,7 @@
   (symbol (lib_id "power:GND") (at 156.21 125.73 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid f44a99eb-8382-4a4c-bd01-8f240703bddb)
-    (property "Reference" "#PWR05" (at 156.21 132.08 0)
+    (property "Reference" "#PWR0606" (at 156.21 132.08 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 156.21 130.81 0)
@@ -1064,7 +1064,7 @@
     (instances
       (project "110mhz"
         (path "/ed989016-ade2-44f8-a212-24da0fb5d2b0"
-          (reference "#PWR05") (unit 1)
+          (reference "#PWR0606") (unit 1)
         )
       )
     )
@@ -1073,7 +1073,7 @@
   (symbol (lib_id "Device:C_Small") (at 100.33 118.11 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid f83ffa05-0ac2-43f9-b0ed-4939d759d167)
-    (property "Reference" "C1" (at 102.87 116.8462 0)
+    (property "Reference" "C601" (at 102.87 116.8462 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "100p" (at 102.87 119.3862 0)
@@ -1090,7 +1090,7 @@
     (instances
       (project "110mhz"
         (path "/ed989016-ade2-44f8-a212-24da0fb5d2b0"
-          (reference "C1") (unit 1)
+          (reference "C601") (unit 1)
         )
       )
     )

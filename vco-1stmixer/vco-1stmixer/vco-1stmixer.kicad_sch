@@ -1339,6 +1339,11 @@
     (uuid fdb9b601-109f-4a66-b3ca-b83414a94e2d)
   )
 
+  (label "+15" (at 209.55 148.59 0) (fields_autoplaced)
+    (effects (font (size 1.27 1.27)) (justify left bottom))
+    (uuid c5297bb9-e042-4f14-a387-7b0725163d25)
+  )
+
   (symbol (lib_id "Connector:TestPoint_Probe") (at 49.53 67.31 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 02012ee6-ae0d-45da-8cc9-1a1eea31f966)

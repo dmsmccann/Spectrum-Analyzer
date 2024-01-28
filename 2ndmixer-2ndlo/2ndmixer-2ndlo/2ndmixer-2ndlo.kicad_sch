@@ -3086,7 +3086,7 @@
   (symbol (lib_id "Device:R_Small_US") (at 43.18 121.92 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 51b2a9db-b7eb-4ce2-a34f-6e4e9d249cb0)
-    (property "Reference" "R201" (at 45.72 120.65 0)
+    (property "Reference" "R203" (at 45.72 120.65 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "2k" (at 45.72 123.19 0)
@@ -3106,7 +3106,7 @@
     (instances
       (project "2ndmixer-2ndlo"
         (path "/eb21458e-c691-455b-9e40-6abe8ef9cffb"
-          (reference "R201") (unit 1)
+          (reference "R203") (unit 1)
         )
       )
     )

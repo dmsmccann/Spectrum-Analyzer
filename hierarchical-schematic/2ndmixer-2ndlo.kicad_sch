@@ -2004,7 +2004,7 @@
   (symbol (lib_id "Device:C_Small") (at 326.39 120.65 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 01a156c4-eccf-4d2f-8b08-1fc618bbfda7)
-    (property "Reference" "C215" (at 330.2 119.38 0)
+    (property "Reference" "C213" (at 330.2 119.38 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" ".1u" (at 329.565 121.92 0)
@@ -2024,7 +2024,7 @@
     (instances
       (project "W7ZOI Spectrum Analyzer"
         (path "/d5173421-a214-4849-aa93-f108d8644c8a/b6030815-2e40-4c5d-a264-1a0d5112a2b3"
-          (reference "C215") (unit 1)
+          (reference "C213") (unit 1)
         )
       )
       (project "2ndmixer-2ndlo"
@@ -2169,7 +2169,7 @@
   (symbol (lib_id "Device:C_Small") (at 292.1 60.96 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 0baf1977-5084-4fd8-a32e-76511257fd84)
-    (property "Reference" "C214" (at 287.02 59.69 0)
+    (property "Reference" "C212" (at 287.02 59.69 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" ".1u" (at 288.29 63.5 0)
@@ -2189,7 +2189,7 @@
     (instances
       (project "W7ZOI Spectrum Analyzer"
         (path "/d5173421-a214-4849-aa93-f108d8644c8a/b6030815-2e40-4c5d-a264-1a0d5112a2b3"
-          (reference "C214") (unit 1)
+          (reference "C212") (unit 1)
         )
       )
       (project "2ndmixer-2ndlo"
@@ -2203,7 +2203,7 @@
   (symbol (lib_id "Device:R_Small_US") (at 80.01 118.11 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 0d48b1b2-9f87-40f7-91cd-18b1d5e8d49b)
-    (property "Reference" "R205" (at 82.55 116.84 0)
+    (property "Reference" "R204" (at 82.55 116.84 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "510" (at 82.55 119.38 0)
@@ -2223,7 +2223,7 @@
     (instances
       (project "W7ZOI Spectrum Analyzer"
         (path "/d5173421-a214-4849-aa93-f108d8644c8a/b6030815-2e40-4c5d-a264-1a0d5112a2b3"
-          (reference "R205") (unit 1)
+          (reference "R204") (unit 1)
         )
       )
       (project "2ndmixer-2ndlo"
@@ -2237,7 +2237,7 @@
   (symbol (lib_id "Device:C_Small") (at 288.29 97.79 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 0fd2d19e-7e90-4a67-b61c-83e653cecc0a)
-    (property "Reference" "C213" (at 288.2963 90.805 90)
+    (property "Reference" "C214" (at 288.2963 90.805 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" ".1u" (at 288.2964 93.345 90)
@@ -2257,7 +2257,7 @@
     (instances
       (project "W7ZOI Spectrum Analyzer"
         (path "/d5173421-a214-4849-aa93-f108d8644c8a/b6030815-2e40-4c5d-a264-1a0d5112a2b3"
-          (reference "C213") (unit 1)
+          (reference "C214") (unit 1)
         )
       )
       (project "2ndmixer-2ndlo"
@@ -2271,7 +2271,7 @@
   (symbol (lib_id "Device:C_Small") (at 123.19 104.14 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 111eddb3-d0f0-4543-96d3-6a2d2ac3ecf1)
-    (property "Reference" "C208" (at 115.824 103.124 0)
+    (property "Reference" "C206" (at 115.824 103.124 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "82p" (at 115.824 104.902 0)
@@ -2291,7 +2291,7 @@
     (instances
       (project "W7ZOI Spectrum Analyzer"
         (path "/d5173421-a214-4849-aa93-f108d8644c8a/b6030815-2e40-4c5d-a264-1a0d5112a2b3"
-          (reference "C208") (unit 1)
+          (reference "C206") (unit 1)
         )
       )
       (project "2ndmixer-2ndlo"
@@ -3607,7 +3607,7 @@
   (symbol (lib_id "Device:R_Small_US") (at 199.39 73.66 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 824df0a9-9078-46a9-9842-339594d4ffea)
-    (property "Reference" "R209" (at 201.93 72.39 0)
+    (property "Reference" "R210" (at 201.93 72.39 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "220" (at 201.93 74.93 0)
@@ -3627,7 +3627,7 @@
     (instances
       (project "W7ZOI Spectrum Analyzer"
         (path "/d5173421-a214-4849-aa93-f108d8644c8a/b6030815-2e40-4c5d-a264-1a0d5112a2b3"
-          (reference "R209") (unit 1)
+          (reference "R210") (unit 1)
         )
       )
       (project "2ndmixer-2ndlo"
@@ -3671,7 +3671,7 @@
   (symbol (lib_id "Device:C_Feedthrough") (at 38.1 49.53 0) (unit 1)
     (in_bom yes) (on_board no) (dnp no) (fields_autoplaced)
     (uuid 889efd64-6e5c-4170-9dd9-9284ea7cfd0a)
-    (property "Reference" "C202" (at 38.1 40.64 0)
+    (property "Reference" "C298" (at 38.1 40.64 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "1n" (at 38.1 43.18 0)
@@ -3692,7 +3692,7 @@
     (instances
       (project "W7ZOI Spectrum Analyzer"
         (path "/d5173421-a214-4849-aa93-f108d8644c8a/b6030815-2e40-4c5d-a264-1a0d5112a2b3"
-          (reference "C202") (unit 1)
+          (reference "C298") (unit 1)
         )
       )
       (project "2ndmixer-2ndlo"
@@ -3740,7 +3740,7 @@
   (symbol (lib_id "spectrum analyzer:BFC280831659") (at 110.49 92.71 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 893456f3-9699-4269-a9a2-23ff7f8c223d)
-    (property "Reference" "C206" (at 111.125 92.71 90)
+    (property "Reference" "C299" (at 111.125 92.71 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "12p-60p" (at 111.125 94.615 90)
@@ -3776,7 +3776,7 @@
     (instances
       (project "W7ZOI Spectrum Analyzer"
         (path "/d5173421-a214-4849-aa93-f108d8644c8a/b6030815-2e40-4c5d-a264-1a0d5112a2b3"
-          (reference "C206") (unit 1)
+          (reference "C299") (unit 1)
         )
       )
       (project "2ndmixer-2ndlo"
@@ -3864,7 +3864,7 @@
   (symbol (lib_id "Device:R_Small_US") (at 302.26 53.34 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 992455c9-6aa2-46a1-8855-d8e039d9f0a9)
-    (property "Reference" "R215" (at 304.8 52.07 0)
+    (property "Reference" "R217" (at 304.8 52.07 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "27" (at 304.8 54.61 0)
@@ -3884,7 +3884,7 @@
     (instances
       (project "W7ZOI Spectrum Analyzer"
         (path "/d5173421-a214-4849-aa93-f108d8644c8a/b6030815-2e40-4c5d-a264-1a0d5112a2b3"
-          (reference "R215") (unit 1)
+          (reference "R217") (unit 1)
         )
       )
       (project "2ndmixer-2ndlo"
@@ -3898,7 +3898,7 @@
   (symbol (lib_id "Device:C_Small") (at 49.53 80.01 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 9bfa2f06-9434-4506-b048-c6bbb2b3d1d6)
-    (property "Reference" "C203" (at 52.07 78.7463 0)
+    (property "Reference" "C202" (at 52.07 78.7463 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "470p" (at 52.07 81.2863 0)
@@ -3918,7 +3918,7 @@
     (instances
       (project "W7ZOI Spectrum Analyzer"
         (path "/d5173421-a214-4849-aa93-f108d8644c8a/b6030815-2e40-4c5d-a264-1a0d5112a2b3"
-          (reference "C203") (unit 1)
+          (reference "C202") (unit 1)
         )
       )
       (project "2ndmixer-2ndlo"
@@ -3996,7 +3996,7 @@
   (symbol (lib_id "Device:R_Small_US") (at 72.39 71.12 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid a0106c37-4db2-4457-b9f1-389a0839ee59)
-    (property "Reference" "R204" (at 74.93 69.85 0)
+    (property "Reference" "R205" (at 74.93 69.85 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "100" (at 74.93 72.39 0)
@@ -4016,7 +4016,7 @@
     (instances
       (project "W7ZOI Spectrum Analyzer"
         (path "/d5173421-a214-4849-aa93-f108d8644c8a/b6030815-2e40-4c5d-a264-1a0d5112a2b3"
-          (reference "R204") (unit 1)
+          (reference "R205") (unit 1)
         )
       )
       (project "2ndmixer-2ndlo"
@@ -4068,7 +4068,7 @@
   (symbol (lib_id "Device:R_Small_US") (at 218.44 62.23 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid a2b8ecfd-589a-4827-b695-7cbde9a2be45)
-    (property "Reference" "R210" (at 220.98 60.96 0)
+    (property "Reference" "R209" (at 220.98 60.96 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "47" (at 220.98 63.5 0)
@@ -4088,7 +4088,7 @@
     (instances
       (project "W7ZOI Spectrum Analyzer"
         (path "/d5173421-a214-4849-aa93-f108d8644c8a/b6030815-2e40-4c5d-a264-1a0d5112a2b3"
-          (reference "R210") (unit 1)
+          (reference "R209") (unit 1)
         )
       )
       (project "2ndmixer-2ndlo"
@@ -4187,7 +4187,7 @@
   (symbol (lib_id "Device:C_Small") (at 99.06 118.11 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid b1ef4651-5408-4d57-bf27-f20d8d69bb9b)
-    (property "Reference" "C205" (at 101.6 116.8463 0)
+    (property "Reference" "C204" (at 101.6 116.8463 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "33p" (at 101.6 119.3863 0)
@@ -4207,7 +4207,7 @@
     (instances
       (project "W7ZOI Spectrum Analyzer"
         (path "/d5173421-a214-4849-aa93-f108d8644c8a/b6030815-2e40-4c5d-a264-1a0d5112a2b3"
-          (reference "C205") (unit 1)
+          (reference "C204") (unit 1)
         )
       )
       (project "2ndmixer-2ndlo"
@@ -4221,7 +4221,7 @@
   (symbol (lib_id "Device:C_Small") (at 99.06 91.44 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid b1f22680-62ea-49e0-a392-2c1ec347c934)
-    (property "Reference" "C204" (at 101.6 90.1763 0)
+    (property "Reference" "C203" (at 101.6 90.1763 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "33p" (at 101.6 92.7163 0)
@@ -4241,7 +4241,7 @@
     (instances
       (project "W7ZOI Spectrum Analyzer"
         (path "/d5173421-a214-4849-aa93-f108d8644c8a/b6030815-2e40-4c5d-a264-1a0d5112a2b3"
-          (reference "C204") (unit 1)
+          (reference "C203") (unit 1)
         )
       )
       (project "2ndmixer-2ndlo"
@@ -4364,7 +4364,7 @@
   (symbol (lib_id "Device:C_Small") (at 123.19 90.17 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid bd3cafa9-70e4-4049-b61c-919d13e5a482)
-    (property "Reference" "C207" (at 125.73 88.9063 0)
+    (property "Reference" "C205" (at 125.73 88.9063 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "15p" (at 125.73 91.4463 0)
@@ -4384,7 +4384,7 @@
     (instances
       (project "W7ZOI Spectrum Analyzer"
         (path "/d5173421-a214-4849-aa93-f108d8644c8a/b6030815-2e40-4c5d-a264-1a0d5112a2b3"
-          (reference "C207") (unit 1)
+          (reference "C205") (unit 1)
         )
       )
       (project "2ndmixer-2ndlo"
@@ -4606,10 +4606,10 @@
   (symbol (lib_id "Device:C_Small") (at 273.05 121.92 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid cfcaf582-7bdc-4c99-9c58-5c53b733c788)
-    (property "Reference" "C212" (at 275.59 120.6562 0)
+    (property "Reference" "C208" (at 275.59 120.6563 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Value" "120p" (at 275.59 123.1962 0)
+    (property "Value" "120p" (at 275.59 123.1963 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Footprint" "Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P5.00mm" (at 273.05 121.92 0)
@@ -4626,7 +4626,7 @@
     (instances
       (project "W7ZOI Spectrum Analyzer"
         (path "/d5173421-a214-4849-aa93-f108d8644c8a/b6030815-2e40-4c5d-a264-1a0d5112a2b3"
-          (reference "C212") (unit 1)
+          (reference "C208") (unit 1)
         )
       )
       (project "2ndmixer-2ndlo"
@@ -4640,7 +4640,7 @@
   (symbol (lib_id "Connector:Conn_Coaxial") (at 322.58 73.66 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid d00af47f-f6d6-4443-bdd4-d48fd8fe4efc)
-    (property "Reference" "J203" (at 326.39 72.6832 0)
+    (property "Reference" "J204" (at 326.39 72.6832 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "2nd IF Out" (at 326.39 75.2232 0)
@@ -4672,7 +4672,7 @@
     (instances
       (project "W7ZOI Spectrum Analyzer"
         (path "/d5173421-a214-4849-aa93-f108d8644c8a/b6030815-2e40-4c5d-a264-1a0d5112a2b3"
-          (reference "J203") (unit 1)
+          (reference "J204") (unit 1)
         )
       )
       (project "2ndmixer-2ndlo"
@@ -4716,10 +4716,10 @@
   (symbol (lib_id "Device:R_Small_US") (at 326.39 113.03 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid e42c37db-2e4d-4471-bc23-7615e8ef3c56)
-    (property "Reference" "R217" (at 328.93 111.7599 0)
+    (property "Reference" "R216" (at 328.93 111.76 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Value" "5.1" (at 328.93 114.2999 0)
+    (property "Value" "5.1" (at 328.93 114.3 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" (at 326.39 113.03 0)
@@ -4736,7 +4736,7 @@
     (instances
       (project "W7ZOI Spectrum Analyzer"
         (path "/d5173421-a214-4849-aa93-f108d8644c8a/b6030815-2e40-4c5d-a264-1a0d5112a2b3"
-          (reference "R217") (unit 1)
+          (reference "R216") (unit 1)
         )
       )
       (project "2ndmixer-2ndlo"
@@ -4816,10 +4816,10 @@
   (symbol (lib_id "Device:R_Small_US") (at 317.5 111.76 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid ec1ec6a9-f347-4f26-b132-8c8f402c320a)
-    (property "Reference" "R216" (at 319.405 110.4899 0)
+    (property "Reference" "R215" (at 320.04 110.49 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Value" "27" (at 319.405 113.0299 0)
+    (property "Value" "27" (at 320.04 113.03 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" (at 317.5 111.76 0)
@@ -4836,7 +4836,7 @@
     (instances
       (project "W7ZOI Spectrum Analyzer"
         (path "/d5173421-a214-4849-aa93-f108d8644c8a/b6030815-2e40-4c5d-a264-1a0d5112a2b3"
-          (reference "R216") (unit 1)
+          (reference "R215") (unit 1)
         )
       )
       (project "2ndmixer-2ndlo"
@@ -4918,7 +4918,7 @@
   (symbol (lib_id "Device:R_Small_US") (at 30.48 86.36 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid f9271697-9d32-480a-966c-d6a1bc085fd4)
-    (property "Reference" "R201" (at 33.02 85.09 0)
+    (property "Reference" "R203" (at 33.02 85.09 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "3.3k" (at 33.02 87.63 0)
@@ -4938,7 +4938,7 @@
     (instances
       (project "W7ZOI Spectrum Analyzer"
         (path "/d5173421-a214-4849-aa93-f108d8644c8a/b6030815-2e40-4c5d-a264-1a0d5112a2b3"
-          (reference "R201") (unit 1)
+          (reference "R203") (unit 1)
         )
       )
       (project "2ndmixer-2ndlo"

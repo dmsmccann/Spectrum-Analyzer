@@ -5601,7 +5601,7 @@
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "${SIM.PARAMS}" (at 293.37 78.105 0)
-      (effects (font (size 1.27 1.27)) (justify left))
+      (effects (font (size 1.27 1.27)) (justify left) hide)
     )
     (property "Footprint" "TestPoint:TestPoint_Pad_1.0x1.0mm" (at 297.18 72.39 0)
       (effects (font (size 1.27 1.27)) hide)

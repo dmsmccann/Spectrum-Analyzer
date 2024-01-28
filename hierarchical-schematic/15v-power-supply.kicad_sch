@@ -1770,7 +1770,7 @@
   (symbol (lib_id "Device:C_Polarized_Small_US") (at 140.97 147.32 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 02bb30ff-e16d-4654-8d32-32c5c46729e2)
-    (property "Reference" "C1103" (at 144.78 145.4149 0)
+    (property "Reference" "C903" (at 144.78 145.4149 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "6800u" (at 144.78 147.9549 0)
@@ -1787,7 +1787,7 @@
     (instances
       (project "W7ZOI Spectrum Analyzer"
         (path "/d5173421-a214-4849-aa93-f108d8644c8a/633a963b-5ac6-4181-b149-baaec0e755c1"
-          (reference "C1103") (unit 1)
+          (reference "C903") (unit 1)
         )
       )
     )
@@ -1796,7 +1796,7 @@
   (symbol (lib_id "Device:C_Polarized_Small_US") (at 252.73 71.12 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 02d746ec-ca06-4b12-a15c-08102bbd7522)
-    (property "Reference" "C1111" (at 256.54 69.2149 0)
+    (property "Reference" "C911" (at 256.54 69.2149 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "6800u" (at 256.54 71.7549 0)
@@ -1813,7 +1813,7 @@
     (instances
       (project "W7ZOI Spectrum Analyzer"
         (path "/d5173421-a214-4849-aa93-f108d8644c8a/633a963b-5ac6-4181-b149-baaec0e755c1"
-          (reference "C1111") (unit 1)
+          (reference "C911") (unit 1)
         )
       )
     )
@@ -1822,7 +1822,7 @@
   (symbol (lib_id "power:GND") (at 76.2 59.69 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 0ddc9c53-a89e-43c3-ba15-67c17f82f302)
-    (property "Reference" "#PWR01101" (at 76.2 66.04 0)
+    (property "Reference" "#PWR0901" (at 76.2 66.04 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 76.2 64.77 0)
@@ -1838,7 +1838,7 @@
     (instances
       (project "W7ZOI Spectrum Analyzer"
         (path "/d5173421-a214-4849-aa93-f108d8644c8a/633a963b-5ac6-4181-b149-baaec0e755c1"
-          (reference "#PWR01101") (unit 1)
+          (reference "#PWR0901") (unit 1)
         )
       )
     )
@@ -1847,7 +1847,7 @@
   (symbol (lib_id "Switch:SW_SPST") (at 87.63 43.18 0) (unit 1)
     (in_bom yes) (on_board no) (dnp no) (fields_autoplaced)
     (uuid 1ba2a179-78dd-4a46-91ec-85dad04c4b43)
-    (property "Reference" "SW1101" (at 87.63 36.83 0)
+    (property "Reference" "SW901" (at 87.63 36.83 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "0" (at 87.63 39.37 0)
@@ -1873,7 +1873,7 @@
     (instances
       (project "W7ZOI Spectrum Analyzer"
         (path "/d5173421-a214-4849-aa93-f108d8644c8a/633a963b-5ac6-4181-b149-baaec0e755c1"
-          (reference "SW1101") (unit 1)
+          (reference "SW901") (unit 1)
         )
       )
     )
@@ -1882,7 +1882,7 @@
   (symbol (lib_id "Device:Fuse") (at 99.06 43.18 90) (unit 1)
     (in_bom yes) (on_board no) (dnp no)
     (uuid 22c95b26-6e40-409b-83a6-5324a6d77139)
-    (property "Reference" "F1101" (at 99.06 38.1 90)
+    (property "Reference" "F901" (at 99.06 38.1 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "0.5A" (at 99.06 40.64 90)
@@ -1908,7 +1908,7 @@
     (instances
       (project "W7ZOI Spectrum Analyzer"
         (path "/d5173421-a214-4849-aa93-f108d8644c8a/633a963b-5ac6-4181-b149-baaec0e755c1"
-          (reference "F1101") (unit 1)
+          (reference "F901") (unit 1)
         )
       )
     )
@@ -1917,7 +1917,7 @@
   (symbol (lib_id "Connector:Conn_WallPlug_Earth") (at 68.58 45.72 0) (unit 1)
     (in_bom no) (on_board no) (dnp no) (fields_autoplaced)
     (uuid 2478f7ed-d6be-4a5e-ace6-4dc344fc9604)
-    (property "Reference" "P1101" (at 68.1863 36.83 0)
+    (property "Reference" "P901" (at 68.1863 36.83 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "120VAC" (at 68.1863 39.37 0)
@@ -1947,7 +1947,7 @@
     (instances
       (project "W7ZOI Spectrum Analyzer"
         (path "/d5173421-a214-4849-aa93-f108d8644c8a/633a963b-5ac6-4181-b149-baaec0e755c1"
-          (reference "P1101") (unit 1)
+          (reference "P901") (unit 1)
         )
       )
     )
@@ -1956,7 +1956,7 @@
   (symbol (lib_id "Regulator_Linear:L7815") (at 115.57 105.41 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 43621981-e2c6-4587-b8c8-dbba3b22b1fd)
-    (property "Reference" "U1101" (at 115.57 97.79 0)
+    (property "Reference" "U901" (at 115.57 97.79 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "LM7815" (at 115.57 100.33 0)
@@ -1983,7 +1983,7 @@
     (instances
       (project "W7ZOI Spectrum Analyzer"
         (path "/d5173421-a214-4849-aa93-f108d8644c8a/633a963b-5ac6-4181-b149-baaec0e755c1"
-          (reference "U1101") (unit 1)
+          (reference "U901") (unit 1)
         )
       )
     )
@@ -1992,7 +1992,7 @@
   (symbol (lib_id "Device:C_Polarized_Small_US") (at 186.69 147.32 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 52699869-ac51-41d6-9990-f4421795c48f)
-    (property "Reference" "C1105" (at 190.5 146.0499 0)
+    (property "Reference" "C905" (at 190.5 146.0499 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "6.8u" (at 190.5 148.5899 0)
@@ -2009,7 +2009,7 @@
     (instances
       (project "W7ZOI Spectrum Analyzer"
         (path "/d5173421-a214-4849-aa93-f108d8644c8a/633a963b-5ac6-4181-b149-baaec0e755c1"
-          (reference "C1105") (unit 1)
+          (reference "C905") (unit 1)
         )
       )
     )
@@ -2018,7 +2018,7 @@
   (symbol (lib_id "spectrum analyzer:1N5060GP") (at 217.17 71.12 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 58b6f7dd-26f2-4d53-b749-299ce056d6d2)
-    (property "Reference" "D1104" (at 220.98 69.8499 90)
+    (property "Reference" "D904" (at 220.98 69.8499 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "1n5060" (at 220.98 72.3899 90)
@@ -2044,7 +2044,7 @@
     (instances
       (project "W7ZOI Spectrum Analyzer"
         (path "/d5173421-a214-4849-aa93-f108d8644c8a/633a963b-5ac6-4181-b149-baaec0e755c1"
-          (reference "D1104") (unit 1)
+          (reference "D904") (unit 1)
         )
       )
     )
@@ -2053,7 +2053,7 @@
   (symbol (lib_name "1N5060GP_3") (lib_id "spectrum analyzer:1N5060GP") (at 180.34 71.12 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 5e36d7a8-2a05-408b-b9a2-dc5707d153e2)
-    (property "Reference" "D1102" (at 184.15 69.8499 90)
+    (property "Reference" "D902" (at 184.15 69.8499 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "1n5060" (at 184.15 72.3899 90)
@@ -2079,7 +2079,7 @@
     (instances
       (project "W7ZOI Spectrum Analyzer"
         (path "/d5173421-a214-4849-aa93-f108d8644c8a/633a963b-5ac6-4181-b149-baaec0e755c1"
-          (reference "D1102") (unit 1)
+          (reference "D902") (unit 1)
         )
       )
     )
@@ -2088,7 +2088,7 @@
   (symbol (lib_id "power:PWR_FLAG") (at 278.13 22.86 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 67e13c96-5d95-4289-ba70-7ae1f749b7e8)
-    (property "Reference" "#FLG01103" (at 278.13 20.955 0)
+    (property "Reference" "#FLG0902" (at 278.13 20.955 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "PWR_FLAG" (at 278.13 17.78 0)
@@ -2104,7 +2104,7 @@
     (instances
       (project "W7ZOI Spectrum Analyzer"
         (path "/d5173421-a214-4849-aa93-f108d8644c8a/633a963b-5ac6-4181-b149-baaec0e755c1"
-          (reference "#FLG01103") (unit 1)
+          (reference "#FLG0902") (unit 1)
         )
       )
     )
@@ -2113,7 +2113,7 @@
   (symbol (lib_id "Device:C_Small") (at 236.22 71.12 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 68a4e4a4-8c2e-4024-be59-08a046473355)
-    (property "Reference" "C1109" (at 240.03 69.8499 0)
+    (property "Reference" "C909" (at 240.03 69.8499 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "0.01u" (at 240.03 72.3899 0)
@@ -2130,7 +2130,7 @@
     (instances
       (project "W7ZOI Spectrum Analyzer"
         (path "/d5173421-a214-4849-aa93-f108d8644c8a/633a963b-5ac6-4181-b149-baaec0e755c1"
-          (reference "C1109") (unit 1)
+          (reference "C909") (unit 1)
         )
       )
     )
@@ -2139,7 +2139,7 @@
   (symbol (lib_id "Device:C_Polarized_Small_US") (at 140.97 115.57 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 6a2477d3-9619-469a-b105-5c42ec74d785)
-    (property "Reference" "C1102" (at 144.78 113.6649 0)
+    (property "Reference" "C902" (at 144.78 113.6649 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "6800u" (at 144.78 116.2049 0)
@@ -2156,7 +2156,7 @@
     (instances
       (project "W7ZOI Spectrum Analyzer"
         (path "/d5173421-a214-4849-aa93-f108d8644c8a/633a963b-5ac6-4181-b149-baaec0e755c1"
-          (reference "C1102") (unit 1)
+          (reference "C902") (unit 1)
         )
       )
     )
@@ -2165,7 +2165,7 @@
   (symbol (lib_id "Device:C_Polarized_Small_US") (at 252.73 36.83 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 735ef603-f218-440b-8252-74d95fadeeab)
-    (property "Reference" "C1110" (at 256.54 34.9249 0)
+    (property "Reference" "C910" (at 256.54 34.9249 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "6800u" (at 256.54 37.4649 0)
@@ -2182,7 +2182,7 @@
     (instances
       (project "W7ZOI Spectrum Analyzer"
         (path "/d5173421-a214-4849-aa93-f108d8644c8a/633a963b-5ac6-4181-b149-baaec0e755c1"
-          (reference "C1110") (unit 1)
+          (reference "C910") (unit 1)
         )
       )
     )
@@ -2191,7 +2191,7 @@
   (symbol (lib_id "spectrum analyzer:691103110003") (at 161.29 50.8 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 7d00f250-8ba8-4dcd-b258-28fee46bb8f6)
-    (property "Reference" "J1101" (at 162.56 49.5299 90)
+    (property "Reference" "J901" (at 162.56 49.5299 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "Terminal Block" (at 162.56 52.0699 90)
@@ -2251,7 +2251,7 @@
     (instances
       (project "W7ZOI Spectrum Analyzer"
         (path "/d5173421-a214-4849-aa93-f108d8644c8a/633a963b-5ac6-4181-b149-baaec0e755c1"
-          (reference "J1101") (unit 1)
+          (reference "J901") (unit 1)
         )
       )
     )
@@ -2260,7 +2260,7 @@
   (symbol (lib_id "Device:Transformer_1P_2S") (at 127 50.8 0) (unit 1)
     (in_bom yes) (on_board no) (dnp no) (fields_autoplaced)
     (uuid 7d676e8f-4709-4dfe-9430-2914762fc084)
-    (property "Reference" "T1101" (at 127 35.56 0)
+    (property "Reference" "T901" (at 127 35.56 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "XFORMER" (at 127 38.1 0)
@@ -2290,7 +2290,7 @@
     (instances
       (project "W7ZOI Spectrum Analyzer"
         (path "/d5173421-a214-4849-aa93-f108d8644c8a/633a963b-5ac6-4181-b149-baaec0e755c1"
-          (reference "T1101") (unit 1)
+          (reference "T901") (unit 1)
         )
       )
     )
@@ -2299,7 +2299,7 @@
   (symbol (lib_id "power:GND") (at 245.11 55.88 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 852266af-7eff-48d7-bf1f-0163aa4129b3)
-    (property "Reference" "#PWR01105" (at 245.11 62.23 0)
+    (property "Reference" "#PWR0905" (at 245.11 62.23 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "Earth" (at 245.11 59.69 0)
@@ -2315,7 +2315,7 @@
     (instances
       (project "W7ZOI Spectrum Analyzer"
         (path "/d5173421-a214-4849-aa93-f108d8644c8a/633a963b-5ac6-4181-b149-baaec0e755c1"
-          (reference "#PWR01105") (unit 1)
+          (reference "#PWR0905") (unit 1)
         )
       )
     )
@@ -2324,7 +2324,7 @@
   (symbol (lib_id "power:GND") (at 175.26 64.77 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 85364276-c75b-4f9f-8ca6-37967832b0c8)
-    (property "Reference" "#PWR01104" (at 175.26 71.12 0)
+    (property "Reference" "#PWR0904" (at 175.26 71.12 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "Earth" (at 175.26 68.58 0)
@@ -2340,7 +2340,7 @@
     (instances
       (project "W7ZOI Spectrum Analyzer"
         (path "/d5173421-a214-4849-aa93-f108d8644c8a/633a963b-5ac6-4181-b149-baaec0e755c1"
-          (reference "#PWR01104") (unit 1)
+          (reference "#PWR0904") (unit 1)
         )
       )
     )
@@ -2349,7 +2349,7 @@
   (symbol (lib_id "Device:C_Polarized_Small_US") (at 186.69 115.57 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 93e878c6-ecaf-47b6-940d-0aba7d650036)
-    (property "Reference" "C1104" (at 190.5 114.2999 0)
+    (property "Reference" "C904" (at 190.5 114.2999 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "6.8u" (at 190.5 116.8399 0)
@@ -2366,7 +2366,7 @@
     (instances
       (project "W7ZOI Spectrum Analyzer"
         (path "/d5173421-a214-4849-aa93-f108d8644c8a/633a963b-5ac6-4181-b149-baaec0e755c1"
-          (reference "C1104") (unit 1)
+          (reference "C904") (unit 1)
         )
       )
     )
@@ -2375,7 +2375,7 @@
   (symbol (lib_id "power:GND") (at 115.57 172.72 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 954200e5-3fcf-48e2-a260-5f5d7239eec7)
-    (property "Reference" "#PWR01103" (at 115.57 179.07 0)
+    (property "Reference" "#PWR0903" (at 115.57 179.07 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "Earth" (at 115.57 176.53 0)
@@ -2391,7 +2391,7 @@
     (instances
       (project "W7ZOI Spectrum Analyzer"
         (path "/d5173421-a214-4849-aa93-f108d8644c8a/633a963b-5ac6-4181-b149-baaec0e755c1"
-          (reference "#PWR01103") (unit 1)
+          (reference "#PWR0903") (unit 1)
         )
       )
     )
@@ -2400,7 +2400,7 @@
   (symbol (lib_name "1N5060GP_1") (lib_id "spectrum analyzer:1N5060GP") (at 180.34 36.83 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid a2b36640-9ba0-4d8c-b07a-87f1c3424095)
-    (property "Reference" "D1101" (at 184.15 35.5599 90)
+    (property "Reference" "D901" (at 184.15 35.5599 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "1n5060" (at 184.15 38.0999 90)
@@ -2426,7 +2426,7 @@
     (instances
       (project "W7ZOI Spectrum Analyzer"
         (path "/d5173421-a214-4849-aa93-f108d8644c8a/633a963b-5ac6-4181-b149-baaec0e755c1"
-          (reference "D1101") (unit 1)
+          (reference "D901") (unit 1)
         )
       )
     )
@@ -2435,7 +2435,7 @@
   (symbol (lib_id "power:PWR_FLAG") (at 68.58 85.09 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid a4a9de1b-1861-4ea2-8fab-7db54755a50d)
-    (property "Reference" "#FLG01101" (at 68.58 83.185 0)
+    (property "Reference" "#FLG0901" (at 68.58 83.185 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "PWR_FLAG" (at 68.58 80.01 0)
@@ -2451,7 +2451,7 @@
     (instances
       (project "W7ZOI Spectrum Analyzer"
         (path "/d5173421-a214-4849-aa93-f108d8644c8a/633a963b-5ac6-4181-b149-baaec0e755c1"
-          (reference "#FLG01101") (unit 1)
+          (reference "#FLG0901") (unit 1)
         )
       )
     )
@@ -2460,7 +2460,7 @@
   (symbol (lib_name "1N5060GP_2") (lib_id "spectrum analyzer:1N5060GP") (at 217.17 36.83 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid afaeef3c-60c9-4482-b50c-ff76827c11c7)
-    (property "Reference" "D1103" (at 220.98 35.5599 90)
+    (property "Reference" "D903" (at 220.98 35.5599 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "1n5060" (at 220.98 38.0999 90)
@@ -2486,7 +2486,7 @@
     (instances
       (project "W7ZOI Spectrum Analyzer"
         (path "/d5173421-a214-4849-aa93-f108d8644c8a/633a963b-5ac6-4181-b149-baaec0e755c1"
-          (reference "D1103") (unit 1)
+          (reference "D903") (unit 1)
         )
       )
     )
@@ -2495,7 +2495,7 @@
   (symbol (lib_id "Device:C_Small") (at 198.12 71.12 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid b1b80b16-28e3-4734-a7b0-724c0fe17a09)
-    (property "Reference" "C1107" (at 201.93 69.8499 0)
+    (property "Reference" "C907" (at 201.93 69.8499 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "0.01u" (at 201.93 72.3899 0)
@@ -2512,7 +2512,7 @@
     (instances
       (project "W7ZOI Spectrum Analyzer"
         (path "/d5173421-a214-4849-aa93-f108d8644c8a/633a963b-5ac6-4181-b149-baaec0e755c1"
-          (reference "C1107") (unit 1)
+          (reference "C907") (unit 1)
         )
       )
     )
@@ -2521,7 +2521,7 @@
   (symbol (lib_id "Device:R_Small_US") (at 163.83 115.57 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid b48012f2-3a59-4d01-9480-4e8226f7fb85)
-    (property "Reference" "R1101" (at 166.37 114.2999 0)
+    (property "Reference" "R901" (at 166.37 114.2999 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "2.2k" (at 166.37 116.8399 0)
@@ -2538,7 +2538,7 @@
     (instances
       (project "W7ZOI Spectrum Analyzer"
         (path "/d5173421-a214-4849-aa93-f108d8644c8a/633a963b-5ac6-4181-b149-baaec0e755c1"
-          (reference "R1101") (unit 1)
+          (reference "R901") (unit 1)
         )
       )
     )
@@ -2547,7 +2547,7 @@
   (symbol (lib_id "Regulator_Linear:L7915") (at 115.57 157.48 0) (mirror x) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid c95024aa-fb2a-42b8-abb9-92a88b532e93)
-    (property "Reference" "U1102" (at 115.57 149.86 0)
+    (property "Reference" "U902" (at 115.57 149.86 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "LM7915" (at 115.57 152.4 0)
@@ -2574,7 +2574,7 @@
     (instances
       (project "W7ZOI Spectrum Analyzer"
         (path "/d5173421-a214-4849-aa93-f108d8644c8a/633a963b-5ac6-4181-b149-baaec0e755c1"
-          (reference "U1102") (unit 1)
+          (reference "U902") (unit 1)
         )
       )
     )
@@ -2583,7 +2583,7 @@
   (symbol (lib_id "Device:C_Small") (at 236.22 36.83 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid cd26ac11-1f7f-49c3-bcf6-6c454ea4de5a)
-    (property "Reference" "C1108" (at 240.03 35.5599 0)
+    (property "Reference" "C908" (at 240.03 35.5599 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "0.01u" (at 240.03 38.0999 0)
@@ -2600,7 +2600,7 @@
     (instances
       (project "W7ZOI Spectrum Analyzer"
         (path "/d5173421-a214-4849-aa93-f108d8644c8a/633a963b-5ac6-4181-b149-baaec0e755c1"
-          (reference "C1108") (unit 1)
+          (reference "C908") (unit 1)
         )
       )
     )
@@ -2609,7 +2609,7 @@
   (symbol (lib_id "power:GND") (at 115.57 121.92 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid dba697c6-8709-4279-9900-1ed381be0e60)
-    (property "Reference" "#PWR01102" (at 115.57 128.27 0)
+    (property "Reference" "#PWR0902" (at 115.57 128.27 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "Earth" (at 115.57 125.73 0)
@@ -2625,7 +2625,7 @@
     (instances
       (project "W7ZOI Spectrum Analyzer"
         (path "/d5173421-a214-4849-aa93-f108d8644c8a/633a963b-5ac6-4181-b149-baaec0e755c1"
-          (reference "#PWR01102") (unit 1)
+          (reference "#PWR0902") (unit 1)
         )
       )
     )
@@ -2634,7 +2634,7 @@
   (symbol (lib_id "Device:C_Small") (at 105.41 50.8 0) (unit 1)
     (in_bom yes) (on_board no) (dnp no) (fields_autoplaced)
     (uuid f5b4c761-357c-4499-914e-f56f73967994)
-    (property "Reference" "C1101" (at 109.22 49.5299 0)
+    (property "Reference" "C901" (at 109.22 49.5299 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "0.22u" (at 109.22 52.0699 0)
@@ -2651,7 +2651,7 @@
     (instances
       (project "W7ZOI Spectrum Analyzer"
         (path "/d5173421-a214-4849-aa93-f108d8644c8a/633a963b-5ac6-4181-b149-baaec0e755c1"
-          (reference "C1101") (unit 1)
+          (reference "C901") (unit 1)
         )
       )
     )
@@ -2660,7 +2660,7 @@
   (symbol (lib_id "Device:C_Small") (at 198.12 36.83 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid f8a4c126-b117-4ecb-bbe1-1e762b57fe1e)
-    (property "Reference" "C1106" (at 201.93 35.5599 0)
+    (property "Reference" "C906" (at 201.93 35.5599 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "0.01u" (at 201.93 38.0999 0)
@@ -2677,7 +2677,7 @@
     (instances
       (project "W7ZOI Spectrum Analyzer"
         (path "/d5173421-a214-4849-aa93-f108d8644c8a/633a963b-5ac6-4181-b149-baaec0e755c1"
-          (reference "C1106") (unit 1)
+          (reference "C906") (unit 1)
         )
       )
     )
@@ -2686,7 +2686,7 @@
   (symbol (lib_id "Device:R_Small_US") (at 163.83 147.32 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid f9159ae3-4953-483e-b4f1-17d1dcdde9b3)
-    (property "Reference" "R1102" (at 166.37 146.0499 0)
+    (property "Reference" "R902" (at 166.37 146.0499 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "2.2k" (at 166.37 148.5899 0)
@@ -2703,7 +2703,7 @@
     (instances
       (project "W7ZOI Spectrum Analyzer"
         (path "/d5173421-a214-4849-aa93-f108d8644c8a/633a963b-5ac6-4181-b149-baaec0e755c1"
-          (reference "R1102") (unit 1)
+          (reference "R902") (unit 1)
         )
       )
     )
@@ -2712,7 +2712,7 @@
   (symbol (lib_id "spectrum analyzer:691103110003") (at 250.19 130.81 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid fec62677-bb4a-47c9-b22b-9d4b27073203)
-    (property "Reference" "J1102" (at 251.46 129.5399 90)
+    (property "Reference" "J902" (at 251.46 129.5399 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "Terminal Block" (at 251.46 132.0799 90)
@@ -2772,7 +2772,7 @@
     (instances
       (project "W7ZOI Spectrum Analyzer"
         (path "/d5173421-a214-4849-aa93-f108d8644c8a/633a963b-5ac6-4181-b149-baaec0e755c1"
-          (reference "J1102") (unit 1)
+          (reference "J902") (unit 1)
         )
       )
     )
