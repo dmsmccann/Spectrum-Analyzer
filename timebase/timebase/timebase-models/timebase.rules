@@ -11,7 +11,7 @@
     (via_costs 50)
     (plane_via_costs 5)
     (start_ripup_costs 100)
-    (start_pass_no 1052)
+    (start_pass_no 1056)
     (layer_rule F.Cu
       (active on)
       (preferred_direction horizontal)
@@ -53,10 +53,8 @@
     "kicad_default" "Via[0-1]_800:400_um-kicad_default"
   )
   (class default
-    "Net-(C401-Pad1)" "Net-(C402-Pad1)" GND "Net-(C403-Pad1)" "Net-(C401-Pad2)" "Net-(C405-Pad2)" "Net-(C406-Pad1)" "Net-(D401-Pad1)"
-    "Net-(D401-Pad2)" "Net-(D402-Pad1)" "Net-(D403-Pad1)" "Net-(D404-Pad2)" "Net-(D405-Pad2)" "VCO_Out" Out V+15
-    "V-15" "Net-(R4-Pad2)" "Net-(C404-Pad2)" "Net-(R418-Pad1)" "Net-(R417-Pad1)" "Net-(R406-Pad2)" "Net-(R411-Pad2)" "Net-(R412-Pad2)"
-    "Net-(R415-Pad2)" "Net-(R418-Pad2)" "Net-(R419-Pad2)" "Net-(R420-Pad1)" "Net-(R401-Pad2)" "Net-(R413-Pad2)" "Net-(R426-Pad2)" "Net-(R421-Pad2)"
+    GND "Net-(C401-Pad2)" "VCO_Out" Out V+15 "V-15" "Net-(R4-Pad2)" "Net-(C404-Pad2)"
+    "Net-(R418-Pad1)" "Net-(R417-Pad1)" "Net-(R412-Pad2)" "Net-(R415-Pad2)" "Net-(R419-Pad2)" "Net-(R420-Pad1)" "Net-(R401-Pad2)" "Net-(R426-Pad2)"
     "Net-(R424-Pad2)"
     (clearance_class default)
     (via_rule default)
@@ -68,6 +66,9 @@
     )
   )
   (class "kicad_default"
+    "Net-(U401A--)" "Net-(#FLG0402-pwr)" "Net-(#FLG0401-pwr)" "Net-(#FLG0404-pwr)" "Net-(#FLG0403-pwr)" "Net-(D401-K)" "Net-(D401-A)" "Net-(D402-K)"
+    "Net-(D403-K)" "Net-(D404-A)" "Net-(D405-A)" "unconnected-(J402-Pad1)" "Net-(U401B-+)" "Net-(U402A--)" "Net-(U402B--)" "Net-(U403A--)"
+    "Net-(U403B--)"
     (clearance_class "kicad_default")
     (via_rule kicad_default)
     (rule
