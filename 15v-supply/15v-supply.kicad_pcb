@@ -135,7 +135,7 @@
       (stroke (width 0.15) (type solid)) (fill none) (layer "Cmts.User") (tstamp 4be58d4e-ca21-49a0-8c0d-288b1ff6c928))
     (fp_circle (center 0 0) (end 3.45 0)
       (stroke (width 0.05) (type solid)) (fill none) (layer "F.CrtYd") (tstamp 476229cc-ca1e-4a0f-8f09-96ad5be435cb))
-    (pad "" np_thru_hole circle (at 0 0) (size 3.2 3.2) (drill 3.2) (layers "*.Cu" "*.Mask") (tstamp e4957fbd-8bef-42d4-bb57-1c907e00bc66))
+    (pad "" np_thru_hole circle (at 0 0) (size 3.2 3.2) (drill 3.2) (layers "F&B.Cu" "*.Mask") (tstamp e4957fbd-8bef-42d4-bb57-1c907e00bc66))
   )
 
   (footprint "15v-supply:C_Rect_L6.0mm_W3.5mm_P3.5mm_QYX1H103JTP3TA" (layer "F.Cu")
