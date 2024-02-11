@@ -6097,7 +6097,7 @@
   (gr_text "+15" (at 136.6774 99.6188) (layer "F.SilkS") (tstamp 6c15dc05-01c6-476b-8e46-1da51d8cc70f)
     (effects (font (size 0.75 0.75) (thickness 0.15)))
   )
-  (gr_text "AD8307\nIn" (at 160.2232 103.7844) (layer "F.SilkS") (tstamp 6c71ca82-f95d-4fa4-acf4-6592001949d0)
+  (gr_text "AD8307\nOut" (at 160.2232 103.7844) (layer "F.SilkS") (tstamp 6c71ca82-f95d-4fa4-acf4-6592001949d0)
     (effects (font (size 0.75 0.75) (thickness 0.15)))
   )
   (gr_text "Signal Out" (at 173.6852 127.0254) (layer "F.SilkS") (tstamp a3bd32cd-04ca-4908-99e0-da61595c3737)
