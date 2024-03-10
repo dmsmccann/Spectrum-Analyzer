@@ -4703,7 +4703,7 @@
 	)
 	(wire
 		(pts
-			(xy 72.39 24.13) (xy 71.12 24.13)
+			(xy 74.93 24.13) (xy 71.12 24.13)
 		)
 		(stroke
 			(width 0)
@@ -6433,7 +6433,7 @@
 	)
 	(wire
 		(pts
-			(xy 82.55 24.13) (xy 77.47 24.13)
+			(xy 82.55 24.13) (xy 80.01 24.13)
 		)
 		(stroke
 			(width 0)
@@ -12721,7 +12721,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_Small_US")
-		(at 74.93 24.13 90)
+		(at 77.47 24.13 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -12730,7 +12730,7 @@
 		(fields_autoplaced yes)
 		(uuid "ac964def-301e-4952-bb3b-cd9cbd1eebb9")
 		(property "Reference" "R310"
-			(at 74.93 17.78 90)
+			(at 77.47 17.78 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12738,7 +12738,7 @@
 			)
 		)
 		(property "Value" "51"
-			(at 74.93 20.32 90)
+			(at 77.47 20.32 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12746,7 +12746,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
-			(at 74.93 24.13 0)
+			(at 77.47 24.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12755,7 +12755,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.yageo.com/upload/media/product/productsearch/datasheet/lr/YAGEO%20CFR_datasheet_2021v0.pdf"
-			(at 74.93 24.13 0)
+			(at 77.47 24.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12764,7 +12764,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 74.93 24.13 0)
+			(at 77.47 24.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
