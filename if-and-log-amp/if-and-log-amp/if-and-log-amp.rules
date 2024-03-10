@@ -11,7 +11,7 @@
     (via_costs 50)
     (plane_via_costs 5)
     (start_ripup_costs 100)
-    (start_pass_no 2015)
+    (start_pass_no 1332)
     (layer_rule F.Cu
       (active on)
       (preferred_direction horizontal)
@@ -41,10 +41,28 @@
     (attach off)
   )
   (via 
+    "Via[0-1]_800:400_um-/+10" "Via[0-1]_800:400_um" /+10
+  )
+  (via 
+    "Via[0-1]_800:400_um-/+15" "Via[0-1]_800:400_um" /+15
+  )
+  (via 
+    "Via[0-1]_800:400_um-/+5" "Via[0-1]_800:400_um" /+5
+  )
+  (via 
     "Via[0-1]_800:400_um" "Via[0-1]_800:400_um" default
   )
   (via 
     "Via[0-1]_800:400_um-kicad_default" "Via[0-1]_800:400_um" "kicad_default"
+  )
+  (via_rule
+    /+10 "Via[0-1]_800:400_um-/+10"
+  )
+  (via_rule
+    /+15 "Via[0-1]_800:400_um-/+15"
+  )
+  (via_rule
+    /+5 "Via[0-1]_800:400_um-/+5"
   )
   (via_rule
     default "Via[0-1]_800:400_um"
@@ -53,12 +71,7 @@
     "kicad_default" "Via[0-1]_800:400_um-kicad_default"
   )
   (class default
-    "Net-(C301-Pad2)" GND "Net-(C302-Pad1)" "Net-(C306-Pad1)" "Net-(C307-Pad1)" "Net-(C308-Pad1)" "Net-(C308-Pad2)" "Net-(C310-Pad1)"
-    "Net-(C309-Pad1)" /+5 "Net-(C312-Pad1)" "Net-(C313-Pad1)" "Net-(C314-Pad2)" /+10 "Net-(C316-Pad1)" "Net-(C316-Pad2)"
-    "Net-(C319-Pad2)" "Net-(C321-Pad1)" "Net-(C322-Pad2)" "Net-(C320-Pad1)" "Net-(C303-Pad3)" "Net-(C324-Pad2)" "Net-(C304-Pad3)" "Net-(C305-Pad3)"
-    /+15 "Net-(C325-Pad1)" "unconnected-(U304-Pad3)" "unconnected-(U304-Pad5)" "unconnected-(U305-Pad5)" "unconnected-(U305-Pad8)" "Net-(Q301-Pad1)" "Net-(C323-Pad1)"
-    /In "Net-(Q301-Pad3)" "unconnected-(U305-Pad1)" "Net-(R306-Pad1)" "Net-(R320-Pad1)" "Net-(R322-Pad2)" "Net-(R321-Pad2)" "Net-(R328-Pad1)"
-    "Net-(R326-Pad1)"
+    GND /+5 "Net-(C312-Pad1)" /+10 /+15 "Net-(R326-Pad1)" "Net-(C301-Pad2)"
     (clearance_class default)
     (via_rule default)
     (rule
@@ -69,8 +82,43 @@
     )
   )
   (class "kicad_default"
+    "Net-(Q301-B)" "Net-(T301-AA)" "Net-(U301-VINP)" "Net-(C305-Pad1)" "Net-(U301-COMM)" "Net-(U301-GPOS)" "Net-(U301-GNEG)" "Net-(U301-FDBK)"
+    "Net-(U301-VPOS)" "Net-(C312-Pad2)" "Net-(U302-INM)" "Net-(U302-ENB)" "Net-(U305-VI)" "Net-(U302-OUT)" "Net-(U303-V+)" "Net-(U302-INP)"
+    "Net-(D301-K)" "Net-(J304-Pin_3)" "Net-(J304-Pin_2)" "Net-(J304-Pin_1)" "Net-(Q301-E)" "Net-(Q301-C)" "Net-(T301-AB)" "Net-(U301-VOUT)"
+    "Net-(U304-ADJ)" "Net-(R320-Pad2)" "Net-(U303--)" "unconnected-(U303-NULL-Pad5)" "unconnected-(U303-STRB-Pad8)" "unconnected-(U303-NULL-Pad1)" "unconnected-(U302-INT-Pad5)" "unconnected-(U302-OFS-Pad3)"
+    "Net-(J301-In)" "Net-(T301-SB)" "Net-(J302-In)"
     (clearance_class "kicad_default")
     (via_rule kicad_default)
+    (rule
+      (width 250.0)
+    )
+    (circuit 
+      (use_layer F.Cu B.Cu)
+    )
+  )
+  (class /+10
+    (clearance_class /+10)
+    (via_rule /+10)
+    (rule
+      (width 250.0)
+    )
+    (circuit 
+      (use_layer F.Cu B.Cu)
+    )
+  )
+  (class /+15
+    (clearance_class /+15)
+    (via_rule /+15)
+    (rule
+      (width 250.0)
+    )
+    (circuit 
+      (use_layer F.Cu B.Cu)
+    )
+  )
+  (class /+5
+    (clearance_class /+5)
+    (via_rule /+5)
     (rule
       (width 250.0)
     )
