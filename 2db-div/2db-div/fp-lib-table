@@ -1,3 +1,5 @@
 (fp_lib_table
+  (version 7)
   (lib (name "2db-div")(type "KiCad")(uri "${KIPRJMOD}/2db-div-models/2db-div.pretty")(options "")(descr ""))
+  (lib (name "spectrum analyzer")(type "KiCad")(uri "C:/Users/Dougl/OneDrive/Ham Radio/KiCad Files/W7ZOI Spectrum Analyzer/hierarchical-schematic/spectrum-analyzer-models/spectrum-analyzer.pretty")(options "")(descr ""))
 )
