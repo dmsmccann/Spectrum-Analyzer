@@ -6845,6 +6845,15 @@
 				(hide yes)
 			)
 		)
+		(property "Digikey Part" "N/A"
+			(at 299.085 163.195 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(instances
 			(project "if-and-log-amp"
 				(path "/0abbae11-70ea-4944-b291-1bcb2d5ecad7"
@@ -6974,6 +6983,15 @@
 				(hide yes)
 			)
 		)
+		(property "Digikey Part" "470QBK-ND"
+			(at 48.26 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "cda27373-4ad7-4136-b937-8dc41fd75168")
 		)
@@ -7034,6 +7052,15 @@
 			)
 		)
 		(property "Description" "Transformer, single primary, single secondary"
+			(at 58.42 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey Part" "N/A"
 			(at 58.42 57.15 0)
 			(effects
 				(font
@@ -7109,6 +7136,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 24.13 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey Part" "13-CFR-25JR-52-2KCT-ND"
 			(at 24.13 81.28 0)
 			(effects
 				(font
@@ -7208,6 +7244,15 @@
 			(effects
 				(font
 					(size 0.0254 0.0254)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey Part" "CA3140AEZ-ND"
+			(at 283.21 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
 				)
 				(hide yes)
 			)
@@ -7358,6 +7403,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 60.96 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey Part" "13-CFR25SJT-52-2K2CT-ND"
 			(at 60.96 30.48 0)
 			(effects
 				(font
@@ -7530,6 +7584,15 @@
 				(hide yes)
 			)
 		)
+		(property "Digikey Part" "N/A"
+			(at 143.51 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "a963e918-7997-4bc6-a3ef-1ba828140768")
 		)
@@ -7587,6 +7650,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 271.78 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey Part" "56-K104Z10Y5VF5TH5CT-ND"
 			(at 271.78 59.69 0)
 			(effects
 				(font
@@ -7655,6 +7727,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 57.15 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey Part" "13-CFR25SJT-52-2K2CT-ND"
 			(at 57.15 24.13 0)
 			(effects
 				(font
@@ -7800,6 +7881,15 @@
 				(hide yes)
 			)
 		)
+		(property "Digikey Part" "BC2659CT-ND"
+			(at 257.81 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "6002c174-819c-4b8a-8065-100bc3cf0e98")
 		)
@@ -7859,6 +7949,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 284.48 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey Part" "13-CFR25SJT-52-2K2CT-ND"
 			(at 284.48 88.9 0)
 			(effects
 				(font
@@ -7954,6 +8053,15 @@
 			)
 		)
 		(property "Sim.Params" "c=\"\""
+			(at 49.53 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey Part" "N/A"
 			(at 49.53 149.86 0)
 			(effects
 				(font
@@ -8093,6 +8201,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 204.47 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey Part" "56-K104Z10Y5VF5TH5CT-ND"
 			(at 204.47 73.66 0)
 			(effects
 				(font
@@ -8332,6 +8449,15 @@
 				(hide yes)
 			)
 		)
+		(property "Digikey Part" "N/A"
+			(at 313.69 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "d154a7ab-87f9-4cdc-861c-9c41ab400ca7")
 		)
@@ -8392,6 +8518,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 134.62 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey Part" "10QBK-ND"
 			(at 134.62 163.83 0)
 			(effects
 				(font
@@ -8799,6 +8934,15 @@
 				(hide yes)
 			)
 		)
+		(property "Digikey Part" "47QBK-ND"
+			(at 40.64 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "4681fcaa-da53-4b53-8891-acf42c653443")
 		)
@@ -8927,6 +9071,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 68.58 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey Part" "N/A"
 			(at 68.58 147.32 0)
 			(effects
 				(font
@@ -9139,6 +9292,15 @@
 				(hide yes)
 			)
 		)
+		(property "Digikey Part" "5.6KQBK-ND"
+			(at 109.22 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "59db2b12-ce10-4882-91dc-94988ee17a89")
 		)
@@ -9200,6 +9362,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 58.42 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey Part" "510QBK-ND"
 			(at 58.42 147.32 0)
 			(effects
 				(font
@@ -9278,6 +9449,15 @@
 				(hide yes)
 			)
 		)
+		(property "Digikey Part" "445-FK28X7R1C224KN000-ND"
+			(at 128.27 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "661e63a6-57d4-4bd6-8435-e9e47baf2ef9")
 		)
@@ -9340,6 +9520,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 101.6 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey Part" "56-K104Z10Y5VF5TH5CT-ND"
 			(at 101.6 170.18 0)
 			(effects
 				(font
@@ -9550,6 +9739,15 @@
 				(hide yes)
 			)
 		)
+		(property "Digikey Part" "56-K104Z10Y5VF5TH5CT-ND"
+			(at 83.82 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "d63e20b4-7f7b-4b47-b1bd-8a702315a18d")
 		)
@@ -9652,6 +9850,15 @@
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "Digikey Part" ""
+			(at 33.02 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -9793,6 +10000,15 @@
 				(hide yes)
 			)
 		)
+		(property "Digikey Part" "82QBK-ND"
+			(at 177.8 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "956c2120-6deb-43f4-b9cf-40bc24c8e506")
 		)
@@ -9855,6 +10071,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 35.56 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey Part" "56-K104Z10Y5VF5TH5CT-ND"
 			(at 35.56 78.74 0)
 			(effects
 				(font
@@ -9999,6 +10224,15 @@
 				(hide yes)
 			)
 		)
+		(property "Digikey Part" "732-8630-1-ND"
+			(at 71.12 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "e54daaf7-63a6-4626-ba1f-b1eda0175e49")
 		)
@@ -10062,6 +10296,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 143.51 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey Part" "10QBK-ND"
 			(at 143.51 35.56 0)
 			(effects
 				(font
@@ -10272,6 +10515,15 @@
 				(hide yes)
 			)
 		)
+		(property "Digikey Part" "N/A"
+			(at 168.91 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "a80649f0-5ca6-458f-b68c-85b937d5db7d")
 		)
@@ -10363,6 +10615,15 @@
 			(effects
 				(font
 					(size 0.0254 0.0254)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey Part" "N/A"
+			(at 27.94 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
 				)
 				(hide yes)
 			)
@@ -10513,6 +10774,15 @@
 			)
 		)
 		(property "Sim.Pins" "1=+ 2=-"
+			(at 181.61 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey Part" "BFC280831659-ND"
 			(at 181.61 74.93 0)
 			(effects
 				(font
@@ -10688,6 +10958,15 @@
 				(hide yes)
 			)
 		)
+		(property "Digikey Part" "N/A"
+			(at 100.33 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "94c9abb9-6721-464f-bfc4-cf7f62384c1c")
 		)
@@ -10819,6 +11098,15 @@
 				(hide yes)
 			)
 		)
+		(property "Digikey Part" "13-CFR-25JR-52-1KCT-ND"
+			(at 302.26 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "8ab625f0-2bad-408e-952e-6c1811de415d")
 		)
@@ -10914,6 +11202,15 @@
 				(hide yes)
 			)
 		)
+		(property "Digikey Part" "N/A"
+			(at 49.53 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "02426097-2343-483f-9184-b1021f11f671")
 		)
@@ -10977,6 +11274,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 201.93 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey Part" "399-C317C569D2G5TA-ND"
 			(at 201.93 63.5 0)
 			(effects
 				(font
@@ -11149,6 +11455,15 @@
 				(hide yes)
 			)
 		)
+		(property "Digikey Part" "N/A"
+			(at 236.22 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "c27754e7-cb42-41c5-bbb6-8571d3316333")
 		)
@@ -11310,6 +11625,15 @@
 				(hide yes)
 			)
 		)
+		(property "Digikey Part" "N/A"
+			(at 323.85 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "c4037fcc-9683-478f-b425-b1e88744d408")
 		)
@@ -11383,6 +11707,15 @@
 				(hide yes)
 			)
 		)
+		(property "Digikey Part" "56-K104Z10Y5VF5TH5CT-ND"
+			(at 254 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "cdf4e69f-14bf-424d-8e1d-1110bc7998e1")
 		)
@@ -11445,6 +11778,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 299.72 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey Part" "732-10955-ND "
 			(at 299.72 43.18 0)
 			(effects
 				(font
@@ -11855,6 +12197,15 @@
 				(hide yes)
 			)
 		)
+		(property "Digikey Part" "13-CFR-25JT-52-100RCT-ND"
+			(at 24.13 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "e602c2a6-1379-4518-9312-e2dfb3ba05cc")
 		)
@@ -11948,6 +12299,15 @@
 			(effects
 				(font
 					(size 0.0254 0.0254)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey Part" "N/A"
+			(at 261.62 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
 				)
 				(hide yes)
 			)
@@ -12075,6 +12435,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 162.56 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey Part" "399-C317C569D2G5TA-ND"
 			(at 162.56 67.31 0)
 			(effects
 				(font
@@ -12219,6 +12588,15 @@
 				(hide yes)
 			)
 		)
+		(property "Digikey Part" "10QBK-ND"
+			(at 210.82 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "574fc6fe-b38d-477f-b6f1-db00ebead827")
 		)
@@ -12281,6 +12659,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 82.55 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey Part" "56-K104Z10Y5VF5TH5CT-ND"
 			(at 82.55 30.48 0)
 			(effects
 				(font
@@ -12359,6 +12746,15 @@
 				(hide yes)
 			)
 		)
+		(property "Digikey Part" "13-CFR-25JR-52-1KCT-ND"
+			(at 58.42 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "a54c65d7-c047-4608-b791-196726bc760e")
 		)
@@ -12421,6 +12817,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 271.78 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey Part" "13-CFR-25JT-52-680RCT-ND"
 			(at 271.78 96.52 0)
 			(effects
 				(font
@@ -12564,6 +12969,15 @@
 				(hide yes)
 			)
 		)
+		(property "Digikey Part" "56-K104Z10Y5VF5TH5CT-ND"
+			(at 96.52 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "c1de7c16-0fb5-4855-9c92-9e6b4b6586a6")
 		)
@@ -12626,6 +13040,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 48.26 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey Part" "13-CFR-25JT-52-100RCT-ND"
 			(at 48.26 66.04 0)
 			(effects
 				(font
@@ -12704,6 +13127,15 @@
 				(hide yes)
 			)
 		)
+		(property "Digikey Part" "BC2672CT-ND"
+			(at 193.04 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "a9b5c8fa-2f67-4fcd-82d6-488aa3b68c32")
 		)
@@ -12764,6 +13196,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 77.47 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey Part" "51QBK-ND"
 			(at 77.47 24.13 0)
 			(effects
 				(font
@@ -12872,6 +13313,15 @@
 				(hide yes)
 			)
 		)
+		(property "Digikey Part" " 2N3904FS-ND"
+			(at 45.72 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "707a4f92-a904-48f5-8ac4-e9e981433d17")
 		)
@@ -12970,6 +13420,15 @@
 				(hide yes)
 			)
 		)
+		(property "Digikey Part" "N/A"
+			(at 280.67 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "bd55fca3-6d74-4468-90b4-94b639e19083")
 		)
@@ -13029,6 +13488,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 143.51 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey Part" "490-RCE5C2J180J1K1H03B-ND"
 			(at 143.51 81.28 0)
 			(effects
 				(font
@@ -13099,6 +13567,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 281.305 163.195 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey Part" "N/A"
 			(at 281.305 163.195 0)
 			(effects
 				(font
@@ -13237,6 +13714,15 @@
 				(hide yes)
 			)
 		)
+		(property "Digikey Part" "N/A"
+			(at 318.135 163.195 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(instances
 			(project "if-and-log-amp"
 				(path "/0abbae11-70ea-4944-b291-1bcb2d5ecad7"
@@ -13290,6 +13776,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 35.56 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey Part" "56-K104Z10Y5VF5TH5CT-ND"
 			(at 35.56 91.44 0)
 			(effects
 				(font
@@ -13385,6 +13880,15 @@
 			)
 		)
 		(property "Sim.Params" "c=\"\""
+			(at 322.58 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey Part" "N/A"
 			(at 322.58 76.2 0)
 			(effects
 				(font
@@ -13559,6 +14063,15 @@
 				(hide yes)
 			)
 		)
+		(property "Digikey Part" "LM317LZGOS-ND"
+			(at 177.8 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "11d38456-0a53-43e3-ac05-4f7689b643bc")
 		)
@@ -13698,6 +14211,15 @@
 				(hide yes)
 			)
 		)
+		(property "Digikey Part" "1189-1660-1-ND"
+			(at 156.21 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "3798c140-04fd-494f-aa13-bb990e502791")
 		)
@@ -13758,6 +14280,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 149.86 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey Part" "13-CFR-25JR-52-1KCT-ND"
 			(at 149.86 67.31 0)
 			(effects
 				(font
@@ -13834,6 +14365,15 @@
 				(hide yes)
 			)
 		)
+		(property "Digikey Part" "BC1152CT-ND"
+			(at 83.82 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "a444eec5-e928-4788-a032-72ddc2d75cd0")
 		)
@@ -13896,6 +14436,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 88.9 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey Part" "13-CFR25SJT-52-2K2CT-ND"
 			(at 88.9 106.68 0)
 			(effects
 				(font
@@ -14038,6 +14587,15 @@
 				(hide yes)
 			)
 		)
+		(property "Digikey Part" "4.3KQBK-ND"
+			(at 116.84 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "1b15444f-374f-4d35-b787-da86cdf65834")
 		)
@@ -14116,6 +14674,15 @@
 			)
 		)
 		(property "Sim.Device" "D"
+			(at 177.8 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey Part" "1N4148FS-ND"
 			(at 177.8 133.35 0)
 			(effects
 				(font
@@ -14285,6 +14852,15 @@
 				(hide yes)
 			)
 		)
+		(property "Digikey Part" "N/A"
+			(at 49.53 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "9bd3b295-cf9b-4409-8a15-32cee0098743")
 		)
@@ -14422,6 +14998,15 @@
 				(hide yes)
 			)
 		)
+		(property "Digikey Part" "13-CFR-25JR-52-220RCT-ND"
+			(at 167.64 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "24798a3e-514c-4324-a45c-9c58f6104d10")
 		)
@@ -14484,6 +15069,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 263.525 163.195 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey Part" "N/A"
 			(at 263.525 163.195 0)
 			(effects
 				(font
@@ -14583,6 +15177,15 @@
 			)
 		)
 		(property "Sim.Library" "if-log-amp-spice\\ad8310_SUBCKT.cir"
+			(at 254 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey Part" "AD8307ANZ-ND"
 			(at 254 63.5 0)
 			(effects
 				(font
@@ -14707,6 +15310,15 @@
 				(hide yes)
 			)
 		)
+		(property "Digikey Part" "N/A"
+			(at 293.37 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "33dc3e90-01c0-4fcf-a788-a61685ef69b2")
 		)
@@ -14765,6 +15377,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 24.13 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey Part" "13-CFR-25JR-52-10KCT-ND"
 			(at 24.13 66.04 0)
 			(effects
 				(font
@@ -15068,6 +15689,15 @@
 				(hide yes)
 			)
 		)
+		(property "Digikey Part" "N/A"
+			(at 212.09 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "ffc0cfc1-e7ac-4ad4-9e20-1e87324226e0")
 		)
@@ -15126,6 +15756,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 148.59 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey Part" "56-K104Z10Y5VF5TH5CT-ND"
 			(at 148.59 46.99 0)
 			(effects
 				(font
@@ -15223,6 +15862,15 @@
 			)
 		)
 		(property "Sim.Pins" "3=1 2=2 1=3"
+			(at 116.84 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey Part" "497-16173-1-ND"
 			(at 116.84 163.83 0)
 			(effects
 				(font
@@ -15397,6 +16045,15 @@
 				(hide yes)
 			)
 		)
+		(property "Digikey Part" "N/A"
+			(at 205.74 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "2d89d49d-542f-43fe-b691-e8eec8b67a2d")
 		)
@@ -15455,6 +16112,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 77.47 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey Part" "13-CFR-25JT-52-100RCT-ND"
 			(at 77.47 73.66 0)
 			(effects
 				(font
@@ -15523,6 +16189,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 195.58 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey Part" "10QBK-ND"
 			(at 195.58 144.78 0)
 			(effects
 				(font
@@ -15659,6 +16334,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 33.02 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey Part" "56-K104Z10Y5VF5TH5CT-ND"
 			(at 33.02 62.23 0)
 			(effects
 				(font
@@ -15894,6 +16578,15 @@
 				(hide yes)
 			)
 		)
+		(property "Digikey Part" "N/A"
+			(at 102.87 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "2859a178-e501-49e0-909a-19161bb95d14")
 		)
@@ -16009,6 +16702,15 @@
 				(hide yes)
 			)
 		)
+		(property "Digikey Part" "N/A"
+			(at 90.17 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "f5b3ed8a-0c54-4bf8-9ff1-1c86f946501c")
 		)
@@ -16067,6 +16769,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 280.67 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey Part" "51QBK-ND"
 			(at 280.67 54.61 0)
 			(effects
 				(font
@@ -16145,6 +16856,15 @@
 				(hide yes)
 			)
 		)
+		(property "Digikey Part" "13-CFR-25JT-52-680RCT-ND"
+			(at 58.42 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "bc4163e4-d633-4a2e-a19b-47235133df19")
 		)
@@ -16207,6 +16927,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 177.8 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey Part" "13-CFR-25JR-52-1K5CT-ND"
 			(at 177.8 160.02 0)
 			(effects
 				(font
@@ -16308,6 +17037,15 @@
 			(effects
 				(font
 					(size 0.0254 0.0254)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey Part" "N/A"
+			(at 144.78 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
 				)
 				(hide yes)
 			)
