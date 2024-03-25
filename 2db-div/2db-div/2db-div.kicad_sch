@@ -6,11 +6,12 @@
 	(paper "USLetter")
 	(title_block
 		(title "Spectrum Analyzer 2DB/DIV Board")
-		(date "2022-08-15")
-		(rev "0")
+		(date "2024-03-17")
+		(rev "1")
 		(company "Andy McCann KA3KAF and Doug McCann KA3KAG")
-		(comment 2 "Wes Hayward W7ZOI")
-		(comment 3 "Original Design By:")
+		(comment 1 "Wes Hayward W7ZOI")
+		(comment 2 "Original Design By:")
+		(comment 3 "Rev 1: Placed video caps on board")
 	)
 	(lib_symbols
 		(symbol "2db-div:1N4152"
@@ -2861,6 +2862,12 @@
 		(uuid "08aabf21-5da1-47dc-8e3d-bc56235e153f")
 	)
 	(junction
+		(at 66.04 85.09)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0e2166f0-ab68-4ecb-8ed5-5002894f4019")
+	)
+	(junction
 		(at 149.86 99.06)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2877,12 +2884,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "21448751-a8f5-41af-b1f9-e9d042442fe1")
-	)
-	(junction
-		(at 78.74 85.09)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "34bab27a-f9a9-4d52-9d3d-bda0e3933871")
 	)
 	(junction
 		(at 134.62 106.68)
@@ -2996,13 +2997,23 @@
 	)
 	(wire
 		(pts
-			(xy 229.87 90.17) (xy 229.87 100.33)
+			(xy 187.96 99.06) (xy 187.96 100.33)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "0b909665-7a5c-46a7-ac87-fc3927d09c55")
+	)
+	(wire
+		(pts
+			(xy 187.96 99.06) (xy 229.87 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0d915b7d-d216-484a-a4fc-8462181c3d03")
 	)
 	(wire
 		(pts
@@ -3086,7 +3097,7 @@
 	)
 	(wire
 		(pts
-			(xy 219.71 90.17) (xy 219.71 100.33)
+			(xy 179.07 90.17) (xy 179.07 92.71)
 		)
 		(stroke
 			(width 0)
@@ -3166,16 +3177,6 @@
 	)
 	(wire
 		(pts
-			(xy 78.74 85.09) (xy 90.17 85.09)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "274799cd-34c3-4a37-b4f8-f094a09854a4")
-	)
-	(wire
-		(pts
 			(xy 114.3 127) (xy 129.54 127)
 		)
 		(stroke
@@ -3226,7 +3227,7 @@
 	)
 	(wire
 		(pts
-			(xy 78.74 85.09) (xy 78.74 76.2)
+			(xy 66.04 85.09) (xy 66.04 76.2)
 		)
 		(stroke
 			(width 0)
@@ -3346,7 +3347,7 @@
 	)
 	(wire
 		(pts
-			(xy 229.87 109.22) (xy 229.87 105.41)
+			(xy 187.96 109.22) (xy 187.96 105.41)
 		)
 		(stroke
 			(width 0)
@@ -3363,6 +3364,16 @@
 			(type default)
 		)
 		(uuid "558098ad-6924-4e09-905e-acb79c4837a1")
+	)
+	(wire
+		(pts
+			(xy 229.87 99.06) (xy 229.87 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "56533747-3257-42ef-b869-175d7fa2e7b8")
 	)
 	(wire
 		(pts
@@ -3446,7 +3457,7 @@
 	)
 	(wire
 		(pts
-			(xy 35.56 76.2) (xy 78.74 76.2)
+			(xy 35.56 76.2) (xy 66.04 76.2)
 		)
 		(stroke
 			(width 0)
@@ -3536,7 +3547,7 @@
 	)
 	(wire
 		(pts
-			(xy 219.71 109.22) (xy 219.71 105.41)
+			(xy 179.07 101.6) (xy 179.07 97.79)
 		)
 		(stroke
 			(width 0)
@@ -3716,7 +3727,7 @@
 	)
 	(wire
 		(pts
-			(xy 224.79 90.17) (xy 219.71 90.17)
+			(xy 224.79 90.17) (xy 179.07 90.17)
 		)
 		(stroke
 			(width 0)
@@ -3926,6 +3937,16 @@
 	)
 	(wire
 		(pts
+			(xy 66.04 85.09) (xy 90.17 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d844e8b9-ced7-45f3-a1a7-e8552f8fd737")
+	)
+	(wire
+		(pts
 			(xy 49.53 171.45) (xy 49.53 175.26)
 		)
 		(stroke
@@ -4046,7 +4067,7 @@
 	)
 	(wire
 		(pts
-			(xy 77.47 85.09) (xy 78.74 85.09)
+			(xy 64.77 85.09) (xy 66.04 85.09)
 		)
 		(stroke
 			(width 0)
@@ -4512,7 +4533,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 229.87 109.22 0)
+		(at 187.96 109.22 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4521,7 +4542,7 @@
 		(fields_autoplaced yes)
 		(uuid "187bbdd8-aaf5-4bad-9072-4b03d0b6643c")
 		(property "Reference" "#PWR01013"
-			(at 229.87 115.57 0)
+			(at 187.96 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4530,7 +4551,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 229.87 114.3 0)
+			(at 187.96 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4538,7 +4559,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 229.87 109.22 0)
+			(at 187.96 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4547,7 +4568,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 229.87 109.22 0)
+			(at 187.96 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4556,7 +4577,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 229.87 109.22 0)
+			(at 187.96 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5492,16 +5513,16 @@
 	)
 	(symbol
 		(lib_id "Device:C_Small")
-		(at 219.71 102.87 0)
+		(at 179.07 95.25 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
-		(on_board no)
+		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "48860a13-b90b-4ff9-b696-1e1cf567fa8c")
 		(property "Reference" "C1003"
-			(at 222.25 101.6062 0)
+			(at 181.61 93.9862 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5510,7 +5531,7 @@
 			)
 		)
 		(property "Value" ".1u"
-			(at 222.25 104.1462 0)
+			(at 181.61 96.5262 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5518,8 +5539,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
-			(at 219.71 102.87 0)
+		(property "Footprint" "Capacitor_THT:C_Disc_D4.3mm_W1.9mm_P5.00mm"
+			(at 179.07 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5528,7 +5549,7 @@
 			)
 		)
 		(property "Datasheet" "https://connect.kemet.com:7667/gateway/IntelliData-ComponentDocumentation/1.0/download/datasheet/C315C104M5U5TA"
-			(at 219.71 102.87 0)
+			(at 179.07 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5537,7 +5558,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 219.71 102.87 0)
+			(at 179.07 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6111,7 +6132,7 @@
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
-		(on_board yes)
+		(on_board no)
 		(dnp no)
 		(uuid "6904a725-c5bd-4eff-abf0-dbe6c271ffd5")
 		(property "Reference" "R2"
@@ -6214,7 +6235,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 219.71 109.22 0)
+		(at 179.07 101.6 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6223,7 +6244,7 @@
 		(fields_autoplaced yes)
 		(uuid "6da5f80c-3446-4368-abc3-e194d03865e0")
 		(property "Reference" "#PWR01012"
-			(at 219.71 115.57 0)
+			(at 179.07 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6232,7 +6253,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 219.71 114.3 0)
+			(at 179.07 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6240,7 +6261,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 219.71 109.22 0)
+			(at 179.07 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6249,7 +6270,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 219.71 109.22 0)
+			(at 179.07 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6258,7 +6279,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 219.71 109.22 0)
+			(at 179.07 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8188,16 +8209,16 @@
 	)
 	(symbol
 		(lib_id "Device:C_Small")
-		(at 229.87 102.87 0)
+		(at 187.96 102.87 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
-		(on_board no)
+		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e76068bf-e2cf-474a-a62f-97b4c022b5b8")
 		(property "Reference" "C1004"
-			(at 232.41 101.6062 0)
+			(at 190.5 101.6062 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8206,7 +8227,7 @@
 			)
 		)
 		(property "Value" "3.3u"
-			(at 232.41 104.1462 0)
+			(at 190.5 104.1462 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8214,8 +8235,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
-			(at 229.87 102.87 0)
+		(property "Footprint" "Capacitor_THT:C_Disc_D4.3mm_W1.9mm_P5.00mm"
+			(at 187.96 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8224,7 +8245,7 @@
 			)
 		)
 		(property "Datasheet" "https://product.tdk.com/en/system/files?file=dam/doc/product/capacitor/ceramic/lead-mlcc/catalog/leadmlcc_conventional_fk_en.pdf"
-			(at 229.87 102.87 0)
+			(at 187.96 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8233,7 +8254,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 229.87 102.87 0)
+			(at 187.96 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8324,7 +8345,7 @@
 	)
 	(symbol
 		(lib_id "Connector:Conn_01x01_Socket")
-		(at 72.39 85.09 0)
+		(at 59.69 85.09 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim yes)
@@ -8334,7 +8355,7 @@
 		(fields_autoplaced yes)
 		(uuid "f301f6aa-82d8-4573-989b-8125b288be70")
 		(property "Reference" "J1002"
-			(at 73.025 80.01 0)
+			(at 60.325 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8342,7 +8363,7 @@
 			)
 		)
 		(property "Value" "From R2"
-			(at 73.025 82.55 0)
+			(at 60.325 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8350,7 +8371,7 @@
 			)
 		)
 		(property "Footprint" "Connector_Wire:SolderWire-0.5sqmm_1x01_D0.9mm_OD2.1mm"
-			(at 72.39 85.09 0)
+			(at 59.69 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8359,7 +8380,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 72.39 85.09 0)
+			(at 59.69 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8368,7 +8389,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 72.39 85.09 0)
+			(at 59.69 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8377,7 +8398,7 @@
 			)
 		)
 		(property "Sim.Device" "SPICE"
-			(at 72.39 85.09 0)
+			(at 59.69 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8386,7 +8407,7 @@
 			)
 		)
 		(property "Sim.Params" "type=\"J\" model=\"From R2\" lib=\"\""
-			(at 0 0 0)
+			(at -12.7 0 0)
 			(effects
 				(font
 					(size 0.0254 0.0254)
@@ -8395,7 +8416,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=1"
-			(at 0 0 0)
+			(at -12.7 0 0)
 			(effects
 				(font
 					(size 0.0254 0.0254)
