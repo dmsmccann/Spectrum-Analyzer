@@ -5906,7 +5906,7 @@
 		(at 227.33 102.87 0)
 		(mirror y)
 		(unit 1)
-		(exclude_from_sim no)
+		(exclude_from_sim yes)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
@@ -6233,6 +6233,24 @@
 			)
 		)
 		(property "Description" ""
+			(at 69.215 38.735 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 69.215 38.735 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=A 2=K"
 			(at 69.215 38.735 0)
 			(effects
 				(font
@@ -8781,6 +8799,24 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Device" "D"
+			(at 196.215 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=A 2=K"
+			(at 196.215 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "cea51cb8-996a-4261-a58b-bdeea75d8f94")
 		)
@@ -9386,7 +9422,7 @@
 		(lib_id "resolution-filters:Transformer_1P_1S")
 		(at 48.26 102.87 0)
 		(unit 1)
-		(exclude_from_sim no)
+		(exclude_from_sim yes)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
@@ -11890,7 +11926,7 @@
 		(lib_id "Switch:SW_SPST")
 		(at 35.56 21.59 0)
 		(unit 1)
-		(exclude_from_sim no)
+		(exclude_from_sim yes)
 		(in_bom yes)
 		(on_board no)
 		(dnp no)
