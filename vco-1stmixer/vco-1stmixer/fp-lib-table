@@ -1,3 +1,5 @@
 (fp_lib_table
+  (version 7)
   (lib (name "vco-1stmixer")(type "KiCad")(uri "${KIPRJMOD}/vco-1stmixer-models/vco-1stmixer.pretty")(options "")(descr ""))
+  (lib (name "spectrum-analyzer")(type "KiCad")(uri "C:/Users/Dougl/OneDrive/Ham Radio/KiCad Files/W7ZOI Spectrum Analyzer/hierarchical-schematic/spectrum-analyzer-models/spectrum-analyzer.pretty")(options "")(descr ""))
 )
