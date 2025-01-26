@@ -45,7 +45,7 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" " ~"
+			(property "Datasheet" "~"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1338,9 +1338,9 @@
 		)
 		(symbol "power:GND"
 			(power)
+			(pin_numbers hide)
 			(pin_names
-				(offset 0)
-			)
+				(offset 0) hide)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -1414,8 +1414,8 @@
 			(symbol "GND_1_1"
 				(pin power_in line
 					(at 0 0 270)
-					(length 0) hide
-					(name "GND"
+					(length 0)
+					(name "~"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2634,9 +2634,9 @@
 			)
 			(symbol "Transformer_1P_1S_1_1"
 				(pin passive line
-					(at -10.16 -5.08 0)
+					(at -10.16 5.08 0)
 					(length 7.62)
-					(name "AB"
+					(name "AA"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2652,9 +2652,9 @@
 					)
 				)
 				(pin passive line
-					(at -10.16 5.08 0)
+					(at 10.16 5.08 180)
 					(length 7.62)
-					(name "AA"
+					(name "SB"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2670,9 +2670,9 @@
 					)
 				)
 				(pin passive line
-					(at 10.16 -5.08 180)
+					(at -10.16 -5.08 0)
 					(length 7.62)
-					(name "SA"
+					(name "AB"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2688,9 +2688,9 @@
 					)
 				)
 				(pin passive line
-					(at 10.16 5.08 180)
+					(at 10.16 -5.08 180)
 					(length 7.62)
-					(name "SB"
+					(name "SA"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -4609,7 +4609,6 @@
 	)
 	(label "300kHz Out"
 		(at 189.23 68.58 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4620,7 +4619,6 @@
 	)
 	(label "300kHz Out"
 		(at 284.48 143.51 270)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4631,7 +4629,6 @@
 	)
 	(label "300kHz In"
 		(at 44.45 143.51 270)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4642,7 +4639,6 @@
 	)
 	(label "300kHz In"
 		(at 156.21 68.58 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4653,7 +4649,6 @@
 	)
 	(label "501-in"
 		(at 115.57 30.48 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4664,7 +4659,6 @@
 	)
 	(label "502-in"
 		(at 199.39 30.48 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4675,7 +4669,6 @@
 	)
 	(label "30kHz In"
 		(at 156.21 63.5 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4686,7 +4679,6 @@
 	)
 	(label "30Khz Out"
 		(at 271.78 99.06 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4697,7 +4689,6 @@
 	)
 	(label "501-in"
 		(at 156.21 76.2 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4708,7 +4699,6 @@
 	)
 	(label "30kHz In"
 		(at 57.15 99.06 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4719,7 +4709,6 @@
 	)
 	(label "502-in"
 		(at 186.69 76.2 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4730,7 +4719,6 @@
 	)
 	(label "30Khz Out"
 		(at 189.23 63.5 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4742,7 +4730,6 @@
 	(hierarchical_label "+15 Regulated"
 		(shape output)
 		(at 44.45 22.86 270)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4754,7 +4741,6 @@
 	(hierarchical_label "Res Filter"
 		(shape input)
 		(at 240.03 66.04 270)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4766,7 +4752,6 @@
 	(hierarchical_label "2nd Mixer"
 		(shape input)
 		(at 81.28 66.04 270)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4779,7 +4764,7 @@
 		(lib_id "power:GND")
 		(at 90.17 158.75 0)
 		(unit 1)
-		(exclude_from_sim no)
+		(exclude_from_sim yes)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
@@ -4820,7 +4805,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 90.17 158.75 0)
 			(effects
 				(font
@@ -4951,7 +4936,7 @@
 		(lib_id "Device:C_Small")
 		(at 193.04 143.51 90)
 		(unit 1)
-		(exclude_from_sim no)
+		(exclude_from_sim yes)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
@@ -5026,7 +5011,7 @@
 		(at 198.12 105.41 0)
 		(mirror y)
 		(unit 1)
-		(exclude_from_sim no)
+		(exclude_from_sim yes)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
@@ -5103,7 +5088,7 @@
 		(at 153.67 151.13 0)
 		(mirror y)
 		(unit 1)
-		(exclude_from_sim no)
+		(exclude_from_sim yes)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
@@ -5179,7 +5164,7 @@
 		(lib_id "Device:C_Trim_Small")
 		(at 209.55 106.68 0)
 		(unit 1)
-		(exclude_from_sim no)
+		(exclude_from_sim yes)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
@@ -5254,7 +5239,7 @@
 		(lib_id "Device:C_Small")
 		(at 228.6 151.13 0)
 		(unit 1)
-		(exclude_from_sim no)
+		(exclude_from_sim yes)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
@@ -5330,7 +5315,7 @@
 		(lib_id "power:GND")
 		(at 167.64 158.75 0)
 		(unit 1)
-		(exclude_from_sim no)
+		(exclude_from_sim yes)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
@@ -5371,7 +5356,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 167.64 158.75 0)
 			(effects
 				(font
@@ -5402,7 +5387,7 @@
 		(lib_id "Device:R_Small_US")
 		(at 153.67 106.68 0)
 		(unit 1)
-		(exclude_from_sim no)
+		(exclude_from_sim yes)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
@@ -5478,7 +5463,7 @@
 		(lib_id "Device:C_Small")
 		(at 55.88 143.51 90)
 		(unit 1)
-		(exclude_from_sim no)
+		(exclude_from_sim yes)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
@@ -5552,7 +5537,7 @@
 		(lib_id "Device:C_Small")
 		(at 90.17 151.13 0)
 		(unit 1)
-		(exclude_from_sim no)
+		(exclude_from_sim yes)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
@@ -5628,7 +5613,7 @@
 		(lib_id "power:GND")
 		(at 124.46 78.74 0)
 		(unit 1)
-		(exclude_from_sim no)
+		(exclude_from_sim yes)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
@@ -5669,7 +5654,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 124.46 78.74 0)
 			(effects
 				(font
@@ -5700,7 +5685,7 @@
 		(lib_id "power:GND")
 		(at 153.67 158.75 0)
 		(unit 1)
-		(exclude_from_sim no)
+		(exclude_from_sim yes)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
@@ -5741,7 +5726,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 153.67 158.75 0)
 			(effects
 				(font
@@ -5773,7 +5758,7 @@
 		(at 201.93 151.13 0)
 		(mirror y)
 		(unit 1)
-		(exclude_from_sim no)
+		(exclude_from_sim yes)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
@@ -5849,7 +5834,7 @@
 		(lib_id "power:GND")
 		(at 166.37 25.4 0)
 		(unit 1)
-		(exclude_from_sim no)
+		(exclude_from_sim yes)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
@@ -5890,7 +5875,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 166.37 25.4 0)
 			(effects
 				(font
@@ -6020,7 +6005,7 @@
 		(lib_id "power:GND")
 		(at 139.7 113.03 0)
 		(unit 1)
-		(exclude_from_sim no)
+		(exclude_from_sim yes)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
@@ -6061,7 +6046,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 139.7 113.03 0)
 			(effects
 				(font
@@ -6092,7 +6077,7 @@
 		(lib_id "power:GND")
 		(at 237.49 48.26 0)
 		(unit 1)
-		(exclude_from_sim no)
+		(exclude_from_sim yes)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
@@ -6133,7 +6118,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 237.49 48.26 0)
 			(effects
 				(font
@@ -6164,7 +6149,7 @@
 		(lib_id "Device:C_Small")
 		(at 144.78 143.51 90)
 		(unit 1)
-		(exclude_from_sim no)
+		(exclude_from_sim yes)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
@@ -6238,7 +6223,7 @@
 		(lib_id "Device:C_Trim_Small")
 		(at 88.9 106.68 0)
 		(unit 1)
-		(exclude_from_sim no)
+		(exclude_from_sim yes)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
@@ -6313,7 +6298,7 @@
 		(lib_id "power:GND")
 		(at 88.9 113.03 0)
 		(unit 1)
-		(exclude_from_sim no)
+		(exclude_from_sim yes)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
@@ -6354,7 +6339,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 88.9 113.03 0)
 			(effects
 				(font
@@ -6385,7 +6370,7 @@
 		(lib_id "spectrum analyzer:Transformer_1P_1S")
 		(at 73.66 104.14 0)
 		(unit 1)
-		(exclude_from_sim no)
+		(exclude_from_sim yes)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
@@ -6425,7 +6410,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Transformer, single primary, single secondary"
 			(at 73.66 104.14 0)
 			(effects
 				(font
@@ -6466,7 +6451,7 @@
 		(at 62.23 151.13 0)
 		(mirror y)
 		(unit 1)
-		(exclude_from_sim no)
+		(exclude_from_sim yes)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
@@ -6641,7 +6626,7 @@
 		(lib_id "power:GND")
 		(at 242.57 113.03 0)
 		(unit 1)
-		(exclude_from_sim no)
+		(exclude_from_sim yes)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
@@ -6682,7 +6667,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 242.57 113.03 0)
 			(effects
 				(font
@@ -6746,7 +6731,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" " ~"
+		(property "Datasheet" "~"
 			(at 251.46 66.04 0)
 			(effects
 				(font
@@ -6755,7 +6740,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "coaxial connector (BNC, SMA, SMB, SMC, Cinch/RCA, LEMO, ...)"
 			(at 251.46 66.04 0)
 			(effects
 				(font
@@ -6816,7 +6801,7 @@
 		(lib_id "power:GND")
 		(at 71.12 76.2 0)
 		(unit 1)
-		(exclude_from_sim no)
+		(exclude_from_sim yes)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
@@ -6857,7 +6842,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 71.12 76.2 0)
 			(effects
 				(font
@@ -6888,7 +6873,7 @@
 		(lib_id "Device:R_Small_US")
 		(at 278.13 151.13 0)
 		(unit 1)
-		(exclude_from_sim no)
+		(exclude_from_sim yes)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
@@ -6963,7 +6948,7 @@
 		(lib_id "power:GND")
 		(at 228.6 158.75 0)
 		(unit 1)
-		(exclude_from_sim no)
+		(exclude_from_sim yes)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
@@ -7004,7 +6989,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 228.6 158.75 0)
 			(effects
 				(font
@@ -7035,7 +7020,7 @@
 		(lib_id "Device:C_Small")
 		(at 247.65 151.13 0)
 		(unit 1)
-		(exclude_from_sim no)
+		(exclude_from_sim yes)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
@@ -7110,7 +7095,7 @@
 		(lib_id "power:GND")
 		(at 198.12 113.03 0)
 		(unit 1)
-		(exclude_from_sim no)
+		(exclude_from_sim yes)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
@@ -7151,7 +7136,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 198.12 113.03 0)
 			(effects
 				(font
@@ -7182,7 +7167,7 @@
 		(lib_id "power:GND")
 		(at 63.5 113.03 0)
 		(unit 1)
-		(exclude_from_sim no)
+		(exclude_from_sim yes)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
@@ -7223,7 +7208,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 63.5 113.03 0)
 			(effects
 				(font
@@ -7254,7 +7239,7 @@
 		(lib_id "Device:R_Small_US")
 		(at 104.14 66.04 90)
 		(unit 1)
-		(exclude_from_sim no)
+		(exclude_from_sim yes)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
@@ -7328,7 +7313,7 @@
 		(lib_id "power:GND")
 		(at 80.01 46.99 0)
 		(unit 1)
-		(exclude_from_sim no)
+		(exclude_from_sim yes)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
@@ -7369,7 +7354,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 80.01 46.99 0)
 			(effects
 				(font
@@ -7400,7 +7385,7 @@
 		(lib_id "Diode:1N4148")
 		(at 93.98 39.37 270)
 		(unit 1)
-		(exclude_from_sim no)
+		(exclude_from_sim yes)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
@@ -7476,7 +7461,7 @@
 		(lib_id "power:GND")
 		(at 214.63 158.75 0)
 		(unit 1)
-		(exclude_from_sim no)
+		(exclude_from_sim yes)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
@@ -7517,7 +7502,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 214.63 158.75 0)
 			(effects
 				(font
@@ -7548,7 +7533,7 @@
 		(lib_id "Switch:SW_SPST")
 		(at 60.96 22.86 0)
 		(unit 1)
-		(exclude_from_sim no)
+		(exclude_from_sim yes)
 		(in_bom yes)
 		(on_board no)
 		(dnp no)
@@ -7622,7 +7607,7 @@
 		(lib_id "power:GND")
 		(at 134.62 158.75 0)
 		(unit 1)
-		(exclude_from_sim no)
+		(exclude_from_sim yes)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
@@ -7663,7 +7648,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 134.62 158.75 0)
 			(effects
 				(font
@@ -7795,7 +7780,7 @@
 		(at 252.73 104.14 0)
 		(mirror y)
 		(unit 1)
-		(exclude_from_sim no)
+		(exclude_from_sim yes)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
@@ -7835,7 +7820,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Transformer, single primary, single secondary"
 			(at 252.73 104.14 0)
 			(effects
 				(font
@@ -7875,7 +7860,7 @@
 		(lib_id "Device:C_Small")
 		(at 238.76 143.51 90)
 		(unit 1)
-		(exclude_from_sim no)
+		(exclude_from_sim yes)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
@@ -7949,7 +7934,7 @@
 		(lib_id "Device:C_Small")
 		(at 99.06 143.51 90)
 		(unit 1)
-		(exclude_from_sim no)
+		(exclude_from_sim yes)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
@@ -8023,7 +8008,7 @@
 		(lib_id "Device:C_Trim_Small")
 		(at 115.57 106.68 0)
 		(unit 1)
-		(exclude_from_sim no)
+		(exclude_from_sim yes)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
@@ -8098,7 +8083,7 @@
 		(lib_id "power:GND")
 		(at 48.26 158.75 0)
 		(unit 1)
-		(exclude_from_sim no)
+		(exclude_from_sim yes)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
@@ -8139,7 +8124,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 48.26 158.75 0)
 			(effects
 				(font
@@ -8170,7 +8155,7 @@
 		(lib_id "power:GND")
 		(at 102.87 113.03 0)
 		(unit 1)
-		(exclude_from_sim no)
+		(exclude_from_sim yes)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
@@ -8211,7 +8196,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 102.87 113.03 0)
 			(effects
 				(font
@@ -8242,7 +8227,7 @@
 		(lib_id "Device:R_Small_US")
 		(at 90.17 71.12 0)
 		(unit 1)
-		(exclude_from_sim no)
+		(exclude_from_sim yes)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
@@ -8317,7 +8302,7 @@
 		(lib_id "spectrum analyzer:Crystal_GND3_Small")
 		(at 128.27 104.14 0)
 		(unit 1)
-		(exclude_from_sim no)
+		(exclude_from_sim yes)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
@@ -8393,7 +8378,7 @@
 		(lib_id "power:GND")
 		(at 278.13 158.75 0)
 		(unit 1)
-		(exclude_from_sim no)
+		(exclude_from_sim yes)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
@@ -8434,7 +8419,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 278.13 158.75 0)
 			(effects
 				(font
@@ -8465,7 +8450,7 @@
 		(lib_id "power:GND")
 		(at 209.55 113.03 0)
 		(unit 1)
-		(exclude_from_sim no)
+		(exclude_from_sim yes)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
@@ -8506,7 +8491,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 209.55 113.03 0)
 			(effects
 				(font
@@ -8537,7 +8522,7 @@
 		(lib_id "Device:C_Small")
 		(at 134.62 151.13 0)
 		(unit 1)
-		(exclude_from_sim no)
+		(exclude_from_sim yes)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
@@ -8613,7 +8598,7 @@
 		(lib_id "power:GND")
 		(at 116.84 76.2 0)
 		(unit 1)
-		(exclude_from_sim no)
+		(exclude_from_sim yes)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
@@ -8654,7 +8639,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 116.84 76.2 0)
 			(effects
 				(font
@@ -8685,7 +8670,7 @@
 		(lib_id "Device:R_Small_US")
 		(at 259.08 151.13 0)
 		(unit 1)
-		(exclude_from_sim no)
+		(exclude_from_sim yes)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
@@ -8761,7 +8746,7 @@
 		(lib_id "power:GND")
 		(at 62.23 158.75 0)
 		(unit 1)
-		(exclude_from_sim no)
+		(exclude_from_sim yes)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
@@ -8802,7 +8787,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 62.23 158.75 0)
 			(effects
 				(font
@@ -8833,7 +8818,7 @@
 		(lib_id "Device:C_Feedthrough")
 		(at 74.93 25.4 0)
 		(unit 1)
-		(exclude_from_sim no)
+		(exclude_from_sim yes)
 		(in_bom yes)
 		(on_board no)
 		(dnp no)
@@ -8910,7 +8895,7 @@
 		(lib_id "spectrum analyzer:G5V-1")
 		(at 214.63 71.12 90)
 		(unit 1)
-		(exclude_from_sim no)
+		(exclude_from_sim yes)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
@@ -9035,7 +9020,7 @@
 		(lib_id "Device:C_Trim_Small")
 		(at 181.61 106.68 0)
 		(unit 1)
-		(exclude_from_sim no)
+		(exclude_from_sim yes)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
@@ -9111,7 +9096,7 @@
 		(at 251.46 76.2 0)
 		(mirror y)
 		(unit 1)
-		(exclude_from_sim no)
+		(exclude_from_sim yes)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
@@ -9152,7 +9137,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 251.46 76.2 0)
 			(effects
 				(font
@@ -9183,7 +9168,7 @@
 		(lib_id "Device:C_Small")
 		(at 237.49 40.64 0)
 		(unit 1)
-		(exclude_from_sim no)
+		(exclude_from_sim yes)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
@@ -9259,7 +9244,7 @@
 		(lib_id "Device:C_Trim_Small")
 		(at 118.11 151.13 0)
 		(unit 1)
-		(exclude_from_sim no)
+		(exclude_from_sim yes)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
@@ -9335,7 +9320,7 @@
 		(lib_id "Device:C_Trim_Small")
 		(at 214.63 151.13 0)
 		(unit 1)
-		(exclude_from_sim no)
+		(exclude_from_sim yes)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
@@ -9411,7 +9396,7 @@
 		(lib_id "power:GND")
 		(at 74.93 158.75 0)
 		(unit 1)
-		(exclude_from_sim no)
+		(exclude_from_sim yes)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
@@ -9452,7 +9437,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 74.93 158.75 0)
 			(effects
 				(font
@@ -9483,7 +9468,7 @@
 		(lib_id "power:GND")
 		(at 233.68 113.03 0)
 		(unit 1)
-		(exclude_from_sim no)
+		(exclude_from_sim yes)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
@@ -9524,7 +9509,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 233.68 113.03 0)
 			(effects
 				(font
@@ -9555,7 +9540,7 @@
 		(lib_id "Device:R_Small_US")
 		(at 180.34 33.02 90)
 		(unit 1)
-		(exclude_from_sim no)
+		(exclude_from_sim yes)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
@@ -9629,7 +9614,7 @@
 		(lib_id "Device:C_Trim_Small")
 		(at 74.93 151.13 0)
 		(unit 1)
-		(exclude_from_sim no)
+		(exclude_from_sim yes)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
@@ -9705,7 +9690,7 @@
 		(lib_id "power:GND")
 		(at 262.89 113.03 0)
 		(unit 1)
-		(exclude_from_sim no)
+		(exclude_from_sim yes)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
@@ -9746,7 +9731,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 262.89 113.03 0)
 			(effects
 				(font
@@ -9777,7 +9762,7 @@
 		(lib_id "power:GND")
 		(at 226.06 78.74 0)
 		(unit 1)
-		(exclude_from_sim no)
+		(exclude_from_sim yes)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
@@ -9818,7 +9803,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 226.06 78.74 0)
 			(effects
 				(font
@@ -9849,7 +9834,7 @@
 		(lib_id "Device:R_Small_US")
 		(at 170.18 106.68 0)
 		(unit 1)
-		(exclude_from_sim no)
+		(exclude_from_sim yes)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
@@ -9926,7 +9911,7 @@
 		(at 106.68 151.13 0)
 		(mirror y)
 		(unit 1)
-		(exclude_from_sim no)
+		(exclude_from_sim yes)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
@@ -10002,7 +9987,7 @@
 		(lib_id "power:GND")
 		(at 182.88 158.75 0)
 		(unit 1)
-		(exclude_from_sim no)
+		(exclude_from_sim yes)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
@@ -10043,7 +10028,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 182.88 158.75 0)
 			(effects
 				(font
@@ -10074,7 +10059,7 @@
 		(lib_id "power:GND")
 		(at 201.93 158.75 0)
 		(unit 1)
-		(exclude_from_sim no)
+		(exclude_from_sim yes)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
@@ -10115,7 +10100,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 201.93 158.75 0)
 			(effects
 				(font
@@ -10146,7 +10131,7 @@
 		(lib_id "power:GND")
 		(at 90.17 76.2 0)
 		(unit 1)
-		(exclude_from_sim no)
+		(exclude_from_sim yes)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
@@ -10187,7 +10172,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 90.17 76.2 0)
 			(effects
 				(font
@@ -10218,7 +10203,7 @@
 		(lib_id "power:GND")
 		(at 170.18 113.03 0)
 		(unit 1)
-		(exclude_from_sim no)
+		(exclude_from_sim yes)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
@@ -10259,7 +10244,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 170.18 113.03 0)
 			(effects
 				(font
@@ -10290,7 +10275,7 @@
 		(lib_id "Diode:1N4148")
 		(at 222.25 40.64 270)
 		(unit 1)
-		(exclude_from_sim no)
+		(exclude_from_sim yes)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
@@ -10367,7 +10352,7 @@
 		(at 133.35 71.12 270)
 		(mirror x)
 		(unit 1)
-		(exclude_from_sim no)
+		(exclude_from_sim yes)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
@@ -10492,7 +10477,7 @@
 		(lib_id "Device:R_Small_US")
 		(at 134.62 33.02 90)
 		(unit 1)
-		(exclude_from_sim no)
+		(exclude_from_sim yes)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
@@ -10566,7 +10551,7 @@
 		(lib_id "power:GND")
 		(at 181.61 113.03 0)
 		(unit 1)
-		(exclude_from_sim no)
+		(exclude_from_sim yes)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
@@ -10607,7 +10592,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 181.61 113.03 0)
 			(effects
 				(font
@@ -10638,7 +10623,7 @@
 		(lib_id "power:GND")
 		(at 128.27 113.03 0)
 		(unit 1)
-		(exclude_from_sim no)
+		(exclude_from_sim yes)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
@@ -10679,7 +10664,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 128.27 113.03 0)
 			(effects
 				(font
@@ -10809,7 +10794,7 @@
 		(lib_id "power:GND")
 		(at 153.67 113.03 0)
 		(unit 1)
-		(exclude_from_sim no)
+		(exclude_from_sim yes)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
@@ -10850,7 +10835,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 153.67 113.03 0)
 			(effects
 				(font
@@ -10881,7 +10866,7 @@
 		(lib_id "power:GND")
 		(at 247.65 158.75 0)
 		(unit 1)
-		(exclude_from_sim no)
+		(exclude_from_sim yes)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
@@ -10922,7 +10907,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 247.65 158.75 0)
 			(effects
 				(font
@@ -10953,7 +10938,7 @@
 		(lib_id "power:GND")
 		(at 106.68 158.75 0)
 		(unit 1)
-		(exclude_from_sim no)
+		(exclude_from_sim yes)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
@@ -10994,7 +10979,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 106.68 158.75 0)
 			(effects
 				(font
@@ -11025,7 +11010,7 @@
 		(lib_id "power:GND")
 		(at 115.57 113.03 0)
 		(unit 1)
-		(exclude_from_sim no)
+		(exclude_from_sim yes)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
@@ -11066,7 +11051,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 115.57 113.03 0)
 			(effects
 				(font
@@ -11097,7 +11082,7 @@
 		(lib_id "Device:R_Small_US")
 		(at 162.56 99.06 90)
 		(unit 1)
-		(exclude_from_sim no)
+		(exclude_from_sim yes)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
@@ -11170,7 +11155,7 @@
 		(lib_id "Device:R_Small_US")
 		(at 116.84 71.12 0)
 		(unit 1)
-		(exclude_from_sim no)
+		(exclude_from_sim yes)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
@@ -11246,7 +11231,7 @@
 		(lib_id "Device:C_Small")
 		(at 80.01 40.64 0)
 		(unit 1)
-		(exclude_from_sim no)
+		(exclude_from_sim yes)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
@@ -11322,7 +11307,7 @@
 		(lib_id "power:GND")
 		(at 223.52 113.03 0)
 		(unit 1)
-		(exclude_from_sim no)
+		(exclude_from_sim yes)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
@@ -11363,7 +11348,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 223.52 113.03 0)
 			(effects
 				(font
@@ -11395,7 +11380,7 @@
 		(at 102.87 104.14 0)
 		(mirror y)
 		(unit 1)
-		(exclude_from_sim no)
+		(exclude_from_sim yes)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
@@ -11471,7 +11456,7 @@
 		(lib_id "power:GND")
 		(at 222.25 48.26 0)
 		(unit 1)
-		(exclude_from_sim no)
+		(exclude_from_sim yes)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
@@ -11512,7 +11497,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 222.25 48.26 0)
 			(effects
 				(font
@@ -11543,7 +11528,7 @@
 		(lib_id "Device:C_Small")
 		(at 48.26 151.13 0)
 		(unit 1)
-		(exclude_from_sim no)
+		(exclude_from_sim yes)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
@@ -11619,7 +11604,7 @@
 		(lib_id "spectrum analyzer:Crystal_GND3_Small")
 		(at 223.52 105.41 0)
 		(unit 1)
-		(exclude_from_sim no)
+		(exclude_from_sim yes)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
@@ -11695,7 +11680,7 @@
 		(lib_id "Device:R_Small_US")
 		(at 269.24 143.51 90)
 		(unit 1)
-		(exclude_from_sim no)
+		(exclude_from_sim yes)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
@@ -11800,7 +11785,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" " ~"
+		(property "Datasheet" "~"
 			(at 71.12 66.04 0)
 			(effects
 				(font
@@ -11809,7 +11794,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "coaxial connector (BNC, SMA, SMB, SMC, Cinch/RCA, LEMO, ...)"
 			(at 71.12 66.04 0)
 			(effects
 				(font
@@ -11870,7 +11855,7 @@
 		(lib_id "Device:C_Small")
 		(at 182.88 151.13 0)
 		(unit 1)
-		(exclude_from_sim no)
+		(exclude_from_sim yes)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
@@ -11946,7 +11931,7 @@
 		(lib_id "power:GND")
 		(at 118.11 158.75 0)
 		(unit 1)
-		(exclude_from_sim no)
+		(exclude_from_sim yes)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
@@ -11987,7 +11972,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 118.11 158.75 0)
 			(effects
 				(font
@@ -12118,7 +12103,7 @@
 		(lib_id "power:GND")
 		(at 259.08 158.75 0)
 		(unit 1)
-		(exclude_from_sim no)
+		(exclude_from_sim yes)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
@@ -12159,7 +12144,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 259.08 158.75 0)
 			(effects
 				(font
@@ -12190,7 +12175,7 @@
 		(lib_id "power:GND")
 		(at 74.93 30.48 0)
 		(unit 1)
-		(exclude_from_sim no)
+		(exclude_from_sim yes)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
@@ -12231,7 +12216,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 74.93 30.48 0)
 			(effects
 				(font
@@ -12484,7 +12469,7 @@
 		(lib_id "Device:C_Trim_Small")
 		(at 233.68 106.68 0)
 		(unit 1)
-		(exclude_from_sim no)
+		(exclude_from_sim yes)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
@@ -12560,7 +12545,7 @@
 		(lib_id "power:GND")
 		(at 83.82 113.03 0)
 		(unit 1)
-		(exclude_from_sim no)
+		(exclude_from_sim yes)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
@@ -12601,7 +12586,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 83.82 113.03 0)
 			(effects
 				(font
@@ -12632,7 +12617,7 @@
 		(lib_id "Device:C_Trim_Small")
 		(at 139.7 106.68 0)
 		(unit 1)
-		(exclude_from_sim no)
+		(exclude_from_sim yes)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
@@ -12707,7 +12692,7 @@
 		(lib_id "power:GND")
 		(at 93.98 46.99 0)
 		(unit 1)
-		(exclude_from_sim no)
+		(exclude_from_sim yes)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
@@ -12748,7 +12733,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 93.98 46.99 0)
 			(effects
 				(font
@@ -12779,7 +12764,7 @@
 		(lib_id "Device:C_Trim_Small")
 		(at 167.64 151.13 0)
 		(unit 1)
-		(exclude_from_sim no)
+		(exclude_from_sim yes)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)

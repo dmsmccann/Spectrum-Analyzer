@@ -470,33 +470,28 @@
 				)
 			)
 		)
-		(symbol "Connector:Conn_WallPlug_Earth"
-			(pin_names
-				(offset 0)
-			)
+		(symbol "Connector:Conn_Receptacle_3P_Protected"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "P"
-				(at 0 3.81 0)
+			(property "Reference" "J"
+				(at -9.652 11.176 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify bottom)
 				)
 			)
-			(property "Value" "Conn_WallPlug_Earth"
-				(at -5.08 0 90)
+			(property "Value" "Conn_Receptacle_3P_Protected"
+				(at 0.254 -11.43 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify bottom)
 				)
 			)
 			(property "Footprint" ""
-				(at 10.16 0 0)
+				(at -23.114 22.86 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -505,15 +500,6 @@
 				)
 			)
 			(property "Datasheet" "~"
-				(at 10.16 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "3-pin general wall plug, with Earth wire (110VAC, 220VAC)"
 				(at 0 0 0)
 				(effects
 					(font
@@ -522,7 +508,16 @@
 					(hide yes)
 				)
 			)
-			(property "ki_keywords" "wall plug 110VAC 220VAC"
+			(property "Description" "3 Pins protected generic receptacle"
+				(at 0.508 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "3P mains receptacle protected wall"
 				(at 0 0 0)
 				(effects
 					(font
@@ -531,11 +526,32 @@
 					(hide yes)
 				)
 			)
-			(symbol "Conn_WallPlug_Earth_0_1"
-				(arc
-					(start -3.175 -3.81)
-					(mid 0.6184 0)
-					(end -3.175 3.81)
+			(property "ki_fp_filters" "CEE*7/2* CEE*7/16* CEE*7/17* NEMA*1?15* SN?441011?Type*11*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Conn_Receptacle_3P_Protected_0_1"
+				(circle
+					(center 0 0)
+					(radius 5.715)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "Conn_Receptacle_3P_Protected_1_1"
+				(rectangle
+					(start -10.16 10.16)
+					(end 10.16 -10.16)
 					(stroke
 						(width 0.254)
 						(type default)
@@ -544,165 +560,9 @@
 						(type background)
 					)
 				)
-				(polyline
-					(pts
-						(xy -4.445 -2.54) (xy -0.635 -2.54)
-					)
-					(stroke
-						(width 0.508)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -4.445 0) (xy 0.508 0)
-					)
-					(stroke
-						(width 0.508)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -4.445 2.54) (xy -0.635 2.54)
-					)
-					(stroke
-						(width 0.508)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -3.175 -3.81) (xy -3.175 3.81)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -0.635 -2.54) (xy 2.54 -2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -0.635 2.54) (xy 2.54 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.524 -9.398) (xy 3.556 -9.398)
-					)
-					(stroke
-						(width 0.2032)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.778 -9.906) (xy 3.302 -9.906)
-					)
-					(stroke
-						(width 0.2032)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.032 -10.414) (xy 3.048 -10.414)
-					)
-					(stroke
-						(width 0.2032)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.286 -10.922) (xy 2.794 -10.922)
-					)
-					(stroke
-						(width 0.2032)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.54 -7.62) (xy 2.54 -8.89)
-					)
-					(stroke
-						(width 0.2032)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 3.81 -8.89) (xy 1.27 -8.89)
-					)
-					(stroke
-						(width 0.2032)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.54 -7.62) (xy 1.905 -7.62) (xy 1.905 0) (xy -4.445 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
 				(circle
-					(center 2.54 -7.62)
-					(radius 0.3556)
+					(center -3.175 0)
+					(radius 0.635)
 					(stroke
 						(width 0)
 						(type default)
@@ -711,12 +571,32 @@
 						(type outline)
 					)
 				)
-			)
-			(symbol "Conn_WallPlug_Earth_1_1"
+				(circle
+					(center 0 3.175)
+					(radius 0.635)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(circle
+					(center 3.175 0)
+					(radius 0.635)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
 				(pin power_out line
-					(at 7.62 2.54 180)
-					(length 5.08)
-					(name "AC_P"
+					(at 12.7 -5.08 180)
+					(length 2.54)
+					(name "N"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -731,10 +611,10 @@
 						)
 					)
 				)
-				(pin power_out line
-					(at 7.62 -2.54 180)
-					(length 5.08)
-					(name "AC_N"
+				(pin power_in line
+					(at 12.7 5.08 180)
+					(length 2.54)
+					(name "L"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -749,10 +629,10 @@
 						)
 					)
 				)
-				(pin passive line
-					(at 7.62 -7.62 180)
-					(length 5.08)
-					(name "EARTH"
+				(pin power_out line
+					(at 12.7 0 180)
+					(length 2.54)
+					(name "PE"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2180,9 +2060,9 @@
 		)
 		(symbol "power:GND"
 			(power)
+			(pin_numbers hide)
 			(pin_names
-				(offset 0)
-			)
+				(offset 0) hide)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -2256,8 +2136,8 @@
 			(symbol "GND_1_1"
 				(pin power_in line
 					(at 0 0 270)
-					(length 0) hide
-					(name "GND"
+					(length 0)
+					(name "~"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2339,7 +2219,7 @@
 				(pin power_out line
 					(at 0 0 90)
 					(length 0)
-					(name "pwr"
+					(name "~"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2922,6 +2802,12 @@
 		(uuid "32732138-6e4b-4bb2-8b60-e9015f4f90a6")
 	)
 	(junction
+		(at 73.66 41.91)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "38829ce4-1df9-481a-852c-88e4e6b7e445")
+	)
+	(junction
 		(at 252.73 25.4)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3209,7 +3095,7 @@
 	)
 	(wire
 		(pts
-			(xy 88.9 48.26) (xy 88.9 58.42)
+			(xy 87.63 52.07) (xy 87.63 58.42)
 		)
 		(stroke
 			(width 0)
@@ -3359,16 +3245,6 @@
 	)
 	(wire
 		(pts
-			(xy 76.2 53.34) (xy 76.2 59.69)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "351ade65-c362-4f20-a001-1629051c5201")
-	)
-	(wire
-		(pts
 			(xy 217.17 33.02) (xy 217.17 25.4)
 		)
 		(stroke
@@ -3509,6 +3385,16 @@
 	)
 	(wire
 		(pts
+			(xy 66.04 41.91) (xy 73.66 41.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5bc08aca-d88b-4f3f-aaec-aceb2b24726f")
+	)
+	(wire
+		(pts
 			(xy 236.22 73.66) (xy 236.22 82.55)
 		)
 		(stroke
@@ -3529,6 +3415,16 @@
 	)
 	(wire
 		(pts
+			(xy 66.04 52.07) (xy 87.63 52.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5f5f0b1e-99e6-4156-b930-4c7aa6187b02")
+	)
+	(wire
+		(pts
 			(xy 252.73 52.07) (xy 245.11 52.07)
 		)
 		(stroke
@@ -3536,6 +3432,16 @@
 			(type default)
 		)
 		(uuid "5fa7e42c-a149-408c-a24d-f9f8ee2d4e1e")
+	)
+	(wire
+		(pts
+			(xy 66.04 46.99) (xy 68.58 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "65da561b-b89b-477d-ab44-640b40133547")
 	)
 	(wire
 		(pts
@@ -3579,6 +3485,16 @@
 	)
 	(wire
 		(pts
+			(xy 68.58 46.99) (xy 68.58 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6c71650d-6ace-42dd-b7c6-0f56e69df563")
+	)
+	(wire
+		(pts
 			(xy 68.58 90.17) (xy 77.47 90.17)
 		)
 		(stroke
@@ -3599,13 +3515,13 @@
 	)
 	(wire
 		(pts
-			(xy 76.2 48.26) (xy 88.9 48.26)
+			(xy 73.66 41.91) (xy 76.2 41.91)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "7875a93f-8c9e-45cf-b8e2-e0fbe20e3ac0")
+		(uuid "788cc269-624d-4db0-a32e-669b3f518d90")
 	)
 	(wire
 		(pts
@@ -3899,6 +3815,26 @@
 	)
 	(wire
 		(pts
+			(xy 73.66 34.29) (xy 73.66 41.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c50836d1-4ba0-43e7-9ca0-8274caad006c")
+	)
+	(wire
+		(pts
+			(xy 76.2 41.91) (xy 76.2 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c7496084-d82f-461b-8490-5c90499594a2")
+	)
+	(wire
+		(pts
 			(xy 116.84 45.72) (xy 113.03 45.72)
 		)
 		(stroke
@@ -4009,7 +3945,7 @@
 	)
 	(wire
 		(pts
-			(xy 88.9 58.42) (xy 105.41 58.42)
+			(xy 87.63 58.42) (xy 105.41 58.42)
 		)
 		(stroke
 			(width 0)
@@ -4210,7 +4146,7 @@
 	)
 	(text "Earth Ground"
 		(exclude_from_sim no)
-		(at 69.215 67.945 0)
+		(at 61.595 70.485 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4221,7 +4157,7 @@
 	)
 	(text "120 VAC\nMains Input"
 		(exclude_from_sim no)
-		(at 52.705 52.705 0)
+		(at 25.4 69.85 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4309,7 +4245,6 @@
 	)
 	(label "TRAN OUT2"
 		(at 137.16 60.96 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4320,7 +4255,6 @@
 	)
 	(label "7815 IN"
 		(at 91.44 105.41 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4331,7 +4265,6 @@
 	)
 	(label "TRAN OUT1"
 		(at 137.16 40.64 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4342,7 +4275,6 @@
 	)
 	(label "7915 IN"
 		(at 93.98 157.48 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4353,7 +4285,6 @@
 	)
 	(label "VCC"
 		(at 77.47 43.18 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4365,7 +4296,6 @@
 	(hierarchical_label "-15 Regulated"
 		(shape output)
 		(at 238.76 157.48 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4377,7 +4307,6 @@
 	(hierarchical_label "+15 Regulated"
 		(shape output)
 		(at 238.76 105.41 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4390,7 +4319,7 @@
 		(lib_id "Device:C_Polarized_Small_US")
 		(at 140.97 147.32 0)
 		(unit 1)
-		(exclude_from_sim no)
+		(exclude_from_sim yes)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
@@ -4460,7 +4389,7 @@
 		(lib_id "Device:C_Polarized_Small_US")
 		(at 252.73 71.12 0)
 		(unit 1)
-		(exclude_from_sim no)
+		(exclude_from_sim yes)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
@@ -4528,16 +4457,16 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 76.2 59.69 0)
+		(at 68.58 62.23 0)
 		(unit 1)
-		(exclude_from_sim no)
+		(exclude_from_sim yes)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0ddc9c53-a89e-43c3-ba15-67c17f82f302")
 		(property "Reference" "#PWR0901"
-			(at 76.2 66.04 0)
+			(at 68.58 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4546,7 +4475,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 76.2 64.77 0)
+			(at 68.58 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4554,7 +4483,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 76.2 59.69 0)
+			(at 68.58 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4563,7 +4492,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 76.2 59.69 0)
+			(at 68.58 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4571,8 +4500,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 76.2 59.69 0)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 68.58 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4596,7 +4525,7 @@
 		(lib_id "Switch:SW_SPST")
 		(at 87.63 43.18 0)
 		(unit 1)
-		(exclude_from_sim no)
+		(exclude_from_sim yes)
 		(in_bom yes)
 		(on_board no)
 		(dnp no)
@@ -4691,7 +4620,7 @@
 		(lib_id "Device:Fuse")
 		(at 99.06 43.18 90)
 		(unit 1)
-		(exclude_from_sim no)
+		(exclude_from_sim yes)
 		(in_bom yes)
 		(on_board no)
 		(dnp no)
@@ -4782,117 +4711,10 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:Conn_WallPlug_Earth")
-		(at 68.58 45.72 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board no)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "2478f7ed-d6be-4a5e-ace6-4dc344fc9604")
-		(property "Reference" "P901"
-			(at 68.1863 36.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "120VAC"
-			(at 68.1863 39.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 78.74 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 78.74 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 68.58 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" "V"
-			(at 68.58 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Type" "SIN"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 0.0254 0.0254)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Params" "dc=0 ampl=120 f=60"
-			(at 68.58 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" "1=+ 2=-"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 0.0254 0.0254)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "d4feee56-11e2-486a-b0ed-587f450120ad")
-		)
-		(pin "2"
-			(uuid "61da6a30-94cc-4d06-a627-1572a61334cf")
-		)
-		(pin "3"
-			(uuid "df053b72-a957-4d7b-b412-171c2cffd6f7")
-		)
-		(instances
-			(project "W7ZOI Spectrum Analyzer"
-				(path "/d5173421-a214-4849-aa93-f108d8644c8a/633a963b-5ac6-4181-b149-baaec0e755c1"
-					(reference "P901")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Regulator_Linear:L7815")
 		(at 115.57 105.41 0)
 		(unit 1)
-		(exclude_from_sim no)
+		(exclude_from_sim yes)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
@@ -4992,7 +4814,7 @@
 		(lib_id "Device:C_Polarized_Small_US")
 		(at 186.69 147.32 0)
 		(unit 1)
-		(exclude_from_sim no)
+		(exclude_from_sim yes)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
@@ -5062,7 +4884,7 @@
 		(lib_id "spectrum analyzer:1N5060GP")
 		(at 217.17 71.12 90)
 		(unit 1)
-		(exclude_from_sim no)
+		(exclude_from_sim yes)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
@@ -5162,7 +4984,7 @@
 		(lib_id "spectrum analyzer:1N5060GP")
 		(at 180.34 71.12 90)
 		(unit 1)
-		(exclude_from_sim no)
+		(exclude_from_sim yes)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
@@ -5261,7 +5083,7 @@
 		(lib_id "power:PWR_FLAG")
 		(at 278.13 22.86 0)
 		(unit 1)
-		(exclude_from_sim no)
+		(exclude_from_sim yes)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
@@ -5302,7 +5124,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Special symbol for telling ERC where power comes from"
 			(at 278.13 22.86 0)
 			(effects
 				(font
@@ -5327,7 +5149,7 @@
 		(lib_id "Device:C_Small")
 		(at 236.22 71.12 0)
 		(unit 1)
-		(exclude_from_sim no)
+		(exclude_from_sim yes)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
@@ -5397,7 +5219,7 @@
 		(lib_id "Device:C_Polarized_Small_US")
 		(at 140.97 115.57 0)
 		(unit 1)
-		(exclude_from_sim no)
+		(exclude_from_sim yes)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
@@ -5467,7 +5289,7 @@
 		(lib_id "Device:C_Polarized_Small_US")
 		(at 252.73 36.83 0)
 		(unit 1)
-		(exclude_from_sim no)
+		(exclude_from_sim yes)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
@@ -5739,7 +5561,7 @@
 		(lib_id "Device:Transformer_1P_2S")
 		(at 127 50.8 0)
 		(unit 1)
-		(exclude_from_sim no)
+		(exclude_from_sim yes)
 		(in_bom yes)
 		(on_board no)
 		(dnp no)
@@ -5846,7 +5668,7 @@
 		(lib_id "power:GND")
 		(at 245.11 55.88 0)
 		(unit 1)
-		(exclude_from_sim no)
+		(exclude_from_sim yes)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
@@ -5888,7 +5710,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 245.11 55.88 0)
 			(effects
 				(font
@@ -5913,7 +5735,7 @@
 		(lib_id "power:GND")
 		(at 175.26 64.77 0)
 		(unit 1)
-		(exclude_from_sim no)
+		(exclude_from_sim yes)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
@@ -5955,7 +5777,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 175.26 64.77 0)
 			(effects
 				(font
@@ -5980,7 +5802,7 @@
 		(lib_id "Device:C_Polarized_Small_US")
 		(at 186.69 115.57 0)
 		(unit 1)
-		(exclude_from_sim no)
+		(exclude_from_sim yes)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
@@ -6050,7 +5872,7 @@
 		(lib_id "power:GND")
 		(at 115.57 172.72 0)
 		(unit 1)
-		(exclude_from_sim no)
+		(exclude_from_sim yes)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
@@ -6092,7 +5914,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 115.57 172.72 0)
 			(effects
 				(font
@@ -6114,11 +5936,148 @@
 		)
 	)
 	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 73.66 34.29 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9fead5ce-9cec-401c-b8f1-b1fbaa973c79")
+		(property "Reference" "#FLG0701"
+			(at 73.66 32.385 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 73.66 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 73.66 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 73.66 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 73.66 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "eb317d82-fabc-449d-9726-d58077ec5ba2")
+		)
+		(instances
+			(project ""
+				(path "/d5173421-a214-4849-aa93-f108d8644c8a/633a963b-5ac6-4181-b149-baaec0e755c1"
+					(reference "#FLG0701")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_Receptacle_3P_Protected")
+		(at 53.34 46.99 0)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a14a76c4-0b38-4645-a149-5cf08d1eff0d")
+		(property "Reference" "J999"
+			(at 53.34 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Conn_Receptacle_3P_Protected"
+			(at 53.34 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 30.226 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 53.34 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "3 Pins protected generic receptacle"
+			(at 53.848 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "b72a4ffe-2ced-4275-9b9b-f5f69e77ffda")
+		)
+		(pin "1"
+			(uuid "60be6faf-2a01-49aa-9017-d76077c15aaa")
+		)
+		(pin "3"
+			(uuid "a6081dbd-6a9b-40c2-959c-0569f835bce8")
+		)
+		(instances
+			(project ""
+				(path "/d5173421-a214-4849-aa93-f108d8644c8a/633a963b-5ac6-4181-b149-baaec0e755c1"
+					(reference "J999")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_name "1N5060GP_1")
 		(lib_id "spectrum analyzer:1N5060GP")
 		(at 180.34 36.83 90)
 		(unit 1)
-		(exclude_from_sim no)
+		(exclude_from_sim yes)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
@@ -6217,7 +6176,7 @@
 		(lib_id "power:PWR_FLAG")
 		(at 68.58 85.09 0)
 		(unit 1)
-		(exclude_from_sim no)
+		(exclude_from_sim yes)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
@@ -6258,7 +6217,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Special symbol for telling ERC where power comes from"
 			(at 68.58 85.09 0)
 			(effects
 				(font
@@ -6284,7 +6243,7 @@
 		(lib_id "spectrum analyzer:1N5060GP")
 		(at 217.17 36.83 90)
 		(unit 1)
-		(exclude_from_sim no)
+		(exclude_from_sim yes)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
@@ -6383,7 +6342,7 @@
 		(lib_id "Device:C_Small")
 		(at 198.12 71.12 0)
 		(unit 1)
-		(exclude_from_sim no)
+		(exclude_from_sim yes)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
@@ -6453,7 +6412,7 @@
 		(lib_id "Device:R_Small_US")
 		(at 163.83 115.57 0)
 		(unit 1)
-		(exclude_from_sim no)
+		(exclude_from_sim yes)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
@@ -6524,7 +6483,7 @@
 		(at 115.57 157.48 0)
 		(mirror x)
 		(unit 1)
-		(exclude_from_sim no)
+		(exclude_from_sim yes)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
@@ -6623,7 +6582,7 @@
 		(lib_id "Device:C_Small")
 		(at 236.22 36.83 0)
 		(unit 1)
-		(exclude_from_sim no)
+		(exclude_from_sim yes)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
@@ -6693,7 +6652,7 @@
 		(lib_id "power:GND")
 		(at 115.57 121.92 0)
 		(unit 1)
-		(exclude_from_sim no)
+		(exclude_from_sim yes)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
@@ -6735,7 +6694,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 115.57 121.92 0)
 			(effects
 				(font
@@ -6760,7 +6719,7 @@
 		(lib_id "Device:C_Small")
 		(at 105.41 50.8 0)
 		(unit 1)
-		(exclude_from_sim no)
+		(exclude_from_sim yes)
 		(in_bom yes)
 		(on_board no)
 		(dnp no)
@@ -6830,7 +6789,7 @@
 		(lib_id "Device:C_Small")
 		(at 198.12 36.83 0)
 		(unit 1)
-		(exclude_from_sim no)
+		(exclude_from_sim yes)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
@@ -6900,7 +6859,7 @@
 		(lib_id "Device:R_Small_US")
 		(at 163.83 147.32 0)
 		(unit 1)
-		(exclude_from_sim no)
+		(exclude_from_sim yes)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)

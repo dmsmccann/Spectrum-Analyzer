@@ -5,6 +5,7 @@
 	(uuid "c46f542d-f1d8-416f-bbf0-98782d1ae292")
 	(paper "USLegal")
 	(title_block
+		(rev "0")
 		(company "Andy McCann KA3KAF and Doug McCann KA3KAG")
 		(comment 2 "Terry White K7TAU")
 		(comment 3 "Wes Hayward W7ZOI")
@@ -162,7 +163,7 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" " ~"
+			(property "Datasheet" "~"
 				(at 0 0 0)
 				(effects
 					(font
@@ -2425,9 +2426,9 @@
 		)
 		(symbol "power:GND"
 			(power)
+			(pin_numbers hide)
 			(pin_names
-				(offset 0)
-			)
+				(offset 0) hide)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -2501,8 +2502,8 @@
 			(symbol "GND_1_1"
 				(pin power_in line
 					(at 0 0 270)
-					(length 0) hide
-					(name "GND"
+					(length 0)
+					(name "~"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2584,7 +2585,7 @@
 				(pin power_out line
 					(at 0 0 90)
 					(length 0)
-					(name "pwr"
+					(name "~"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2933,12 +2934,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "bea20559-2bf6-4c74-b40c-ab3719765b09")
-	)
-	(junction
-		(at 175.26 105.41)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "c8705def-5cd0-4859-b3a3-50927adfa99c")
 	)
 	(junction
 		(at 267.97 76.2)
@@ -3382,7 +3377,7 @@
 	)
 	(wire
 		(pts
-			(xy 170.18 105.41) (xy 175.26 105.41)
+			(xy 170.18 105.41) (xy 177.8 105.41)
 		)
 		(stroke
 			(width 0)
@@ -3469,16 +3464,6 @@
 			(type default)
 		)
 		(uuid "739f35a1-65e3-401c-b157-0bf2073d8086")
-	)
-	(wire
-		(pts
-			(xy 175.26 105.41) (xy 177.8 105.41)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7ac7b9d3-1e2b-4be1-a839-ec2d0a5dcd4c")
 	)
 	(wire
 		(pts
@@ -3926,7 +3911,6 @@
 	(hierarchical_label "-15 Regulated"
 		(shape input)
 		(at 163.83 125.73 270)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3938,7 +3922,6 @@
 	(hierarchical_label "IF Log Amp"
 		(shape input)
 		(at 71.12 62.23 90)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3950,7 +3933,6 @@
 	(hierarchical_label "-15 Regulated"
 		(shape input)
 		(at 116.84 144.78 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3962,7 +3944,6 @@
 	(hierarchical_label "+15 Reguated"
 		(shape input)
 		(at 104.14 95.25 90)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3974,7 +3955,6 @@
 	(hierarchical_label "Scope Y Axis"
 		(shape output)
 		(at 273.05 72.39 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3987,7 +3967,7 @@
 		(lib_id "Device:R_Small_US")
 		(at 195.58 87.63 90)
 		(unit 1)
-		(exclude_from_sim no)
+		(exclude_from_sim yes)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
@@ -4054,7 +4034,7 @@
 		(lib_id "Device:R_Small_US")
 		(at 214.63 78.74 90)
 		(unit 1)
-		(exclude_from_sim no)
+		(exclude_from_sim yes)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
@@ -4122,7 +4102,7 @@
 		(lib_id "Device:R_Small_US")
 		(at 181.61 81.28 90)
 		(unit 1)
-		(exclude_from_sim no)
+		(exclude_from_sim yes)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
@@ -4381,7 +4361,7 @@
 		(lib_id "Connector:Conn_Coaxial")
 		(at 278.13 53.34 0)
 		(unit 1)
-		(exclude_from_sim no)
+		(exclude_from_sim yes)
 		(in_bom yes)
 		(on_board no)
 		(dnp no)
@@ -4414,7 +4394,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" " ~"
+		(property "Datasheet" "~"
 			(at 278.13 53.34 0)
 			(effects
 				(font
@@ -4423,7 +4403,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "coaxial connector (BNC, SMA, SMB, SMC, Cinch/RCA, LEMO, ...)"
 			(at 278.13 53.34 0)
 			(effects
 				(font
@@ -4451,7 +4431,7 @@
 		(lib_id "power:GND")
 		(at 156.21 130.81 0)
 		(unit 1)
-		(exclude_from_sim no)
+		(exclude_from_sim yes)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
@@ -4492,7 +4472,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 156.21 130.81 0)
 			(effects
 				(font
@@ -4517,7 +4497,7 @@
 		(lib_id "power:GND")
 		(at 102.87 139.7 0)
 		(unit 1)
-		(exclude_from_sim no)
+		(exclude_from_sim yes)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
@@ -4558,7 +4538,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 102.87 139.7 0)
 			(effects
 				(font
@@ -4583,7 +4563,7 @@
 		(lib_id "Device:R_Small_US")
 		(at 116.84 106.68 180)
 		(unit 1)
-		(exclude_from_sim no)
+		(exclude_from_sim yes)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
@@ -4653,7 +4633,7 @@
 		(lib_id "power:PWR_FLAG")
 		(at 116.84 130.81 270)
 		(unit 1)
-		(exclude_from_sim no)
+		(exclude_from_sim yes)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
@@ -4695,7 +4675,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Special symbol for telling ERC where power comes from"
 			(at 116.84 130.81 0)
 			(effects
 				(font
@@ -4720,7 +4700,7 @@
 		(lib_id "Device:R_Potentiometer_Trim_US")
 		(at 205.74 115.57 180)
 		(unit 1)
-		(exclude_from_sim no)
+		(exclude_from_sim yes)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
@@ -4820,7 +4800,7 @@
 		(lib_id "Device:R_Small_US")
 		(at 204.47 87.63 90)
 		(unit 1)
-		(exclude_from_sim no)
+		(exclude_from_sim yes)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
@@ -4887,7 +4867,7 @@
 		(lib_id "spectrum analyzer:MC1458P")
 		(at 116.84 122.174 0)
 		(unit 3)
-		(exclude_from_sim no)
+		(exclude_from_sim yes)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
@@ -4974,7 +4954,7 @@
 		(lib_id "Device:C_Small")
 		(at 270.51 101.6 0)
 		(unit 1)
-		(exclude_from_sim no)
+		(exclude_from_sim yes)
 		(in_bom yes)
 		(on_board no)
 		(dnp no)
@@ -5044,7 +5024,7 @@
 		(lib_id "power:PWR_FLAG")
 		(at 116.84 114.3 270)
 		(unit 1)
-		(exclude_from_sim no)
+		(exclude_from_sim yes)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
@@ -5086,7 +5066,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Special symbol for telling ERC where power comes from"
 			(at 116.84 114.3 0)
 			(effects
 				(font
@@ -5111,7 +5091,7 @@
 		(lib_id "Device:R_Small_US")
 		(at 116.84 138.43 180)
 		(unit 1)
-		(exclude_from_sim no)
+		(exclude_from_sim yes)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
@@ -5181,7 +5161,7 @@
 		(lib_id "Device:R_Small_US")
 		(at 130.81 111.76 270)
 		(unit 1)
-		(exclude_from_sim no)
+		(exclude_from_sim yes)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
@@ -5249,7 +5229,7 @@
 		(lib_id "power:GND")
 		(at 177.8 107.95 0)
 		(unit 1)
-		(exclude_from_sim no)
+		(exclude_from_sim yes)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
@@ -5290,7 +5270,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 177.8 107.95 0)
 			(effects
 				(font
@@ -5315,14 +5295,14 @@
 		(lib_id "Device:R_Potentiometer_US")
 		(at 71.12 68.58 0)
 		(unit 1)
-		(exclude_from_sim no)
+		(exclude_from_sim yes)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7b4d35d7-3e10-485b-8e7c-fbe1127ae090")
-		(property "Reference" "R2"
-			(at 68.58 67.31 0)
+		(property "Reference" "R2-1"
+			(at 68.58 67.3099 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5331,7 +5311,7 @@
 			)
 		)
 		(property "Value" "R_Potentiometer_US"
-			(at 68.58 69.85 0)
+			(at 68.58 69.8499 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5378,7 +5358,7 @@
 		(instances
 			(project "W7ZOI Spectrum Analyzer"
 				(path "/d5173421-a214-4849-aa93-f108d8644c8a/6702cb80-1bae-4aa2-9f4a-d16d8c775e6d"
-					(reference "R2")
+					(reference "R2-1")
 					(unit 1)
 				)
 			)
@@ -5388,7 +5368,7 @@
 		(lib_id "power:GND")
 		(at 260.35 107.95 0)
 		(unit 1)
-		(exclude_from_sim no)
+		(exclude_from_sim yes)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
@@ -5429,7 +5409,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 260.35 107.95 0)
 			(effects
 				(font
@@ -5454,7 +5434,7 @@
 		(lib_id "Device:R_Small_US")
 		(at 196.85 115.57 90)
 		(unit 1)
-		(exclude_from_sim no)
+		(exclude_from_sim yes)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
@@ -5521,7 +5501,7 @@
 		(lib_id "power:GND")
 		(at 71.12 77.47 0)
 		(unit 1)
-		(exclude_from_sim no)
+		(exclude_from_sim yes)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
@@ -5562,7 +5542,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 71.12 77.47 0)
 			(effects
 				(font
@@ -5588,7 +5568,7 @@
 		(lib_id "spectrum analyzer:MC1458P")
 		(at 172.72 81.28 0)
 		(unit 1)
-		(exclude_from_sim no)
+		(exclude_from_sim yes)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
@@ -5672,7 +5652,7 @@
 		(lib_id "Device:C_Polarized_Small")
 		(at 102.87 134.62 180)
 		(unit 1)
-		(exclude_from_sim no)
+		(exclude_from_sim yes)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
@@ -5840,7 +5820,7 @@
 		(lib_id "Switch:SW_SP3T")
 		(at 267.97 83.82 270)
 		(unit 1)
-		(exclude_from_sim no)
+		(exclude_from_sim yes)
 		(in_bom yes)
 		(on_board no)
 		(dnp no)
@@ -5916,7 +5896,7 @@
 		(lib_id "power:GND")
 		(at 102.87 113.03 0)
 		(unit 1)
-		(exclude_from_sim no)
+		(exclude_from_sim yes)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
@@ -5957,7 +5937,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 102.87 113.03 0)
 			(effects
 				(font
@@ -5982,7 +5962,7 @@
 		(lib_id "Device:R_Small_US")
 		(at 165.1 90.17 90)
 		(unit 1)
-		(exclude_from_sim no)
+		(exclude_from_sim yes)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
@@ -6050,7 +6030,7 @@
 		(lib_id "spectrum analyzer:MC1458P")
 		(at 207.01 78.74 0)
 		(unit 2)
-		(exclude_from_sim no)
+		(exclude_from_sim yes)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
@@ -6134,7 +6114,7 @@
 		(lib_id "power:GND")
 		(at 151.13 86.36 0)
 		(unit 1)
-		(exclude_from_sim no)
+		(exclude_from_sim yes)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
@@ -6175,7 +6155,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 151.13 86.36 0)
 			(effects
 				(font
@@ -6197,76 +6177,10 @@
 		)
 	)
 	(symbol
-		(lib_id "power:PWR_FLAG")
-		(at 175.26 105.41 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "a57a685e-3b4c-4764-86da-b7f2dd1ad569")
-		(property "Reference" "#FLG01003"
-			(at 175.26 103.505 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "PWR_FLAG"
-			(at 175.26 100.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 175.26 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 175.26 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 175.26 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "1cd2324f-b2a2-4bf6-80f8-c5b9501a39f7")
-		)
-		(instances
-			(project "W7ZOI Spectrum Analyzer"
-				(path "/d5173421-a214-4849-aa93-f108d8644c8a/6702cb80-1bae-4aa2-9f4a-d16d8c775e6d"
-					(reference "#FLG01003")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 270.51 107.95 0)
 		(unit 1)
-		(exclude_from_sim no)
+		(exclude_from_sim yes)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
@@ -6307,7 +6221,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 270.51 107.95 0)
 			(effects
 				(font
@@ -6332,7 +6246,7 @@
 		(lib_id "power:GND")
 		(at 97.79 100.33 0)
 		(unit 1)
-		(exclude_from_sim no)
+		(exclude_from_sim yes)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
@@ -6373,7 +6287,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 97.79 100.33 0)
 			(effects
 				(font
@@ -6495,7 +6409,7 @@
 		(lib_id "Device:C_Small")
 		(at 260.35 101.6 0)
 		(unit 1)
-		(exclude_from_sim no)
+		(exclude_from_sim yes)
 		(in_bom yes)
 		(on_board no)
 		(dnp no)
@@ -6565,7 +6479,7 @@
 		(lib_id "power:GND")
 		(at 278.13 60.96 0)
 		(unit 1)
-		(exclude_from_sim no)
+		(exclude_from_sim yes)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
@@ -6606,7 +6520,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 278.13 60.96 0)
 			(effects
 				(font
@@ -6631,7 +6545,7 @@
 		(lib_id "power:GND")
 		(at 217.17 115.57 0)
 		(unit 1)
-		(exclude_from_sim no)
+		(exclude_from_sim yes)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
@@ -6672,7 +6586,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 217.17 115.57 0)
 			(effects
 				(font
@@ -6697,7 +6611,7 @@
 		(lib_id "Device:R_Potentiometer_Trim_US")
 		(at 170.18 118.11 0)
 		(unit 1)
-		(exclude_from_sim no)
+		(exclude_from_sim yes)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
@@ -6797,7 +6711,7 @@
 		(lib_id "power:GND")
 		(at 187.96 86.36 0)
 		(unit 1)
-		(exclude_from_sim no)
+		(exclude_from_sim yes)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
@@ -6838,7 +6752,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 187.96 86.36 0)
 			(effects
 				(font
@@ -6864,7 +6778,7 @@
 		(at 113.03 83.82 0)
 		(mirror y)
 		(unit 1)
-		(exclude_from_sim no)
+		(exclude_from_sim yes)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
@@ -6929,7 +6843,7 @@
 		(lib_id "Device:R_Small_US")
 		(at 144.78 83.82 90)
 		(unit 1)
-		(exclude_from_sim no)
+		(exclude_from_sim yes)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
@@ -6997,7 +6911,7 @@
 		(lib_id "Device:C_Polarized_Small")
 		(at 102.87 106.68 0)
 		(unit 1)
-		(exclude_from_sim no)
+		(exclude_from_sim yes)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
@@ -7067,7 +6981,7 @@
 		(lib_id "Diode:1N4148")
 		(at 199.39 97.79 180)
 		(unit 1)
-		(exclude_from_sim no)
+		(exclude_from_sim yes)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
@@ -7161,7 +7075,7 @@
 		(lib_id "Device:R_Small_US")
 		(at 182.88 118.11 90)
 		(unit 1)
-		(exclude_from_sim no)
+		(exclude_from_sim yes)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
