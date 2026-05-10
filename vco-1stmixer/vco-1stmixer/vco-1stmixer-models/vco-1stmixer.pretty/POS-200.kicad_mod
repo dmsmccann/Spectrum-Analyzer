@@ -29,4 +29,9 @@
   (pad "6" thru_hole oval (at 2.54 -2.54) (size 1.2 2) (drill 0.8) (layers *.Cu *.Mask) (tstamp ff35e8f5-6223-48cc-92c0-eb632bf90257))
   (pad "7" thru_hole oval (at 7.62 2.54) (size 1.2 2) (drill 0.9) (layers *.Cu *.Mask) (tstamp ff35e8f5-6223-48cc-92c0-eb632bf90257))
   (pad "8" thru_hole oval (at 7.62 -2.54) (size 1.2 2) (drill 0.9) (layers *.Cu *.Mask) (tstamp ff35e8f5-6223-48cc-92c0-eb632bf90257))
+  (model "${KIPRJMOD}/vco-1stmixer-models/vco-1stmixer-3D/POS-200.step"
+    (offset (xyz 0 0 0))
+    (scale (xyz 1 1 1))
+    (rotate (xyz 0 0 0))
+  )
 )
